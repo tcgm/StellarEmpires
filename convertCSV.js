@@ -1,11 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 
-// Usage: node json_traits_to_google_csv.js traits.json [output.csv]
+// Usage: node convertCSV.js input.json [output.csv]
 const [,, inputFile, outputFile] = process.argv;
 
 if (!inputFile) {
-    console.error('Usage: node json_traits_to_google_csv.js traits.json [output.csv]');
+    console.error('Usage: node convertCSV.js input.json [output.csv]');
     process.exit(1);
 }
 
@@ -19,16 +19,36 @@ try {
 }
 
 const rows = [];
-for (const section in data) {
-    const traits = data[section];
-    if (!Array.isArray(traits)) continue;
-    for (const obj of traits) {
+
+// Handle two cases:
+// 1. data is an array (no sections)
+// 2. data is an object mapping section -> array
+
+if (Array.isArray(data)) {
+    // Array of flaws or traits, no section
+    for (const obj of data) {
         rows.push({
-            section,
+            section: '',
             title: obj.title || '',
             description: obj.description || ''
         });
     }
+} else if (typeof data === 'object' && data !== null) {
+    // Object of sections
+    for (const section in data) {
+        const traits = data[section];
+        if (!Array.isArray(traits)) continue;
+        for (const obj of traits) {
+            rows.push({
+                section,
+                title: obj.title || '',
+                description: obj.description || ''
+            });
+        }
+    }
+} else {
+    console.error('Input JSON is neither an array nor an object of arrays.');
+    process.exit(1);
 }
 
 // CSV header
@@ -54,4 +74,4 @@ const outPath = outputFile
     : path.basename(inputFile, path.extname(inputFile)) + '.csv';
 
 fs.writeFileSync(outPath, csvLines.join('\r\n'), 'utf-8');
-console.log(`Traits exported to ${outPath}`);
+console.log(`Exported to ${outPath}`);
