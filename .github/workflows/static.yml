@@ -36,7 +36,7 @@ jobs:
         working-directory: ./stellar-empires
 
       - name: Build
-        run: PUBLIC_URL=https://tcgm.github.io/stellar-empires/ npm run build
+        run: PUBLIC_URL=https://tcgm.github.io/StellarEmpires/ npm run build
         working-directory: ./stellar-empires
 
       - name: Setup Pages
