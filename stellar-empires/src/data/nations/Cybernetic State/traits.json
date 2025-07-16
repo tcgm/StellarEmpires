@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Extensive Combat Modification",
+    "description": "The Cyberneticists practice extensive modification of their soldiers beyond the norm doing whatever they deem is fitting to increase the combat capability of the Cyborg soldiers within reason. This leads to a ‘better soldier'.",
+    "points": 1
+  },
+  {
+    "title": "Deep Interface",
+    "description": "The Cyberneticists are more closely connected with their machinery than is considered natural. Their interface with technology is seamless and it would take a miracle worker to divine the difference between man and machine in many cases",
+    "points": 1
+  },
+  {
+    "title": "Built-in Weaponry",
+    "description": "Cyberneticist soldiers often have lighter weapons built into their bodies, whether in the arms or shoulder the location is irrelevant.",
+    "points": 1
+  },
+  {
+    "title": "Industrial Tool Implementation",
+    "description": "The Workers often are funded by the companies to have replacement limbs specially tooled to their workplace installed, this makes them more productive, though it does have negative social connotations suggesting that the company \"owns\" that particular Cyborg. Company Brand installs do that you know.",
+    "points": 1
+  },
+  {
+    "title": "Servitor Production",
+    "description": "Prisoners are a blight on all nations, and dealing with them can be difficult, expensive and ultimately unproductive for many nations either leading to an overly expensive execution due to legal process or them going free and re-offending. Cyberneticists simply turn them into Servitors. Productive, cheap and no chance of doing anything of their own volition ever again.",
+    "points": 1
+  },
+  {
+    "title": "Cyber Detonators",
+    "description": "Enemy prisoners have long posed a logistical problem for the enemy. For some races or nations this is less of a problem. But Cyberneticists with this trait simply use prisoners as another weapon, by replacing a few kilograms of internal organs with high explosives remote wired to detonate in enemy lines they just send em right back.... to hell.",
+    "points": 1
+  },
+  {
+    "title": "Cybernetic Hive",
+    "description": ":Key: A co-ordination uplink that joins the entire nation into a simulacrum of a hive mind, individuality is subsumed beneath the collective. A Hive can often demonstrate blind spots in various fields, but they can operate independently if they must.",
+    "points": 1
+  },
+  {
+    "title": "Defence Uplink",
+    "description": "The Cyborg Defence Uplink is a mass integrated communications network hardened against attack leaving it largely untouched and even well protected against weapons like Ion Cannons.",
+    "points": 1
+  },
+  {
+    "title": "Resistance is Futile",
+    "description": "(Requires: Defence Uplink, Servitor Production.) Unity on the battlefield is important, very important. And so those with the Defence Uplinks and Servitor Production many have seen fit to combine them, infantry units are made up of servitors mentally controlled by a Squad Leader, vehicles whose crews are Servitors slaved to the Commander. This leads to a more effective fighting unit, but an uncreative one.",
+    "points": 1
+  },
+  {
+    "title": "Assimilation Teams",
+    "description": "(Requires Servitor Production) Well, we don't need to ask everyone to join us right? Sometimes they just… do, you know?",
+    "points": 1
+  },
+  {
+    "title": "Nanonic Debriefing",
+    "description": "Your nation has developed cybernetics capable of learning the neural patterns in a brain and parsing data hidden within, a painful and time consuming practice, but rewarding.",
+    "points": 1
+  },
+  {
+    "title": "Does Not Belong",
+    "description": "(Requires Cybernetic Hive) The Cybernetic nation is able to rapidly and quickly identify elements that do not belong, spies, offensive digital code, the red spoon in the blue drawer.",
+    "points": 1
+  },
+  {
+    "title": "Know Your Place",
+    "description": "To each a place, and a purpose. Your nation enforces a stringent caste system, one so stringent that each member of a caste is specifically modified cybernetically for their role in society. There is some resentment, but that is an irrelevance, a triviality that is less important than the significant boosts to worker productivity and efficiency.",
+    "points": 1
+  },
+  {
+    "title": "Risk Adverse",
+    "description": "Your core population is, surprisingly almost entirely unaugmented except for enhancements to the brain, including communication links, indeed, the vast majority of work and labour is performed by augmented clone bodies that are remotely piloted by the individual whose body was cloned. So while your population might be lower than your peers, it is less likely to suffer from catastrophic accidents, or even the trauma of war.",
+    "points": 1
+  },
+  {
+    "title": "Puppeteering",
+    "description": "(Requires Risk Adverse) Your nation doesn't quite approach the field of intelligence gathering like everyone else, no they prefer to abduct the more useful people and implant sequestration cybernetics deep within their brains before erasing their memories of the procedure and allowing their unwitting puppets to learn what they need normally.. Well for the lucky ones anyway. The unlucky ones are in a position to act, and the only time the victims realise this is when their masters take control of their bodies using the cybernetics to carry out a mission.",
+    "points": 1
+  }
+]

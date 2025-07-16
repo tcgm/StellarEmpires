@@ -3,6 +3,7 @@ export interface TraitOrFlaw {
   description: string;
   nations?: string[];
   isTrait?:boolean;
+  points?:number;
 }
 
 export interface NationData {

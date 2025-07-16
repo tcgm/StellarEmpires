@@ -1,250 +1,312 @@
 [
   {
     "title": "Honourable to a fault",
-    "description": "Your strategies will never rely on surprise or deception, your ships are painted bright shiny silver and your admirals will always give a speech to the enemy before battle."
+    "description": "Your strategies will never rely on surprise or deception, your ships are painted bright shiny silver and your admirals will always give a speech to the enemy before battle.",
+    "points": 1
   },
   {
     "title": "Creaky Military",
-    "description": "(Worth 2 Flaws) The military is under-budgeted, under-equipped and underfed. Kind of like the Russian fleet circa 1995. You simply don't have much in the way of a military."
+    "description": "(Worth 2 Flaws) The military is under-budgeted, under-equipped and underfed. Kind of like the Russian fleet circa 1995. You simply don't have much in the way of a military.",
+    "points": 2
   },
   {
     "title": "Soylent Green Is People!",
-    "description": "You have a giant elephant-sized skeleton in your closet. (You must describe this big nasty secret. Though only your nation knows it and even the best spies would have difficulty finding it.)"
+    "description": "You have a giant elephant-sized skeleton in your closet. (You must describe this big nasty secret. Though only your nation knows it and even the best spies would have difficulty finding it.)",
+    "points": 1
   },
   {
     "title": "Government Red Tape",
-    "description": "This request cannot be processed at this time. Please take a number."
+    "description": "This request cannot be processed at this time. Please take a number.",
+    "points": 1
   },
   {
     "title": "Cult Of {Keyword}",
-    "description": "All Hail Xenu!"
+    "description": "All Hail Xenu!",
+    "points": 1
   },
   {
     "title": "Hilariously Fail",
-    "description": "Someone - a lot of someones - doesn't have much going on upstairs. Unfortunately they're disproportionately represented in your government and military."
+    "description": "Someone - a lot of someones - doesn't have much going on upstairs. Unfortunately they're disproportionately represented in your government and military.",
+    "points": 1
   },
   {
     "title": "Public Outcry",
-    "description": "Your people have deep and strong opinions on some issues you'd really rather they didn't."
+    "description": "Your people have deep and strong opinions on some issues you'd really rather they didn't.",
+    "points": 1
   },
   {
     "title": "Wimpy",
-    "description": "Maybe they're a low-gravity race or just didn't drink milk when growing up. No matter the cause, your people are short, skinny and weak. This is a bigger disadvantage than it sounds, as your fighter pilots will not be able to handle nearly as many Gs and your ships will likewise be relatively sluggish."
+    "description": "Maybe they're a low-gravity race or just didn't drink milk when growing up. No matter the cause, your people are short, skinny and weak. This is a bigger disadvantage than it sounds, as your fighter pilots will not be able to handle nearly as many Gs and your ships will likewise be relatively sluggish.",
+    "points": 1
   },
   {
     "title": "Paranoia!",
-    "description": "In a universe full of planet-destroying aliens, a healthy dose of paranoia is only natural. It might make diplomacy difficult but at least they won't sneak up on you!"
+    "description": "In a universe full of planet-destroying aliens, a healthy dose of paranoia is only natural. It might make diplomacy difficult but at least they won't sneak up on you!",
+    "points": 1
   },
   {
     "title": "Trade Dependent",
-    "description": "Exactly what it says. A good example is a Mars-like world that must import significant food to feed its populace."
+    "description": "Exactly what it says. A good example is a Mars-like world that must import significant food to feed its populace.",
+    "points": 1
   },
   {
     "title": "Dangerous Cults",
-    "description": "These cults aren’t just your weirdo cults that do strange things. These are cults that actively enjoy concepts like bringing your government down, terrorism."
+    "description": "These cults aren’t just your weirdo cults that do strange things. These are cults that actively enjoy concepts like bringing your government down, terrorism.",
+    "points": 1
   },
   {
     "title": "Psychic Nulls",
-    "description": "Your people have no psychics amongst the population, and moreover no protection against psychic abilities. (Cannot be taken if ANY Psychic traits were taken.)"
+    "description": "Your people have no psychics amongst the population, and moreover no protection against psychic abilities. (Cannot be taken if ANY Psychic traits were taken.)",
+    "points": 1
   },
   {
     "title": "Limited Psy",
-    "description": "Your psychic population is more limited than is normal. Moreover they simply cannot maintain the “range” that others can, and their communication if they possess the capacity is slower as well."
+    "description": "Your psychic population is more limited than is normal. Moreover they simply cannot maintain the “range” that others can, and their communication if they possess the capacity is slower as well.",
+    "points": 1
   },
   {
     "title": "GLaDoS",
-    "description": "“Remember that time where I said we were going to murder you, and you were like ‘No Way!’ That was great.” Your scientists insist on continually using unreliable dangerous A.I programs. Ones that have a habit of going insane and killing everybody involved. And no matter how many edicts you pass they continue to use them anyway."
+    "description": "“Remember that time where I said we were going to murder you, and you were like ‘No Way!’ That was great.” Your scientists insist on continually using unreliable dangerous A.I programs. Ones that have a habit of going insane and killing everybody involved. And no matter how many edicts you pass they continue to use them anyway.",
+    "points": 1
   },
   {
     "title": "Famine",
-    "description": "You may not pick any foodstuff resources and must pick six foodstuff resource deficits."
+    "description": "You may not pick any foodstuff resources and must pick six foodstuff resource deficits.",
+    "points": 1
   },
   {
     "title": "Resource Shortage",
-    "description": "(Cannot take with Abundant Trade Goods) You have a significant shortage of resources, your colonies and home systems have been resource poor and unable to overcome these shortages. You MUST have at least one kind of significant resource deficit."
+    "description": "(Cannot take with Abundant Trade Goods) You have a significant shortage of resources, your colonies and home systems have been resource poor and unable to overcome these shortages. You MUST have at least one kind of significant resource deficit.",
+    "points": 1
   },
   {
     "title": "Cowardly",
-    "description": "Your people make very poor soldiers. While they are as capable as any other, the fact remains at their core lies a lily-livered, chicken-hearted, yellow-bellied coward. So long as your troops maintain a significant advantage you’re fine. But the moment things even start evening out your guys would really like to head for the hills!"
+    "description": "Your people make very poor soldiers. While they are as capable as any other, the fact remains at their core lies a lily-livered, chicken-hearted, yellow-bellied coward. So long as your troops maintain a significant advantage you’re fine. But the moment things even start evening out your guys would really like to head for the hills!",
+    "points": 1
   },
   {
     "title": "Self Destructive",
-    "description": "When boredom sets in it is a bad time, your people are fractured and don’t much care for one another and only a threat to them all keeps them unified for any length of time. And even then only for so long before they get together for another little civil war or uprising."
+    "description": "When boredom sets in it is a bad time, your people are fractured and don’t much care for one another and only a threat to them all keeps them unified for any length of time. And even then only for so long before they get together for another little civil war or uprising.",
+    "points": 1
   },
   {
     "title": "Shitty Workmanship",
-    "description": "Your designs and your work, well just about everything, is inferior to everyone else's. Your internet is slow, your sewage backs up, your phone lines are riddled with static and even your pants are a little longer on the left than the right. Your people are as good as can be, just very lazy on design and implementation."
+    "description": "Your designs and your work, well just about everything, is inferior to everyone else's. Your internet is slow, your sewage backs up, your phone lines are riddled with static and even your pants are a little longer on the left than the right. Your people are as good as can be, just very lazy on design and implementation.",
+    "points": 1
   },
   {
     "title": "Delectable",
-    "description": "Your species, while no Bovine, still tastes really good. Want some Popplers?"
+    "description": "Your species, while no Bovine, still tastes really good. Want some Popplers?",
+    "points": 1
   },
   {
     "title": "Frontier Difficulties",
-    "description": "(Cannot take if Wide Nation) You see, out there on the frontier they have their own guns, beliefs, customs and so on and so forth and overall they REALLY resent central control by your government, unfortunately for you that leads to little things like, well, rebellions. Note: If you take the loyalty trait it doesn’t work for colonial or fringe worlds, ever."
+    "description": "(Cannot take if Wide Nation) You see, out there on the frontier they have their own guns, beliefs, customs and so on and so forth and overall they REALLY resent central control by your government, unfortunately for you that leads to little things like, well, rebellions. Note: If you take the loyalty trait it doesn’t work for colonial or fringe worlds, ever.",
+    "points": 1
   },
   {
     "title": "Undermined Leadership",
-    "description": "Your nation isn’t as united as your rulers would like to believe, the shadow behind the metaphorical throne has been eying it with envious eyes for some time and is always eager to put out his foot to trip your liege. Unfortunately he either owns people in intelligence or is VERY good at covering his or her tracks."
+    "description": "Your nation isn’t as united as your rulers would like to believe, the shadow behind the metaphorical throne has been eying it with envious eyes for some time and is always eager to put out his foot to trip your liege. Unfortunately he either owns people in intelligence or is VERY good at covering his or her tracks.",
+    "points": 1
   },
   {
     "title": "Poor Colony Standards",
-    "description": "When your people tried to terraform worlds, well they just weren’t very good at it, they’d see the needles were in the “that won’t kill us” zone and said that it’d do. Of course it didn’t, your worlds are poorly terraformed, full of unhealthy people destined for unhealthy ends."
+    "description": "When your people tried to terraform worlds, well they just weren’t very good at it, they’d see the needles were in the “that won’t kill us” zone and said that it’d do. Of course it didn’t, your worlds are poorly terraformed, full of unhealthy people destined for unhealthy ends.",
+    "points": 1
   },
   {
     "title": "Pirates Favourite Pickings",
-    "description": "Pirates just can’t resist, you just have well,... something that they can’t help but hit your commercial convoys or worse with. Your nation suffers under near-constant pirate raids and nothing you do seems to do anything to drastically reduce the pirate population."
+    "description": "Pirates just can’t resist, you just have well,... something that they can’t help but hit your commercial convoys or worse with. Your nation suffers under near-constant pirate raids and nothing you do seems to do anything to drastically reduce the pirate population.",
+    "points": 1
   },
   {
     "title": "Quarantine?",
-    "description": "Yeah you got quarantine, ... oh... it's an energy drink. But how do you stop alien viruses from spreading? What... no.... no cardboard won’t stop it.... you pillock."
+    "description": "Yeah you got quarantine, ... oh... it's an energy drink. But how do you stop alien viruses from spreading? What... no.... no cardboard won’t stop it.... you pillock.",
+    "points": 1
   },
   {
     "title": "Capital Gluttony",
-    "description": "“I’ll have three four pounder bovineburgers, ninety-five karminite nuggets, eighty six large wartato fries and your milkshake machine with a side order of shut the fuck up I can eat what I want!” Your people are dangerously self-indulgent, arrogant, obnoxious and frequently stupid. As such it takes a LOT of effort to get the people to do anything that is really worth doing. They’d rather down another Bovine-burger than do something for the greater good. You must have a greater “return” to the public otherwise they won’t see any reason to do it. NOTE: Your territories that consume foodstuffs double that consumption."
+    "description": "“I’ll have three four pounder bovineburgers, ninety-five karminite nuggets, eighty six large wartato fries and your milkshake machine with a side order of shut the fuck up I can eat what I want!” Your people are dangerously self-indulgent, arrogant, obnoxious and frequently stupid. As such it takes a LOT of effort to get the people to do anything that is really worth doing. They’d rather down another Bovine-burger than do something for the greater good. You must have a greater “return” to the public otherwise they won’t see any reason to do it. NOTE: Your territories that consume foodstuffs double that consumption.",
+    "points": 1
   },
   {
     "title": "Degenerative Generations",
-    "description": "Your population is going downhill, due to shitty cloning, inbreeding or just being a pack of douchebags to each other each successive generation is noted for the downward spiral effect it has on your nation. Basically, you’re all going the way of the dinosaurs. (May lead to a quest. May not.)"
+    "description": "Your population is going downhill, due to shitty cloning, inbreeding or just being a pack of douchebags to each other each successive generation is noted for the downward spiral effect it has on your nation. Basically, you’re all going the way of the dinosaurs. (May lead to a quest. May not.)",
+    "points": 1
   },
   {
     "title": "Pariah",
-    "description": "You are a pariah state, your actions in the past have left you unpopular, disliked and generally despised, or you just really stank at diplomatic parties, it doesn’t matter, your nation leaves a bad taste in peoples mouths."
+    "description": "You are a pariah state, your actions in the past have left you unpopular, disliked and generally despised, or you just really stank at diplomatic parties, it doesn’t matter, your nation leaves a bad taste in peoples mouths.",
+    "points": 1
   },
   {
     "title": "Collective Stupidity",
-    "description": "Your people don’t do much by half measures, and your people have by and large singled out being the dumbest people in space to a fine art. Your leadership is comprised of probably the only intelligent people in your entire empire... or are they?"
+    "description": "Your people don’t do much by half measures, and your people have by and large singled out being the dumbest people in space to a fine art. Your leadership is comprised of probably the only intelligent people in your entire empire... or are they?",
+    "points": 1
   },
   {
     "title": "Sensor Resolution, 640x480",
-    "description": "(Counts as 2 flaws) Your sensors and communications are bad, I mean really bad. You completely lack FTL sensors and Communications. Detection speed is lightspeed at best and long-range communications requires FTL courier ships in order to get even the simplest message sent. This has obvious ramifications and problems. On the plus side being a Courier is lucrative."
+    "description": "(Counts as 2 flaws) Your sensors and communications are bad, I mean really bad. You completely lack FTL sensors and Communications. Detection speed is lightspeed at best and long-range communications requires FTL courier ships in order to get even the simplest message sent. This has obvious ramifications and problems. On the plus side being a Courier is lucrative.",
+    "points": 2
   },
   {
     "title": "Patriots Fervour",
-    "description": "Your people are fanatically loyal, at least your patriots are. And they’re loud in their support of the government, loud enough that your government is known to break its own laws and treaties in order to get what it wants not realising that sooner rather than later it is going to bite them."
+    "description": "Your people are fanatically loyal, at least your patriots are. And they’re loud in their support of the government, loud enough that your government is known to break its own laws and treaties in order to get what it wants not realising that sooner rather than later it is going to bite them.",
+    "points": 1
   },
   {
     "title": "Shieldless",
-    "description": "Your nation just never developed shields, whether due to non-stop mistakes or just sheer inability to get the technology working. You just plain don’t have shields!"
+    "description": "Your nation just never developed shields, whether due to non-stop mistakes or just sheer inability to get the technology working. You just plain don’t have shields!",
+    "points": 1
   },
   {
     "title": "Armour is for Wimps",
-    "description": "Your nation doesn’t believe in armour, whether it is too heavy, too ugly, too cowardly or simply because you’re too damned lazy. As such, the most heavily armoured thing in your nation is as far from armour as it can get without collapsing under its own weight."
+    "description": "Your nation doesn’t believe in armour, whether it is too heavy, too ugly, too cowardly or simply because you’re too damned lazy. As such, the most heavily armoured thing in your nation is as far from armour as it can get without collapsing under its own weight.",
+    "points": 1
   },
   {
     "title": "Colonial Justice",
-    "description": "Trigger-Happy Sheriffs, Lynch Mobs and speciests oh my."
+    "description": "Trigger-Happy Sheriffs, Lynch Mobs and speciests oh my.",
+    "points": 1
   },
   {
     "title": "Imperial Stormtrooper Academy",
-    "description": "Either you are just not very picky when you take recruits or your instruction methods leave something to be desired but when your soldiers take the field on some planet and try to shoot something they hit anything but their target 90% of the time. (Can't be negated with the More Dakka ground war trait)"
+    "description": "Either you are just not very picky when you take recruits or your instruction methods leave something to be desired but when your soldiers take the field on some planet and try to shoot something they hit anything but their target 90% of the time. (Can't be negated with the More Dakka ground war trait)",
+    "points": 1
   },
   {
     "title": "Bad Boss",
-    "description": "Whatever it is that you do you earn ire from all over the nations, industry workers are on strike because your government has not approved their vacation time, soldiers are on the verge of mutiny because your generals have ordered them that from now on all porn, sport tournaments and other recreational possibilities they have are now replaced by reading your own biography and don't get me started on how the housewives are marching down the streets because you just issued edicts that made all soap operas be banned from all channels."
+    "description": "Whatever it is that you do you earn ire from all over the nations, industry workers are on strike because your government has not approved their vacation time, soldiers are on the verge of mutiny because your generals have ordered them that from now on all porn, sport tournaments and other recreational possibilities they have are now replaced by reading your own biography and don't get me started on how the housewives are marching down the streets because you just issued edicts that made all soap operas be banned from all channels.",
+    "points": 1
   },
   {
     "title": "Critical Dice Roll Failure",
-    "description": "(Counts as 4 Common Flaws.) Ok now you are just asking for it, you chose for this so no kiddie gloves, velvet touch or other niceties. Whether you like it or not by picking this you ask not for the minor events you want downright terrible things to happen to your nation and therefore in any rolls made regarding any actions you make can either end somewhat well or just plain catastrophic. Just don't complain about it afterwards, because this description makes it pretty clear what you are getting into."
+    "description": "(Counts as 4 Common Flaws.) Ok now you are just asking for it, you chose for this so no kiddie gloves, velvet touch or other niceties. Whether you like it or not by picking this you ask not for the minor events you want downright terrible things to happen to your nation and therefore in any rolls made regarding any actions you make can either end somewhat well or just plain catastrophic. Just don't complain about it afterwards, because this description makes it pretty clear what you are getting into.",
+    "points": 4
   },
   {
     "title": "A.I. Allergic",
-    "description": "Something happened in the past that made you distrustful toward A.I. entities, either because your people watched too many holo-movies about AI and robots destroying organics or because you had to destroy your own robot race in the past when they started asking if they had souls or not. In any case you don't work with anything remotely like an AI, VI or robotic with anything but aggressive responses, nor can you ever achieve good diplomatic relations with other nations who do work with AI, VI or robotic tendencies."
+    "description": "Something happened in the past that made you distrustful toward A.I. entities, either because your people watched too many holo-movies about AI and robots destroying organics or because you had to destroy your own robot race in the past when they started asking if they had souls or not. In any case you don't work with anything remotely like an AI, VI or robotic with anything but aggressive responses, nor can you ever achieve good diplomatic relations with other nations who do work with AI, VI or robotic tendencies.",
+    "points": 1
   },
   {
     "title": "Hollywood Tactics",
-    "description": "Oh boy, your military commanders have gotten their tactical knowledge from watching how wars and battles are being waged in movies alone. So expect them to order your men to charge in the middle of a killing field where enemy artillery is firing shells left and right, send in strike-craft to find some weak point in an enemy battleship while the rest of the fleet remains behind to watch with cocktails in hand and other such shenanigans. Basically it means no flanking tactics, using missile weapons that take ages to reload while a quick firing weapon might actually be the smart thing to do and there is no such silly thing as the third dimension in space battles."
+    "description": "Oh boy, your military commanders have gotten their tactical knowledge from watching how wars and battles are being waged in movies alone. So expect them to order your men to charge in the middle of a killing field where enemy artillery is firing shells left and right, send in strike-craft to find some weak point in an enemy battleship while the rest of the fleet remains behind to watch with cocktails in hand and other such shenanigans. Basically it means no flanking tactics, using missile weapons that take ages to reload while a quick firing weapon might actually be the smart thing to do and there is no such silly thing as the third dimension in space battles.",
+    "points": 1
   },
   {
     "title": "Non-Expansionistic",
-    "description": "Your nation is not the sort to waste effort and resources. For every inch of space they take they can spend years to decades consolidating their hold and making sure every inch of useful material is exploited. As such, with the exceptions of war, colonisation is so much slower for a nation with this flaw that it can seem practically non-existent."
+    "description": "Your nation is not the sort to waste effort and resources. For every inch of space they take they can spend years to decades consolidating their hold and making sure every inch of useful material is exploited. As such, with the exceptions of war, colonisation is so much slower for a nation with this flaw that it can seem practically non-existent.",
+    "points": 1
   },
   {
     "title": "Big Red Target",
-    "description": "With great wealth comes the great realisation that everyone wants to take it from you. You can and will find yourself the target of every two-bit scammer, thief, pirate, confidence trickster and con artist. Well, assuming you aren't flat out invaded by someone after your wealth."
+    "description": "With great wealth comes the great realisation that everyone wants to take it from you. You can and will find yourself the target of every two-bit scammer, thief, pirate, confidence trickster and con artist. Well, assuming you aren't flat out invaded by someone after your wealth.",
+    "points": 1
   },
   {
     "title": "Religious Intolerance",
-    "description": "Your people are militantly atheist. Tolerance for religion, and religious folk, is non-existent. As far as your people are concerned, near universally, people with religious beliefs are little better than dirt-grubbing farmfolk with little claim to sentience and sapience."
+    "description": "Your people are militantly atheist. Tolerance for religion, and religious folk, is non-existent. As far as your people are concerned, near universally, people with religious beliefs are little better than dirt-grubbing farmfolk with little claim to sentience and sapience.",
+    "points": 1
   },
   {
     "title": "Conspiracy not so Theory",
-    "description": "Most nations have conspiracy theorists, your nation doesn't have conspiracy theorists, it recruits them for ideas. And uses those ideas, often. Bad ideas are paramount amongst your people, and while some ideas have merit, most hurt in the long run."
+    "description": "Most nations have conspiracy theorists, your nation doesn't have conspiracy theorists, it recruits them for ideas. And uses those ideas, often. Bad ideas are paramount amongst your people, and while some ideas have merit, most hurt in the long run.",
+    "points": 1
   },
   {
     "title": "Starfleet Curiosity",
-    "description": "Your people are compelled to be obsessively curious about whatever it is that they come across. \"Captain, there's odd readings from the Nebula\" \"Take us in.\" In short, they're the universe's Steve Irwin, they will without fail poke their noses into things without considering the consequences."
+    "description": "Your people are compelled to be obsessively curious about whatever it is that they come across. \"Captain, there's odd readings from the Nebula\" \"Take us in.\" In short, they're the universe's Steve Irwin, they will without fail poke their noses into things without considering the consequences.",
+    "points": 1
   },
   {
     "title": "Post Apocalypse Survivors",
-    "description": "Your people have suffered through an apocalypse of massive proportions, your homeworld may be ravaged nuclear wastelands or cookpots of biological and chemical weapons or even simply be suffering from an ice age from an asteroid. Regardless, your people are clinging on and are largely still recovering, and so they simply don't have the same resources to depend on as other nations, however what they do have is well protected, jealously."
+    "description": "Your people have suffered through an apocalypse of massive proportions, your homeworld may be ravaged nuclear wastelands or cookpots of biological and chemical weapons or even simply be suffering from an ice age from an asteroid. Regardless, your people are clinging on and are largely still recovering, and so they simply don't have the same resources to depend on as other nations, however what they do have is well protected, jealously.",
+    "points": 1
   },
   {
     "title": "Non-Unified Government.",
-    "description": "Your people are not united. They are reminiscent of the ancient human homeworld, divided with hundreds of nation-states. Only a handful of the major powers will even have the technology or will for spaceflight. As such there is usually division on the homeworld and disorder as well as the distinct possibility of ships belonging to those differing nation-states from revisiting old hostilities."
+    "description": "Your people are not united. They are reminiscent of the ancient human homeworld, divided with hundreds of nation-states. Only a handful of the major powers will even have the technology or will for spaceflight. As such there is usually division on the homeworld and disorder as well as the distinct possibility of ships belonging to those differing nation-states from revisiting old hostilities.",
+    "points": 1
   },
   {
     "title": "Hive-Minded to the Nth Degree.",
-    "description": "Your people are unified as a single whole with a single will and purpose behind everything. Independent thought is frowned on, independent unsanctioned action is utterly forbidden. Ideas are almost criminal things and this shows. Most cannot even comprehend the unification of thought and purpose and so relation with other nations is hampered, and scientific development itself suffers due to shortage of idea-men."
+    "description": "Your people are unified as a single whole with a single will and purpose behind everything. Independent thought is frowned on, independent unsanctioned action is utterly forbidden. Ideas are almost criminal things and this shows. Most cannot even comprehend the unification of thought and purpose and so relation with other nations is hampered, and scientific development itself suffers due to shortage of idea-men.",
+    "points": 1
   },
   {
     "title": "Collaborators",
-    "description": "Brown-nosers, traitors, collaborators, your nation isn't one that likes to stand alone, instead it likes to kiss the ass of the biggest powers it can find in an effort to seek the umbrella of that power's protection. Nations like this don't favour war and are likely to surrender to any concerted effort to invade them and get in the good graces of their invaders. Such nations are often always victims of bullying by larger more powerful nations."
+    "description": "Brown-nosers, traitors, collaborators, your nation isn't one that likes to stand alone, instead it likes to kiss the ass of the biggest powers it can find in an effort to seek the umbrella of that power's protection. Nations like this don't favour war and are likely to surrender to any concerted effort to invade them and get in the good graces of their invaders. Such nations are often always victims of bullying by larger more powerful nations.",
+    "points": 1
   },
   {
     "title": "Oddly Superstitious",
-    "description": "For a civilisation that has managed to reach the stars your culture remains one tightly ingrained with unproven superstition. You see omens in everything, and at least half of your technology only works when you enact the right ritual (or so you think)"
+    "description": "For a civilisation that has managed to reach the stars your culture remains one tightly ingrained with unproven superstition. You see omens in everything, and at least half of your technology only works when you enact the right ritual (or so you think)",
+    "points": 1
   },
   {
     "title": "AI Overlords",
-    "description": "Your people have all but succumbed to the rule of AI Overlords after a so-called Singularity event. This of course is far from the truth but it leads to a harsh mechanical rule. Happiness is close to crappiness, nonexistent."
+    "description": "Your people have all but succumbed to the rule of AI Overlords after a so-called Singularity event. This of course is far from the truth but it leads to a harsh mechanical rule. Happiness is close to crappiness, nonexistent.",
+    "points": 1
   },
   {
     "title": "For Science!",
-    "description": "For whatever reason your scientists will do whatever it takes to make the next big breakthrough. While the populace is not exactly a fan of their methods they do enjoy the results, this is probably the only reason your government endorses them."
+    "description": "For whatever reason your scientists will do whatever it takes to make the next big breakthrough. While the populace is not exactly a fan of their methods they do enjoy the results, this is probably the only reason your government endorses them.",
+    "points": 1
   },
   {
     "title": "Anarchy",
-    "description": "Your nation exists in a quasi-permanent state of anarchy. It is unpredictable, undependable and entirely beyond most nations' understanding. Anarchy states get an unpredictable \"income\" though in truth it isn't real income but representative of the level of cooperation between the people of such a nation."
+    "description": "Your nation exists in a quasi-permanent state of anarchy. It is unpredictable, undependable and entirely beyond most nations' understanding. Anarchy states get an unpredictable \"income\" though in truth it isn't real income but representative of the level of cooperation between the people of such a nation.",
+    "points": 1
   },
   {
     "title": "Utopia",
-    "description": "Your nation exists in a so-called state of perfection by its people, your people want for nothing, desire nothing, they exist in a stagnant state of quasi-contentment. In the end such people are slow to expand and moreover they often suffer greatly from culture shock encountering nations much different to themselves, and a dystopian society is practically beyond their comprehension. Utopians also tend to view their way as best making diplomacy harder than normal."
+    "description": "Your nation exists in a so-called state of perfection by its people, your people want for nothing, desire nothing, they exist in a stagnant state of quasi-contentment. In the end such people are slow to expand and moreover they often suffer greatly from culture shock encountering nations much different to themselves, and a dystopian society is practically beyond their comprehension. Utopians also tend to view their way as best making diplomacy harder than normal.",
+    "points": 1
   },
   {
     "title": "Dystopia",
-    "description": "The Dystopians are nations utterly rife with crime, heresy, rampant problems stemming from the government like a poison rotting the roots of the nation. Uprisings, block wars, heretical outbreaks, mutants in the dungeons are common. Dystopian nations can expect higher odds of internal random events than normal."
+    "description": "The Dystopians are nations utterly rife with crime, heresy, rampant problems stemming from the government like a poison rotting the roots of the nation. Uprisings, block wars, heretical outbreaks, mutants in the dungeons are common. Dystopian nations can expect higher odds of internal random events than normal.",
+    "points": 1
   },
   {
     "title": "Revolutionaries",
-    "description": "Your nation is plagued by self-styled revolutionaries, Che Guevara and the like. These can range from fairly passive 'nonviolent revolutionaries' to the far more common, prevalent, and meaningful violent ones who range from attempted military coups to terrorist based activities and so on. A nation plagued by Revolutionaries is unlikely to put them down or pacify them anytime soon, if ever."
+    "description": "Your nation is plagued by self-styled revolutionaries, Che Guevara and the like. These can range from fairly passive 'nonviolent revolutionaries' to the far more common, prevalent, and meaningful violent ones who range from attempted military coups to terrorist based activities and so on. A nation plagued by Revolutionaries is unlikely to put them down or pacify them anytime soon, if ever.",
+    "points": 1
   },
   {
     "title": "Freedom of way too much information",
-    "description": "Your nation has a limitless policy of freedom of information. And enemy spies can and will make use of that to hell and back, while sensitive information can be harder to find. A spy WILL find it sooner than later."
+    "description": "Your nation has a limitless policy of freedom of information. And enemy spies can and will make use of that to hell and back, while sensitive information can be harder to find. A spy WILL find it sooner than later.",
+    "points": 1
   },
   {
     "title": "Cone of Silence",
-    "description": "Your spies are inept, obvious and hard to miss, indeed it would take an idiot to not spot these people, sometimes they get the job done though."
+    "description": "Your spies are inept, obvious and hard to miss, indeed it would take an idiot to not spot these people, sometimes they get the job done though.",
+    "points": 1
   },
   {
     "title": "It's... not... a spy's life",
-    "description": "Your people, for better or worse, are just too honourable, cowardly, lazy or a combination of all three to deploy much of a counter-espionage effort. As such they're almost completely defenceless against espionage."
+    "description": "Your people, for better or worse, are just too honourable, cowardly, lazy or a combination of all three to deploy much of a counter-espionage effort. As such they're almost completely defenceless against espionage.",
+    "points": 1
   },
   {
     "title": "Misplaced information",
-    "description": "Your spies aren't terrible. They're capable, except at the paperwork, and so important information often ends up lost in the work."
+    "description": "Your spies aren't terrible. They're capable, except at the paperwork, and so important information often ends up lost in the work.",
+    "points": 1
   },
   {
     "title": "Dark Forest Theory",
-    "description": "(Worth 2 Points) Your nation learned the truth of the Dark Forest theory in an attempt to protect itself, or that’s what you tell others, the truth is you were at the brunt of the theory in action and a terrible and powerful unknown force almost crushed you once before. You beat them back once, but they are still out there. And one day they will return."
+    "description": "(Worth 2 Points) Your nation learned the truth of the Dark Forest theory in an attempt to protect itself, or that’s what you tell others, the truth is you were at the brunt of the theory in action and a terrible and powerful unknown force almost crushed you once before. You beat them back once, but they are still out there. And one day they will return.",
+    "points": 2
   },
   {
     "title": "Blow Your Load",
-    "description": "(Cannot take with Who needs to reload?)  Your ships either expend their ammunition quickly, or don’t carry much to begin with, either way they have no stamina for the fight and will expend their ammunition loads in tremendously short order leaving them virtually defenceless in anything more than a short engagement."
+    "description": "(Cannot take with Who needs to reload?)  Your ships either expend their ammunition quickly, or don’t carry much to begin with, either way they have no stamina for the fight and will expend their ammunition loads in tremendously short order leaving them virtually defenceless in anything more than a short engagement.",
+    "points": 1
   },
   {
     "title": "Small Armies",
-    "description": "Your nation has never been overly militaristic and that is reflected in the small size of your armed forces."
+    "description": "Your nation has never been overly militaristic and that is reflected in the small size of your armed forces.",
+    "points": 1
   }
 ]

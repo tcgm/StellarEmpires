@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Box, Button, Flex, Text, useColorModeValue, Badge } from "@chakra-ui/react";
 import { TraitOrFlaw, TraitOrFlawList } from "../types";
+import TraitBox from "./TraitBox";
 
 interface Props {
   title: string;
@@ -58,21 +59,15 @@ const CommonTab: React.FC<Props> = ({ title, items, traitBoxColor, traitsNotFlaw
           </Text>
         )}
         {shownItems.map((trait, i) => (
-          <Box className="traitBox"
-            key={trait.title + i}
-            bg={cardBg}
-            borderRadius={8}
-            mb={4}
-            p={4}
-            border="1px solid"
-            borderColor={cardBorder}
-            boxShadow="sm"
-          >
-            <Badge colorScheme={traitsNotFlaws ? "green" : "orange"} fontSize="0.85em" mr={2}>
-              <Text className="traitName" fontWeight={700} fontSize="lg" color={titleColor}>{trait.title}</Text>
-            </Badge>
-            <Text className="traitText" mt={2} color={descColor} whiteSpace="pre-line">{trait.description}</Text>
-          </Box>
+              <TraitBox
+                title={trait.title}
+                description={trait.description}
+                isTrait={traitsNotFlaws}
+                points={trait.points}
+                boxBg={traitBoxColor}
+                boxBorder={cardBorder}
+                descColor={descColor}
+              />
         ))}
       </Box>
     </Flex>

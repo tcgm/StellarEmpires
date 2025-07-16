@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Client Race",
+    "description": "(Can be taken up to 3 times, must be taken at least once.), you have a client race, you may up to 5 common traits for the client race (for the Government, Population, Ground War, Espionage, and Psionic categories) they do not have to match your own. However, each client must have half your common flaws (rounding up) plus one common flaw you do not have.",
+    "points": 1
+  },
+  {
+    "title": "Close Relations",
+    "description": "Your people are close to those you have uplifted and work very hard to maintain that closeness, to the point you have used your biogenetics to engineer a degree of compatibility between species.",
+    "points": 1
+  },
+  {
+    "title": "Elevated Client",
+    "description": "(Can be taken once per client.) Your client has been elevated to a space faring nation of its own, they get 3 more common trait points you can spend on them, and can now spend in the Star Navy category.",
+    "points": 1
+  },
+  {
+    "title": "Hard Benefactor",
+    "description": "Events in history have not always been kind and your clients have had the unfortunate need to have supported their patron during periods of turmoil you have become more effective at co-operating with the client races, but not without some simmering resentments over being hard-used.",
+    "points": 1
+  },
+  {
+    "title": "Genetic Legacy",
+    "description": "You used your technology to modify and uplift client species, but you did not simply stop there, you have used your science to improve and help your client species, from treating genetic disorders, curing plagues, and even engineering them to better serve you accomplish your shared goals.",
+    "points": 1
+  },
+  {
+    "title": "Surprising Uplift",
+    "description": "You worked hard on your genetic sciences, the supercomputers needed for working out the kinks and helping elevate other species themselves developed sapience of a kind and have joined your nation as a client race of their own. (Upgrade to 1 Client Race; Must take 1 Artificial Empire Trait, and 1 Artificial Empire flaw.)",
+    "points": 1
+  },
+  {
+    "title": "Forgotten Legacy",
+    "description": "You have uplifted your clients and helped them join your fabulous nation, and worked near-miracles to bury all evidence that you had any part in uplifting those species. As such they have less chance of simmering resentment over being interfered with for alien purposes. (Cannot take with Surprising Uplift)",
+    "points": 1
+  },
+  {
+    "title": "Protective Instincts",
+    "description": "You are fiercely protective of your clients and may not use clients for any kind of military purpose, however you are more effective in any effort to protect or guard them from external threats.",
+    "points": 1
+  },
+  {
+    "title": "They're Among Us",
+    "description": "Your clients simply believe you're also a client, you move quietly among them, hidden and undiscovered, each move that you make to interfere and direct them concealed from notice. Your tampering will result in less resentment. Unless this is discovered. Because then you've got a scandal.",
+    "points": 1
+  },
+  {
+    "title": "Rescued from Annihilation",
+    "description": ":KEY: One of your client races was not uplifted, but was a nation in decline. This client race can be taken in addition to the three possible Client Races. This client race can have 6 Common Traits, and 2 Nation Type traits from one of either Corporate, Cybernetic, Theocracy, Warlord or Industrialists. This failing nation however has 4 Common flaws. And 3 Nation type flaws from their chosen type.",
+    "points": 1
+  },
+  {
+    "title": "Exotic Foods Markets",
+    "description": "Your client species have a wide variety of foods, beverages and more. These make for potent trade options with the wider galaxy, assuming you are willing to let go of them instead of hogging the deliciousness all to yourself.",
+    "points": 1
+  },
+  {
+    "title": "Familiarity Breeds Contempt",
+    "description": "Your client races are actually a reasonable distance from your core systems, and as such they don't feel the pressure of an overlord above them, this also secures you against threats that might rise against your Clients. Though it does also make it slower for you to respond to calls for aid.",
+    "points": 1
+  },
+  {
+    "title": "Family Reunion",
+    "description": "(Can be taken once. Replaces a standard Client Race) A Client race of yours is not actually another species at all, but a pre-FTL colony that had established itself in the system nearest your current capital. This nation retains some of its individuality, but instead of the default number of traits, this Client Race inherits fully half of your common traits and flaws of all categories… with one hiccup. You don't get to choose them.",
+    "points": 1
+  },
+  {
+    "title": "The Adoring Fans!",
+    "description": "Your nation gains a client race that it had no hand in uplifting, they gain 8 Common Trait Points, 2 Common Flaws, 1 Nation Type Point and 1 Nation Flaw. (They cannot have a Client Race) The Adoring Fans have imprinted on your civilization after seeing it in action and ‘imprinted' themselves on you trying to copy your example. (Must take Crazy Groupies! flaw.)",
+    "points": 1
+  },
+  {
+    "title": "Chemical Dependencies",
+    "description": "You are a kind, caring and generous benefactor, the fact you have been using a tailor made chemical cocktail that is phenomenally addictive and, once addicted, vital to continue being alive is just a co-incidence, an accident of circumstance. We promise! Your clients are almost certainly resentful of these measures, but the likelihood of them causing problems before they figure out how to deal with the addictive substances you've laced the food and beverage supply with is slim. Hope they don't quietly make friends with genetic talent.",
+    "points": 1
+  }
+]

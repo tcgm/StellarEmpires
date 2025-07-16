@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Heading, Text, Divider, List, ListItem, Badge, useColorModeValue } from "@chakra-ui/react";
 import { NationData } from "../types";
+import TraitBox from "./TraitBox";
 
 interface SectionProps {
   label?: string;
@@ -101,22 +102,15 @@ const NationView: React.FC<Props> = ({
         <List spacing={3}>
           {data.traits.map((t, i) => (
             <ListItem key={t.title + i}>
-              <Box
-                bg={traitBoxColor}
-                borderRadius={8}
-                mb={4}
-                p={2}
-                border="1px solid"
-                borderColor={cardBorder}
-                boxShadow="sm"
-              >
-                <Badge colorScheme="green" fontSize="0.85em" mr={2}>
-                  {t.title}
-                </Badge>
-                <Text as="span" color={descColor}>
-                  {t.description}
-                </Text>
-              </Box>
+              <TraitBox
+                title={t.title}
+                description={t.description}
+                isTrait={true}
+                points={t.points}
+                boxBg={traitBoxColor}
+                boxBorder={cardBorder}
+                descColor={descColor}
+              />
             </ListItem>
           ))}
         </List>
@@ -130,22 +124,15 @@ const NationView: React.FC<Props> = ({
         <List spacing={3}>
           {data.flaws.map((f, i) => (
             <ListItem key={f.title + i}>
-              <Box
-                bg={flawBoxColor}
-                borderRadius={8}
-                mb={4}
-                p={2}
-                border="1px solid"
-                borderColor={cardBorder}
-                boxShadow="sm"
-              >
-                <Badge colorScheme="orange" fontSize="0.85em" mr={2}>
-                  {f.title}
-                </Badge>
-                <Text as="span" color={descColor}>
-                  {f.description}
-                </Text>
-              </Box>
+              <TraitBox
+                title={f.title}
+                description={f.description}
+                isTrait={false}
+                points={f.points}
+                boxBg={flawBoxColor}
+                boxBorder={cardBorder}
+                descColor={descColor}
+              />
             </ListItem>
           ))}
         </List>

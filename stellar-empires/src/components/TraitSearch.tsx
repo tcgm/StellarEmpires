@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Box, Input, Flex, Badge, Text, useColorModeValue, Link } from "@chakra-ui/react";
 import { TraitOrFlaw, NationData } from "../types";
+import TraitBox from "./TraitBox";
 
 interface TraitSearchProps {
   allTraits: TraitOrFlaw[];
@@ -9,12 +10,14 @@ interface TraitSearchProps {
 }
 
 const TraitSearch: React.FC<TraitSearchProps> = ({ allTraits, nations, goToNation }) => {
-  const [query, setQuery] = useState("");
+    const [query, setQuery] = useState("");
 
-  const cardBg = useColorModeValue("gray.50", "gray.800");
-  const cardBorder = useColorModeValue("#c6c6c6", "#3a4250");
-  const titleColor = useColorModeValue("gray.800", "gray.100");
-  const descColor = useColorModeValue("gray.700", "gray.100");
+    const cardBg = useColorModeValue("gray.50", "gray.800");
+    const cardBorder = useColorModeValue("#c6c6c6", "#3a4250");
+    const titleColor = useColorModeValue("gray.800", "gray.100");
+    const descColor = useColorModeValue("gray.700", "gray.100");
+    const traitBg = useColorModeValue("#cdfddaff", "#25542aff");
+    const flawBg = useColorModeValue("#fde4cd", "#4b3721");
 
   // Basic search
   const filtered = allTraits.filter(
@@ -46,44 +49,16 @@ const TraitSearch: React.FC<TraitSearchProps> = ({ allTraits, nations, goToNatio
           </Text>
         ) : (
           filtered.map((trait, i) => (
-            <Box
-              key={trait.title + i}
-              bg={cardBg}
-              borderRadius={8}
-              p={4}
-              border="1px solid"
-              borderColor={cardBorder}
-              boxShadow="sm"
-            >
-              <Flex align="center" mb={2} wrap="wrap" gap={2}>
-                <Badge
-                  colorScheme={trait.isTrait ? "green" : "orange"}
-                  fontSize="0.85em"
-                >
-                  {trait.isTrait ? "Trait" : "Flaw"}
-                </Badge>
-                <Text fontWeight={700} fontSize="lg" color={titleColor} mr={2}>
-                  {trait.title}
-                </Text>
-                {/* Show nation(s) if present */}
-                {trait.nations && trait.nations.length > 0 && (
-                    <Flex gap={1} align="center">
-                        <Text fontSize="sm" color="gray.400" as="span">from</Text>
-                        {(trait.nations ?? []).map((nation, ni, arr) => (
-                        <Link
-                            key={nation}
-                            onClick={() => goToNation(nation)}
-                            _hover={{ textDecoration: "underline", color: "blue.100" }}
-                            mr={ni < (arr.length - 1) ? 1 : 0}
-                        >
-                            {getNationDisplayName(nation)}
-                        </Link>
-                        ))}
-                    </Flex>
-                )}
-              </Flex>
-              <Text color={descColor} whiteSpace="pre-line">{trait.description}</Text>
-            </Box>
+            <TraitBox
+                title={trait.title}
+                description={trait.description}
+                isTrait={trait.isTrait}
+                showTypeBadge
+                nations={trait.nations}
+                boxBg={trait.isTrait ? traitBg : flawBg}
+                getNationDisplayName={getNationDisplayName}
+                goToNation={goToNation}
+            />
           ))
         )}
       </Flex>
