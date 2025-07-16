@@ -15,16 +15,13 @@ const TAB_LIST: { label: string; value: TabType }[] = [
   { label: "Common Flaws", value: "commonFlaws" }
 ];
 
-const MAX_W = "95vw";
-const MAX_H = "90vh";
-
 const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState<TabType>("nations");
 
   return (
     <Flex
-      minH="100vh"
-      minW="100vw"
+      h="100vh"
+      w="100vw"
       bg="gray.50"
       justify="center"
       align="center"
@@ -32,25 +29,26 @@ const App: React.FC = () => {
     >
       <Box
         w="100%"
-        maxW={MAX_W}
-        h="100%"
-        maxH={MAX_H}
+        maxW="1200px"
+        h="90vh"
         bg="gray.100"
         borderRadius="2xl"
         boxShadow="2xl"
         border="1px solid #b7bec7"
         display="flex"
         overflow="hidden"
+        minH={0}
       >
         {/* Sidebar */}
         <Box
-          w={["36%", "26%", "19%", "16%"]}
+          w={["36%", "24%", "19%", "15%"]}
           minW={["120px", "140px", "170px"]}
           bg="gray.200"
           p={3}
           borderRight="1px solid #d0d6df"
           display="flex"
           flexDirection="column"
+          minH={0}
         >
           <Heading
             as="h1"
@@ -60,7 +58,7 @@ const App: React.FC = () => {
             textAlign="center"
             letterSpacing="1px"
           >
-            Documentation
+            Civopedia
           </Heading>
           <List spacing={1}>
             {TAB_LIST.map(tab => (
@@ -91,38 +89,33 @@ const App: React.FC = () => {
           </Text>
         </Box>
 
-        {/* Main Pane */}
-        <Box className="mainPanel"
-            flex="1"
-            h="100%"
-            p={[3, 6]}
-            bg="white"
-            display="flex"
-            flexDirection="column"
-            overflowY="auto"
-            minH={0}           // <-- add this!
-            maxH="100%"        // <-- add this!
+        {/* Main Content Pane */}
+        <Flex
+          className="mainPanel"
+          direction="column"
+          flex="1"
+          minH={0}
+          bg="white"
         >
           <Heading
             size="lg"
             color="blue.800"
-            mb={6}
+            mb={4}
             letterSpacing={-1}
             fontWeight={700}
             textAlign="left"
+            px={[3, 6]}
+            pt={4}
           >
             {TAB_LIST.find(t => t.value === activeTab)?.label}
           </Heading>
-          <Box className="content"
+          <Box
+            className="content"
             flex="1"
-            h="100%"
-            minH={0}           // <-- add this!
-            maxH="100%"        // <-- add this!
-            p={[3, 6]}
-            bg="white"
-            display="flex"
-            flexDirection="column"
+            minH={0}
             overflowY="auto"
+            px={[3, 6]}
+            pb={6}
           >
             {activeTab === "nations" && (
               <NationBrowser nations={nations as NationData[]} />
@@ -142,7 +135,7 @@ const App: React.FC = () => {
               />
             )}
           </Box>
-        </Box>
+        </Flex>
       </Box>
     </Flex>
   );
