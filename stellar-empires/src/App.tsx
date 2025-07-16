@@ -41,7 +41,7 @@ const App: React.FC = () => {
   // Use matching highlight color for traits/flaws (blue for traits, orange for flaws) in both modes
   const traitBg = useColorModeValue("#cdfddaff", "#25542aff");
   const flawBg = useColorModeValue("#fde4cd", "#4b3721");
-  
+
   type TraitOrFlawMap = Record<string, TraitOrFlaw & { isTrait: boolean; nations: string[] }>;
 
   function buildAllTraitsAndFlaws(
@@ -98,23 +98,12 @@ const App: React.FC = () => {
     commonFlaws as TraitOrFlawList,
     nations as NationData[]
   );
-
-
-  function flattenTraits(
-  list: TraitOrFlawList,
-  isTrait: boolean
-  ): TraitOrFlaw[] {
-    if (Array.isArray(list)) {
-      return list.map(t => ({ ...t, isTrait }));
-    }
-    return Object.values(list).flat().map(t => ({ ...t, isTrait }));
-  }
     
   useEffect(() => {
     if (activeTab !== "nations" && passedNation) {
       setPassedNation(null);
     }
-  }, [activeTab]);
+  }, [activeTab, passedNation]);
 
   return (
     <Flex
