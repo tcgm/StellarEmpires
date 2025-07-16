@@ -1,15 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Box, Flex, Input, List, ListItem, Text, useColorModeValue } from "@chakra-ui/react";
 import { NationData } from "../types";
 import NationView from "./NationView";
 
 interface Props {
   nations: NationData[];
+  traitBoxColor: string;
+  flawBoxColor: string;
 }
 
-const NationBrowser: React.FC<Props> = ({ nations }) => {
+const NationBrowser: React.FC<Props> = ({ nations, traitBoxColor, flawBoxColor }) => {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [search, setSearch] = useState("");
+  const mainDetailRef = useRef<HTMLDivElement>(null);
 
   const filtered = nations
     .filter(n => n.nation.toLowerCase().includes(search.toLowerCase()))
@@ -25,6 +28,13 @@ const NationBrowser: React.FC<Props> = ({ nations }) => {
   const hoverColor = useColorModeValue("blue.50", "blue.50");
   const notFoundColor = useColorModeValue("orange.500", "orange.400");
 
+  // Scroll to top when selection changes
+  useEffect(() => {
+    if (mainDetailRef.current) {
+      mainDetailRef.current.scrollTop = 0;
+    }
+  }, [selectedNation]);
+  
   return (
     <Flex w="100%" h="min(660px, 74vh)">
       {/* Sidebar List */}
@@ -77,9 +87,13 @@ const NationBrowser: React.FC<Props> = ({ nations }) => {
         </List>
       </Box>
       {/* Main Detail */}
-      <Box flex="1" p={[3, 5]} overflowY="auto" bg="transparent">
+      <Box className="mainDetail" ref={mainDetailRef} flex="1" p={3} pt={0} paddingTop="0" overflowY="auto" bg="transparent">
         {selectedNation ? (
-          <NationView data={selectedNation} />
+          <NationView
+            data={selectedNation}
+            traitBoxColor={traitBoxColor}
+            flawBoxColor={flawBoxColor}
+          />
         ) : (
           <Text color={notFoundColor} fontStyle="italic">No nation selected.</Text>
         )}

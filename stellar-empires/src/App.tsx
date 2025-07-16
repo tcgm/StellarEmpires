@@ -8,6 +8,8 @@ import commonFlaws from "./data/commonFlaws.json";
 import { TraitOrFlawList, NationData } from "./types";
 import ColorModeToggle from "./components/ColorModeToggle";
 
+import se6bg from './assets/se6bg.png';
+
 type TabType = "nations" | "commonTraits" | "commonFlaws";
 
 const TAB_LIST: { label: string; value: TabType }[] = [
@@ -33,14 +35,21 @@ const App: React.FC = () => {
   const footerColor = useColorModeValue("gray.400", "gray.200");
 
   // Use matching highlight color for traits/flaws (blue for traits, orange for flaws) in both modes
-  const traitBg = useColorModeValue("#cde4fd", "#253a54");
+  const traitBg = useColorModeValue("#cdfddaff", "#25542aff");
   const flawBg = useColorModeValue("#fde4cd", "#4b3721");
 
   return (
     <Flex
       h="100vh"
       w="100vw"
-      bg={mainBg}
+      // bg={mainBg}
+      sx={{
+        backgroundImage: `url(${se6bg})`,
+        backgroundSize: 'cover',       // or 'contain', or 'auto'
+        backgroundRepeat: 'no-repeat', // or 'repeat' if you want tiling
+        backgroundPosition: 'center',
+        backgroundColor: mainBg
+      }}
       justify="center"
       align="center"
       overflow="hidden"
@@ -139,20 +148,26 @@ const App: React.FC = () => {
             pb={6}
           >
             {activeTab === "nations" && (
-              <NationBrowser nations={nations as NationData[]} />
+              <NationBrowser
+              nations={nations as NationData[]}
+                traitBoxColor={traitBg}
+                flawBoxColor={flawBg}
+                />
             )}
             {activeTab === "commonTraits" && (
               <CommonTab
                 title="Common Traits"
                 items={commonTraits as TraitOrFlawList}
-                color={traitBg}
+                traitBoxColor={traitBg}
+                traitsNotFlaws={true}
               />
             )}
             {activeTab === "commonFlaws" && (
               <CommonTab
                 title="Common Flaws"
                 items={commonFlaws as TraitOrFlawList}
-                color={flawBg}
+                traitBoxColor={flawBg}
+                traitsNotFlaws={false}
               />
             )}
           </Box>

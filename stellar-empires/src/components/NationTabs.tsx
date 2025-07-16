@@ -20,7 +20,7 @@ const NationTabs: React.FC<Props> = ({ nations }) => {
       <TabPanels>
         {nations.map((nation) => (
           <TabPanel key={nation.nation}>
-            <NationView data={nation} />
+            {/* <NationView data={nation} /> */}
           </TabPanel>
         ))}
       </TabPanels>

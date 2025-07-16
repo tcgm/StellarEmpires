@@ -1,23 +1,24 @@
 import React, { useState } from "react";
-import { Box, Button, Heading, Flex, Text, useColorModeValue } from "@chakra-ui/react";
+import { Box, Button, Heading, Flex, Text, useColorModeValue, Badge } from "@chakra-ui/react";
 import { TraitOrFlaw, TraitOrFlawList } from "../types";
 
 interface Props {
   title: string;
   items: TraitOrFlawList;
-  color: string; // Still passed in, but see note below!
+  traitBoxColor: string;
+  traitsNotFlaws: boolean;
 }
 
-const CommonTab: React.FC<Props> = ({ title, items, color }) => {
+const CommonTab: React.FC<Props> = ({ title, items, traitBoxColor, traitsNotFlaws }) => {
   const isArray = Array.isArray(items);
   const categoryKeys = !isArray ? Object.keys(items) : [];
   const [activeTab, setActiveTab] = useState(isArray ? "All" : categoryKeys[0] ?? "");
 
   // For background and text colors
-  const cardBg = useColorModeValue(color, "gray.800");
+  const cardBg = traitBoxColor;
   const cardBorder = useColorModeValue("#c6c6c6", "#3a4250");
   const titleColor = useColorModeValue("gray.800", "gray.100");
-  const descColor = useColorModeValue("gray.700", "gray.200");
+  const descColor = useColorModeValue("gray.700", "gray.100");
   const emptyColor = useColorModeValue("gray.500", "gray.400");
 
   // Select items to display
@@ -29,9 +30,6 @@ const CommonTab: React.FC<Props> = ({ title, items, color }) => {
   return (
     <Flex className="commonTab" direction="column" h="100%" minH={0} maxH="100%">
       <Box className="heading">
-        <Heading as="h2" size="md" mb={3} color={titleColor}>
-          {title}
-        </Heading>
         {!isArray && (
           <Flex mb={2} gap={2} flexWrap="wrap">
             {categoryKeys.map((cat) => (
@@ -70,7 +68,9 @@ const CommonTab: React.FC<Props> = ({ title, items, color }) => {
             borderColor={cardBorder}
             boxShadow="sm"
           >
-            <Text className="traitName" fontWeight={700} fontSize="lg" color={titleColor}>{trait.title}</Text>
+            <Badge colorScheme={traitsNotFlaws ? "green" : "orange"} fontSize="0.85em" mr={2}>
+              <Text className="traitName" fontWeight={700} fontSize="lg" color={titleColor}>{trait.title}</Text>
+            </Badge>
             <Text className="traitText" mt={2} color={descColor} whiteSpace="pre-line">{trait.description}</Text>
           </Box>
         ))}
