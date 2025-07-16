@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Box, Flex, Input, List, ListItem, Heading, Text } from "@chakra-ui/react";
+import { Box, Flex, Input, List, ListItem, Heading, Text, useColorModeValue } from "@chakra-ui/react";
 import { NationData } from "../types";
 import NationView from "./NationView";
 
@@ -17,6 +17,14 @@ const NationBrowser: React.FC<Props> = ({ nations }) => {
 
   const selectedNation = filtered[selectedIndex] || filtered[0];
 
+  const sidebarBorder = useColorModeValue("#d0d6df", "#3c4352");
+  const selectedBg = useColorModeValue("blue.600", "blue.200");
+  const selectedColor = useColorModeValue("white", "blue.50");
+  const normalColor = useColorModeValue("gray.800", "gray.200");
+  const hoverBg = useColorModeValue("blue.700", "blue.200");
+  const hoverColor = useColorModeValue("blue.50", "blue.50");
+  const notFoundColor = useColorModeValue("orange.500", "orange.400");
+
   return (
     <Flex w="100%" h="min(660px, 74vh)">
       {/* Sidebar List */}
@@ -26,14 +34,13 @@ const NationBrowser: React.FC<Props> = ({ nations }) => {
         bg="transparent"
         p={0}
         pr={[2, 3]}
-        borderRight="1px solid #d0d6df"
+        borderRight="1px solid"
+        borderColor={sidebarBorder}
         overflowY="auto"
         display="flex"
         flexDirection="column"
       >
-        <Heading as="h3" size="sm" mb={2} color="blue.800" px={3} pt={3}>
-        </Heading>
-        <Box px={3} mb={2}>
+        <Box px={3} mb={2} pt={3}>
           <Input
             placeholder="Search..."
             size="sm"
@@ -49,16 +56,16 @@ const NationBrowser: React.FC<Props> = ({ nations }) => {
           {filtered.map((nation, i) => (
             <ListItem
               key={nation.nation}
-              bg={i === selectedIndex ? "blue.600" : "transparent"}
-              color={i === selectedIndex ? "white" : "gray.800"}
+              bg={i === selectedIndex ? selectedBg : "transparent"}
+              color={i === selectedIndex ? selectedColor : normalColor}
               rounded="md"
               px={2}
               py={1}
               fontWeight={i === selectedIndex ? 700 : 400}
               cursor="pointer"
               _hover={{
-                bg: i === selectedIndex ? "blue.700" : "blue.50",
-                color: i === selectedIndex ? "white" : "blue.900"
+                bg: i === selectedIndex ? selectedBg : hoverBg,
+                color: i === selectedIndex ? selectedColor : hoverColor
               }}
               transition="all 0.1s"
               onClick={() => setSelectedIndex(i)}
@@ -66,7 +73,7 @@ const NationBrowser: React.FC<Props> = ({ nations }) => {
               {nation.nation}
             </ListItem>
           ))}
-          {!filtered.length && <Text color="gray.500" p={2}>No nations found.</Text>}
+          {!filtered.length && <Text color={notFoundColor} p={2}>No nations found.</Text>}
         </List>
       </Box>
       {/* Main Detail */}
@@ -74,7 +81,7 @@ const NationBrowser: React.FC<Props> = ({ nations }) => {
         {selectedNation ? (
           <NationView data={selectedNation} />
         ) : (
-          <Text color="gray.500" fontStyle="italic">No nation selected.</Text>
+          <Text color={notFoundColor} fontStyle="italic">No nation selected.</Text>
         )}
       </Box>
     </Flex>

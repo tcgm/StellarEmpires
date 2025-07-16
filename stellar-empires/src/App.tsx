@@ -6,6 +6,7 @@ import nations from "./data/nations.json";
 import commonTraits from "./data/commonTraits.json";
 import commonFlaws from "./data/commonFlaws.json";
 import { TraitOrFlawList, NationData } from "./types";
+import ColorModeToggle from "./components/ColorModeToggle";
 
 type TabType = "nations" | "commonTraits" | "commonFlaws";
 
@@ -18,23 +19,41 @@ const TAB_LIST: { label: string; value: TabType }[] = [
 const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState<TabType>("nations");
 
+  // These are color tokens that will adapt to the color mode
+  const mainBg = useColorModeValue("gray.50", "gray.900");
+  const innerBg = useColorModeValue("gray.100", "gray.800");
+  const sidebarBg = useColorModeValue("gray.200", "gray.700");
+  const contentBg = useColorModeValue("gray.50", "gray.700");
+  const activeTabBg = useColorModeValue("blue.600", "blue.200");
+  const activeTabColor = useColorModeValue("white", "blue.100");
+  const inactiveTabColor = useColorModeValue("gray.900", "gray.100");
+  const tabHoverBg = useColorModeValue("blue.100", "blue.200");
+  const tabHoverColor = useColorModeValue("blue.900", "blue.100");
+  const headingColor = useColorModeValue("blue.600", "blue.50");
+  const footerColor = useColorModeValue("gray.400", "gray.200");
+
+  // Use matching highlight color for traits/flaws (blue for traits, orange for flaws) in both modes
+  const traitBg = useColorModeValue("#cde4fd", "#253a54");
+  const flawBg = useColorModeValue("#fde4cd", "#4b3721");
+
   return (
     <Flex
       h="100vh"
       w="100vw"
-      bg={useColorModeValue('gray.50', 'gray.900')}
+      bg={mainBg}
       justify="center"
       align="center"
       overflow="hidden"
     >
       <Box
         w="100%"
-        maxW="1200px"
+        maxW="95vw"
         h="90vh"
-        bg={useColorModeValue('gray.100', 'gray.800')}
+        bg={innerBg}
         borderRadius="2xl"
         boxShadow="2xl"
-        border="1px solid #b7bec7"
+        border="1px solid"
+        borderColor={useColorModeValue("#b7bec7", "#2e3540")}
         display="flex"
         overflow="hidden"
         minH={0}
@@ -43,9 +62,10 @@ const App: React.FC = () => {
         <Box
           w={["36%", "24%", "19%", "15%"]}
           minW={["120px", "140px", "170px"]}
-          bg={useColorModeValue('gray.200', 'gray.700')}
+          bg={sidebarBg}
           p={3}
-          borderRight="1px solid #d0d6df"
+          borderRight="1px solid"
+          borderColor={useColorModeValue("#d0d6df", "#3c4352")}
           display="flex"
           flexDirection="column"
           minH={0}
@@ -54,7 +74,7 @@ const App: React.FC = () => {
             as="h1"
             size="sm"
             mb={4}
-            color="blue.700"
+            color={headingColor}
             textAlign="center"
             letterSpacing="1px"
           >
@@ -64,16 +84,16 @@ const App: React.FC = () => {
             {TAB_LIST.map(tab => (
               <ListItem
                 key={tab.value}
-                bg={activeTab === tab.value ? "blue.600" : "transparent"}
-                color={activeTab === tab.value ? "white" : "gray.900"}
+                bg={activeTab === tab.value ? activeTabBg : "transparent"}
+                color={activeTab === tab.value ? activeTabColor : inactiveTabColor}
                 rounded="md"
                 px={2}
                 py={2}
                 fontWeight={activeTab === tab.value ? 700 : 400}
                 cursor="pointer"
                 _hover={{
-                  bg: activeTab === tab.value ? "blue.700" : "blue.100",
-                  color: activeTab === tab.value ? "white" : "blue.900"
+                  bg: activeTab === tab.value ? activeTabBg : tabHoverBg,
+                  color: activeTab === tab.value ? activeTabColor : tabHoverColor
                 }}
                 onClick={() => setActiveTab(tab.value)}
                 textAlign="center"
@@ -84,9 +104,10 @@ const App: React.FC = () => {
             ))}
           </List>
           <Box flex="1" />
-          <Text mt={6} fontSize="xs" color="gray.400" textAlign="center">
-            Stellar Empires
-          </Text>
+            <Text mt={6} fontSize="xs" color={footerColor} textAlign="center">
+              Stellar Empires
+            </Text>
+            <ColorModeToggle />
         </Box>
 
         {/* Main Content Pane */}
@@ -95,11 +116,11 @@ const App: React.FC = () => {
           direction="column"
           flex="1"
           minH={0}
-          bg={useColorModeValue('gray.50', 'gray.600')}
+          bg={contentBg}
         >
           <Heading
             size="lg"
-            color="blue.800"
+            color={headingColor}
             mb={4}
             letterSpacing={-1}
             fontWeight={700}
@@ -124,14 +145,14 @@ const App: React.FC = () => {
               <CommonTab
                 title="Common Traits"
                 items={commonTraits as TraitOrFlawList}
-                color="#cde4fd"
+                color={traitBg}
               />
             )}
             {activeTab === "commonFlaws" && (
               <CommonTab
                 title="Common Flaws"
                 items={commonFlaws as TraitOrFlawList}
-                color="#fde4cd"
+                color={flawBg}
               />
             )}
           </Box>
