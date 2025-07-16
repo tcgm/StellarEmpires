@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Box, Flex, Heading, List, ListItem, Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, List, ListItem, Text, useColorModeValue } from "@chakra-ui/react";
 import NationBrowser from "./components/NationBrowser";
 import CommonTab from "./components/CommonTab";
 import nations from "./data/nations.json";
@@ -22,7 +22,7 @@ const App: React.FC = () => {
     <Flex
       h="100vh"
       w="100vw"
-      bg="gray.50"
+      bg={useColorModeValue('gray.50', 'gray.900')}
       justify="center"
       align="center"
       overflow="hidden"
@@ -31,7 +31,7 @@ const App: React.FC = () => {
         w="100%"
         maxW="1200px"
         h="90vh"
-        bg="gray.100"
+        bg={useColorModeValue('gray.100', 'gray.800')}
         borderRadius="2xl"
         boxShadow="2xl"
         border="1px solid #b7bec7"
@@ -43,7 +43,7 @@ const App: React.FC = () => {
         <Box
           w={["36%", "24%", "19%", "15%"]}
           minW={["120px", "140px", "170px"]}
-          bg="gray.200"
+          bg={useColorModeValue('gray.200', 'gray.700')}
           p={3}
           borderRight="1px solid #d0d6df"
           display="flex"
@@ -58,7 +58,7 @@ const App: React.FC = () => {
             textAlign="center"
             letterSpacing="1px"
           >
-            Civopedia
+            Stellapedia
           </Heading>
           <List spacing={1}>
             {TAB_LIST.map(tab => (
@@ -95,7 +95,7 @@ const App: React.FC = () => {
           direction="column"
           flex="1"
           minH={0}
-          bg="white"
+          bg={useColorModeValue('gray.50', 'gray.600')}
         >
           <Heading
             size="lg"

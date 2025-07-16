@@ -23,7 +23,7 @@ const CommonTab: React.FC<Props> = ({ title, items, color }) => {
     <Flex className="commonTab" direction="column" h="100%" minH={0} maxH="100%">
       {/* Heading and Tabs (fixed, not scrolling) */}
       <Box className="heading">
-        <Heading as="h2" size="md" mb={3} color="gray.800">{title}</Heading>
+        {/* <Heading as="h2" size="md" mb={3} color="gray.800">{title}</Heading> */}
         {!isArray && (
           <Flex mb={2} gap={2} flexWrap="wrap">
             {categoryKeys.map((cat) => (
