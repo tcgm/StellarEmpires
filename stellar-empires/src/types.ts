@@ -1,6 +1,8 @@
 export interface TraitOrFlaw {
   title: string;
   description: string;
+  nations?: string[];
+  isTrait?:boolean;
 }
 
 export interface NationData {

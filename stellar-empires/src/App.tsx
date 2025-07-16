@@ -1,25 +1,29 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Box, Flex, Heading, List, ListItem, Text, useColorModeValue } from "@chakra-ui/react";
 import NationBrowser from "./components/NationBrowser";
 import CommonTab from "./components/CommonTab";
 import nations from "./data/nations.json";
 import commonTraits from "./data/commonTraits.json";
 import commonFlaws from "./data/commonFlaws.json";
-import { TraitOrFlawList, NationData } from "./types";
+import { TraitOrFlawList, NationData, TraitOrFlaw } from "./types";
 import ColorModeToggle from "./components/ColorModeToggle";
+import TraitSearch from "./components/TraitSearch";
 
 import se6bg from './assets/se6bg.png';
 
-type TabType = "nations" | "commonTraits" | "commonFlaws";
+type TabType = "nations" | "commonTraits" | "commonFlaws" | "traitSearch";
 
 const TAB_LIST: { label: string; value: TabType }[] = [
   { label: "Nations", value: "nations" },
   { label: "Common Traits", value: "commonTraits" },
-  { label: "Common Flaws", value: "commonFlaws" }
+  { label: "Common Flaws", value: "commonFlaws" },
+  { label: "Trait/Flaw Search", value: "traitSearch" }
 ];
 
 const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState<TabType>("nations");
+  const [passedNation, setPassedNation] = useState<string | null>(null);
+
 
   // These are color tokens that will adapt to the color mode
   const mainBg = useColorModeValue("gray.50", "gray.900");
@@ -37,6 +41,80 @@ const App: React.FC = () => {
   // Use matching highlight color for traits/flaws (blue for traits, orange for flaws) in both modes
   const traitBg = useColorModeValue("#cdfddaff", "#25542aff");
   const flawBg = useColorModeValue("#fde4cd", "#4b3721");
+  
+  type TraitOrFlawMap = Record<string, TraitOrFlaw & { isTrait: boolean; nations: string[] }>;
+
+  function buildAllTraitsAndFlaws(
+    commonTraits: TraitOrFlawList,
+    commonFlaws: TraitOrFlawList,
+    nations: NationData[]
+  ): TraitOrFlaw[] {
+    // 1. Start with common traits/flaws, map by title for deduplication
+    const map: TraitOrFlawMap = {};
+
+    function flatten(list: TraitOrFlawList, isTrait: boolean) {
+      if (Array.isArray(list)) {
+        list.forEach(trait => {
+          map[trait.title] = { ...trait, isTrait, nations: [] };
+        });
+      } else {
+        Object.values(list).flat().forEach(trait => {
+          map[trait.title] = { ...trait, isTrait, nations: [] };
+        });
+      }
+    }
+    flatten(commonTraits, true);
+    flatten(commonFlaws, false);
+
+    // 2. For each nation, add their traits/flaws; if unique, add new; if duplicate, add nation to .nations
+    nations.forEach(nation => {
+      (nation.traits ?? []).forEach(trait => {
+        if (map[trait.title]) {
+          // Already exists, just add the nation
+          if (!map[trait.title].nations.includes(nation.nation))
+            map[trait.title].nations.push(nation.nation);
+        } else {
+          // Unique, add as new
+          map[trait.title] = { ...trait, isTrait: true, nations: [nation.nation] };
+        }
+      });
+      (nation.flaws ?? []).forEach(flaw => {
+        if (map[flaw.title]) {
+          if (!map[flaw.title].nations.includes(nation.nation))
+            map[flaw.title].nations.push(nation.nation);
+        } else {
+          map[flaw.title] = { ...flaw, isTrait: false, nations: [nation.nation] };
+        }
+      });
+    });
+
+    // 3. Return as array
+    return Object.values(map);
+  }
+
+  // Usage in App.tsx:
+  const allTraitsAndFlaws: TraitOrFlaw[] = buildAllTraitsAndFlaws(
+    commonTraits as TraitOrFlawList,
+    commonFlaws as TraitOrFlawList,
+    nations as NationData[]
+  );
+
+
+  function flattenTraits(
+  list: TraitOrFlawList,
+  isTrait: boolean
+  ): TraitOrFlaw[] {
+    if (Array.isArray(list)) {
+      return list.map(t => ({ ...t, isTrait }));
+    }
+    return Object.values(list).flat().map(t => ({ ...t, isTrait }));
+  }
+    
+  useEffect(() => {
+    if (activeTab !== "nations" && passedNation) {
+      setPassedNation(null);
+    }
+  }, [activeTab]);
 
   return (
     <Flex
@@ -152,6 +230,7 @@ const App: React.FC = () => {
               nations={nations as NationData[]}
                 traitBoxColor={traitBg}
                 flawBoxColor={flawBg}
+                passedNation={passedNation}
                 />
             )}
             {activeTab === "commonTraits" && (
@@ -168,6 +247,17 @@ const App: React.FC = () => {
                 items={commonFlaws as TraitOrFlawList}
                 traitBoxColor={flawBg}
                 traitsNotFlaws={false}
+              />
+            )}
+            {activeTab === "traitSearch" && (
+              <TraitSearch
+                allTraits={allTraitsAndFlaws}
+                nations={nations as NationData[]}
+                goToNation={nationName => {
+                  // Custom function to activate the nations tab and select a nation
+                  setActiveTab("nations");
+                  setPassedNation(nationName);
+                }}
               />
             )}
           </Box>

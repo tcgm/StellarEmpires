@@ -7,9 +7,15 @@ interface Props {
   nations: NationData[];
   traitBoxColor: string;
   flawBoxColor: string;
+  passedNation?: string | null;
 }
 
-const NationBrowser: React.FC<Props> = ({ nations, traitBoxColor, flawBoxColor }) => {
+const NationBrowser: React.FC<Props> = ({
+  nations,
+  traitBoxColor,
+  flawBoxColor,
+  passedNation
+  }) => {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [search, setSearch] = useState("");
   const mainDetailRef = useRef<HTMLDivElement>(null);
@@ -34,6 +40,15 @@ const NationBrowser: React.FC<Props> = ({ nations, traitBoxColor, flawBoxColor }
       mainDetailRef.current.scrollTop = 0;
     }
   }, [selectedNation]);
+  
+  // When passedNation changes, jump to its index in the filtered list
+  useEffect(() => {
+    if (passedNation) {
+      const idx = filtered.findIndex(n => n.nation === passedNation);
+      if (idx !== -1) setSelectedIndex(idx);
+    }
+  }, [passedNation, filtered]);
+
   
   return (
     <Flex w="100%" h="min(660px, 74vh)">
