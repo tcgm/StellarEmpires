@@ -1,5 +1,5 @@
 import React from "react";
-import { Input, Textarea, Button, HStack, Text } from "@chakra-ui/react";
+import { Input, Textarea, Button, HStack, Text, Box } from "@chakra-ui/react";
 import { TraitOrFlaw } from "../../types";
 
 interface CustomTraitPanelProps {
@@ -8,10 +8,11 @@ interface CustomTraitPanelProps {
   onDesc: (e: React.ChangeEvent<HTMLTextAreaElement>) => void;
   onClear: () => void;
 }
+
 const CustomTraitPanel: React.FC<CustomTraitPanelProps> = ({
   trait, onTitle, onDesc, onClear
 }) => (
-  <div>
+  <Box mt={4}>
     <Text fontWeight="bold">Custom Trait</Text>
     <HStack align="start" spacing={3}>
       <Input
@@ -29,7 +30,7 @@ const CustomTraitPanel: React.FC<CustomTraitPanelProps> = ({
       />
       <Button onClick={onClear}>Clear</Button>
     </HStack>
-  </div>
+  </Box>
 );
 
 export default CustomTraitPanel;
