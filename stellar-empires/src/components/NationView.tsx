@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Heading, Text, Divider, List, ListItem, Badge, useColorModeValue } from "@chakra-ui/react";
 import { NationData } from "../types";
 import TraitBox from "./TraitBox";
-import Section from "./Section";
+import Section from "./StickySection";
 
 interface Props {
   data: NationData;
