@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Box, Flex, Input, List, ListItem, Heading, Text, useColorModeValue } from "@chakra-ui/react";
+import { Box, Flex, Input, List, ListItem, Text, useColorModeValue } from "@chakra-ui/react";
 import { NationData } from "../types";
 import NationView from "./NationView";
 
