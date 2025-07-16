@@ -6,14 +6,25 @@ import { defineConfig } from "eslint/config";
 
 
 export default defineConfig([
-  { files: ["**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"],
+  tseslint.configs.recommended,
+  pluginReact.configs.flat.recommended,
+  { 
+    files: ["**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"],
     plugins: { js },
     extends: ["js/recommended"],
     rules: {
-      "@typescript-eslint/no-unused-vars": "off",
+      "no-unused-vars": "off",               // For JS/TS (base)
+      "@typescript-eslint/no-unused-vars": "off", // For TS (plugin)
     },
   },
-  { files: ["**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"], languageOptions: { globals: {...globals.browser, ...globals.node} } },
-  tseslint.configs.recommended,
-  pluginReact.configs.flat.recommended,
+  { 
+    files: ["**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"],
+    languageOptions: { 
+      globals: {...globals.browser, ...globals.node} 
+    },
+    rules: {
+      "no-unused-vars": "off",               // For JS/TS (base)
+      "@typescript-eslint/no-unused-vars": "off", // For TS (plugin)
+    },
+  },
 ]);

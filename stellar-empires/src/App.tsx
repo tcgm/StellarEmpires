@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Box, Flex, Heading, List, ListItem, Text, useColorModeValue } from "@chakra-ui/react";
 import NationBrowser from "./components/NationBrowser";
 import CommonTab from "./components/CommonTab";
-import nations from "./data/nations.json";
+// import nations from "./data/nations.json";
+import { fetchAllNationData } from "./helpers/nationLoader";
 import commonTraits from "./data/commonTraits.json";
 import commonFlaws from "./data/commonFlaws.json";
 import { TraitOrFlawList, NationData, TraitOrFlaw } from "./types";
@@ -24,6 +25,17 @@ const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState<TabType>("nations");
   const [passedNation, setPassedNation] = useState<string | null>(null);
 
+  const [nations, setNations] = useState<NationData[] | null>(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetchAllNationData().then(data => {
+      setNations(data);
+      setLoading(false);
+    });
+  }, []);
+
+  // console.log(JSON.stringify(nations));
 
   // These are color tokens that will adapt to the color mode
   const mainBg = useColorModeValue("gray.50", "gray.900");
@@ -92,12 +104,14 @@ const App: React.FC = () => {
     return Object.values(map);
   }
 
-  // Usage in App.tsx:
-  const allTraitsAndFlaws: TraitOrFlaw[] = buildAllTraitsAndFlaws(
-    commonTraits as TraitOrFlawList,
-    commonFlaws as TraitOrFlawList,
-    nations as NationData[]
-  );
+  const allTraitsAndFlaws: TraitOrFlaw[] = React.useMemo(() => {
+    if (!nations) return [];
+    return buildAllTraitsAndFlaws(
+      commonTraits as TraitOrFlawList,
+      commonFlaws as TraitOrFlawList,
+      nations
+    );
+  }, [nations, commonTraits, commonFlaws, buildAllTraitsAndFlaws]);
     
   useEffect(() => {
     if (activeTab !== "nations" && passedNation) {
@@ -215,13 +229,18 @@ const App: React.FC = () => {
             pb={6}
           >
             {activeTab === "nations" && (
-              <NationBrowser
-              nations={nations as NationData[]}
-                traitBoxColor={traitBg}
-                flawBoxColor={flawBg}
-                passedNation={passedNation}
+              loading || !nations ? (
+                <Box py={10} textAlign="center">Loading nations...</Box>
+              ) : (
+                <NationBrowser
+                  nations={nations}
+                  traitBoxColor={traitBg}
+                  flawBoxColor={flawBg}
+                  passedNation={passedNation}
                 />
+              )
             )}
+
             {activeTab === "commonTraits" && (
               <CommonTab
                 title="Common Traits"

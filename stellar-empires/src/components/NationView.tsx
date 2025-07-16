@@ -103,6 +103,7 @@ const NationView: React.FC<Props> = ({
           {data.traits.map((t, i) => (
             <ListItem key={t.title + i}>
               <TraitBox
+                key={"traitBox" + t.title + i}
                 title={t.title}
                 description={t.description}
                 isTrait={true}
@@ -125,6 +126,7 @@ const NationView: React.FC<Props> = ({
           {data.flaws.map((f, i) => (
             <ListItem key={f.title + i}>
               <TraitBox
+                key={"traitBox" + f.title + i}
                 title={f.title}
                 description={f.description}
                 isTrait={false}

@@ -50,6 +50,8 @@ const TraitSearch: React.FC<TraitSearchProps> = ({ allTraits, nations, goToNatio
         ) : (
           filtered.map((trait, i) => (
             <TraitBox
+                key={"traitBox" + trait.title + i}
+                index={i}
                 title={trait.title}
                 description={trait.description}
                 isTrait={trait.isTrait}

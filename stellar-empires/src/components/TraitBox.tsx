@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Badge, Text, Flex, Link } from "@chakra-ui/react";
 
 interface TraitBoxProps {
+  index?: number;
   title: string;
   description: string;
   points?: number;
@@ -22,6 +23,7 @@ interface TraitBoxProps {
 }
 
 const TraitBox: React.FC<TraitBoxProps> = ({
+  index,
   title,
   description,
   points,
@@ -49,6 +51,7 @@ const TraitBox: React.FC<TraitBoxProps> = ({
     border="1px solid"
     borderColor={boxBorder}
     boxShadow="sm"
+    key={"traitBox" + title + index}
   >
     <Flex align="center" mb={2} wrap="wrap" gap={2}>
       {showTypeBadge && (
@@ -74,7 +77,7 @@ const TraitBox: React.FC<TraitBoxProps> = ({
           </Text>
           {nations.map((nation, ni, arr) => (
             <Link
-              key={nation}
+              key={"nationLink" + nation + ni}
               onClick={() => goToNation(nation)}
               _hover={{ textDecoration: "underline", color: "blue.100" }}
               mr={ni < arr.length - 1 ? 1 : 0}

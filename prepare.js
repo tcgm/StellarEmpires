@@ -1,9 +1,16 @@
 // prepare.js
+const path = require('path');
+
+const makeNationList = require('./listNations');
 const copyData = require('./copyData');
 
 // In the future, add more prep steps here (await cleanDirs(), generateConfig(), etc.)
 
+const srcDir = path.resolve(__dirname, 'data');
+const nationsDir = path.resolve(__dirname, 'data', 'nations');
+
 async function main() {
+  await makeNationList(nationsDir);
   await copyData();
   // await otherPrepScript(); // Add more steps as needed
 }

@@ -59,15 +59,16 @@ const CommonTab: React.FC<Props> = ({ title, items, traitBoxColor, traitsNotFlaw
           </Text>
         )}
         {shownItems.map((trait, i) => (
-              <TraitBox
-                title={trait.title}
-                description={trait.description}
-                isTrait={traitsNotFlaws}
-                points={trait.points}
-                boxBg={traitBoxColor}
-                boxBorder={cardBorder}
-                descColor={descColor}
-              />
+          <TraitBox
+              key={"traitBox" + trait.title + i}
+            title={trait.title}
+            description={trait.description}
+            isTrait={traitsNotFlaws}
+            points={trait.points}
+            boxBg={traitBoxColor}
+            boxBorder={cardBorder}
+            descColor={descColor}
+          />
         ))}
       </Box>
     </Flex>

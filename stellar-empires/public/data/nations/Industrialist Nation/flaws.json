@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Rebellious Underclass",
+    "description": "Turns out that building your nation on the backs of the citizens regardless of things like ‘feelings' or the like makes an angry populace and sometimes it feels like your military spends more time suppressing riots than defending your nation.",
+    "points": 1
+  },
+  {
+    "title": "Resource Starved",
+    "description": "Your nation is an absolute glutton for raw resources and struggles to meet anything like its production quotas. In emergency situations they may depend far more strongly on cannibalising existing material for the raw resources.",
+    "points": 1
+  },
+  {
+    "title": "Slave Masters",
+    "description": "You have a cabal of dark masters that have driven your nation to their extremes, powerful and terrible with technology you don't understand, if you fail to pay your significant tithes, you may find yourself on the brink of a terrible retribution.",
+    "points": 1
+  },
+  {
+    "title": "Enthusiastic but Inept",
+    "description": "You aren't a bunch of strip mining titans of industry for any sensible reason, they are that way because of how horrifically inept and wasteful they are, your spoiled resource pits, industrial waste and the like outweighs the working product.",
+    "points": 1
+  },
+  {
+    "title": "Catastrophic Construction",
+    "description": "Your cities and mining suffer from severe overlap between the massive weight of hive cities and the undermining in the quest for ever more elusive resources, groundquakes are a common, or even daily, occurrence, and ‘the big one' is always just around the corner, until it happens and entire lower levels of city are crushed by the weight of the city above. (Required with the Forge World trait.)",
+    "points": 1
+  },
+  {
+    "title": "Quality Control",
+    "description": "Industrialists, due to the high-volume nature of their work do suffer in the quality department and their ships and equipment is generally substandard to others. This can lead to all sorts of accidents as well when a particularly poorly designed piece fails at just the right moment to be a major problem.",
+    "points": 1
+  }
+]

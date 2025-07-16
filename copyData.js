@@ -4,6 +4,7 @@ const path = require('path');
 
 const srcDir = path.resolve(__dirname, 'data');
 const destDir = path.resolve(__dirname, 'stellar-empires', 'src', 'data');
+const publicDir = path.resolve(__dirname, 'stellar-empires', 'public', 'data');
 
 function jsonOnlyFilter(src, dest) {
   const rel = path.relative(srcDir, src);
@@ -20,6 +21,12 @@ async function copyData() {
     filter: jsonOnlyFilter,
   });
   console.log(`Copied JSON files and folders from ${srcDir} to ${destDir}`);
+  await fs.ensureDir(publicDir);
+  await fs.copy(srcDir, publicDir, {
+    overwrite: true,
+    filter: jsonOnlyFilter,
+  });
+  console.log(`Copied JSON files and folders from ${srcDir} to ${publicDir}`);
 }
 
 module.exports = copyData;
