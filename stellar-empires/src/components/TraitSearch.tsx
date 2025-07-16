@@ -55,6 +55,7 @@ const TraitSearch: React.FC<TraitSearchProps> = ({ allTraits, nations, goToNatio
                 title={trait.title}
                 description={trait.description}
                 isTrait={trait.isTrait}
+                points={trait.points}
                 showTypeBadge
                 nations={trait.nations}
                 boxBg={trait.isTrait ? traitBg : flawBg}
