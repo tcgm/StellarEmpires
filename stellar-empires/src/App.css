@@ -1,0 +1,12 @@
+body {
+  background: #f7faff;
+  color: #20242a;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+button {
+  cursor: pointer;
+  outline: none;
+}
+input[type="file"] {
+  margin-bottom: 16px;
+}
