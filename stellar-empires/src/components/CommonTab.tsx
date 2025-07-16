@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Box, Button, Heading, Flex, Text, useColorModeValue, Badge } from "@chakra-ui/react";
+import { Box, Button, Flex, Text, useColorModeValue, Badge } from "@chakra-ui/react";
 import { TraitOrFlaw, TraitOrFlawList } from "../types";
 
 interface Props {
