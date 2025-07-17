@@ -1,0 +1,104 @@
+[
+  {
+    "title": "Tech Illiteracy",
+    "description": "(Mandatory flaw for all Risen Peoples) You do not truly understand the technology of your creators. You have a limited ability to copy and maintain the simpler technology, but overall you have replaced more advanced equipment with crude technology that is cheap and mass producible.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
+  },
+  {
+    "title": "Belligerent Primitives",
+    "description": "Your people are belligerent, cruel, and downright primitive, diplomacy with them is an exercise in patience that more established nations and people are unwilling to put into practice.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
+  },
+  {
+    "title": "Ruined Homeworld",
+    "description": "You have ruined your homeworld beyond any reasonable hope of recovery, while still inhabitable you simply lack anything like the terraforming technology to overcome it, and worse you lack the trust to accept help in doing so.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
+  },
+  {
+    "title": "Max is Mad",
+    "description": "There is an unhealthy individualistic streak in your people leading there to be significant warbands vying for power and leadership, it is typical for your government to suffer major upsets periodically or even change hands wholesale.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
+  },
+  {
+    "title": "Genophage",
+    "description": "You… really REALLY upset someone and they deployed a bioweapon intended to punish you that has lead to the majority of children being stillborn, as such you have been forced to adopt draconian breeding programs simply to maintain numbers let alone grow. And the slightest upset of that could lead to a catastrophic failure.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
+  },
+  {
+    "title": "Children",
+    "description": "Your status has left you to be regarded as someone that needs to be protected, from others, and from each other. More developed nations may often try to extend their hands protectively whether you like it or not and they aren't interested in whether you consent to their interference.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
+  }
+]

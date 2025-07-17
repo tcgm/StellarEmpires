@@ -3,768 +3,2726 @@
     {
       "title": "Implausibly Efficient Government",
       "description": "Through trial and error the red tape has not only been cut but has been found to be redundant and counterproductive. When it comes to cutting the red tape your nation has none to cut!",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.implausibly-efficient-government"
     },
     {
       "title": "Fair Dinkum",
       "description": "Your nation is seen as a relatively straight player, and you are, you honour your deals and deal fairly with other nations.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.fair-dinkum"
     },
     {
       "title": "Who cares about Uzbekistan?",
       "description": "Your polity is simply not on the galactic radar and thus avoids a lot of the Bad Shit that can go down. . . (Can only be taken by tall nations)",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.who-cares-about-uzbekistan"
     },
     {
       "title": "Party Please",
       "description": "Your diplomats are just so good-natured or know so many skeleton-filled closets that they can get into strategically useful alliances much easier than others. Of course, then you need to live up to what you signed . . .",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.party-please"
     },
     {
       "title": "Manipulative",
       "description": "Political scheming is in the blood. Once you can deal with other nations you can begin playing with their politics, assuming you're cunning enough and they're receptive enough.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.manipulative"
     },
     {
       "title": "Colonial Spirit",
       "description": "Your people are restless for the great beyond and are excellent at colonisation, you expand nearly half again as quickly as anyone else.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.colonial-spirit"
     },
     {
       "title": "Mechanics at Heart",
       "description": "Your nation doesn't tolerate anything in less than perfect condition. Conversations can often be along the lines of 'time for the monthly check... looks good... looks good... hey what's this brown ticking package?'",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.mechanics-at-heart"
     },
     {
       "title": "Passive Aggressive",
       "description": "Only a fool shows his hand instantly. But not us, we conceal our vicious power playing behind a submissive peaceful attitude diplomatically. Let our enemies make the first move. Let our allies move to protect what they perceive as a peaceful people. In the end we'll show them all.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.passive-aggressive"
     },
     {
       "title": "For the People",
       "description": "Every action taken is for the people, for good or ill, as such the people tend to largely support the nation without reservation. After all, is it not working for them on all levels? However most such nations are tied in bureaucratic bullshit.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.for-the-people"
     },
     {
       "title": "I-GUN",
       "description": "\"Inter-Galactic United Nations\" your empire is a conglomerate of your species' pre-space flight that never unified into a single 'world government'. But this gives you more diplomatic credibility and trustworthiness amongst the galactic community.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.i-gun"
     },
     {
       "title": "Rule of All",
       "description": "The rule of all is a political foundation where all the people get a say in the running of the nation. The forums are abuzz and artificial intelligences (or equivalent) draw together most common ideas into a unified collection.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.rule-of-all"
     },
     {
       "title": "Pyramid Rule",
       "description": "The nation is run like a pyramid scheme, at the top is a single body who commands a number of people who in turn command a number of people below them and so on down the chain.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.pyramid-rule"
     },
     {
       "title": "Made a Slave",
       "description": "Whatever you may call it, slavery, indentured servants, what it all comes down to is that you practice something which results in you having a large percentage of people working your factories, farms, etc which might be considered slaves however you may describe them. Either case your people are content that menial labour is beneath them and that they have these people doing the filthy jobs for them! Of course there is such a thing as slave revolts that might happen if you aren't vigilant.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.made-a-slave"
     },
     {
       "title": "For the Greater Good",
       "description": "Sometimes you have to make hard decisions which might result in thousands, millions or perhaps even billions of your people to die. But the people understand that it had to be done and respect your decisions without creating too much fuss about it all.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.for-the-greater-good"
     },
     {
       "title": "Science Forum",
       "description": "Your nation has a fair appreciation and support for the sciences and encourages and richly funds the forums for educated, respected and informed scientific debate allowing for more widely held ideas.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.science-forum"
     },
     {
       "title": "Shadow Government",
       "description": "Your nation has two governments effectively. The government that people see and the government that gets the hard things done. The Shadow Government is harder to reach than normal and thus more resistant to espionage. But the people are more disturbed by it.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.shadow-government"
     },
     {
       "title": "Distributed Administration",
       "description": "Your government manages itself sectionally. Each piece is in charge of its own slice of pie and tends to even administrate itself differently according to its own rules and laws. Harder to damage, but ultimately more confusing for people.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.distributed-administration"
     },
     {
       "title": "Revolutionary",
       "description": "The nation's government isn't stable. It never has been, the government has always been in a state of flux from one revolution to the next and so it has always been, all know it and few try to change it, this serves as an advantage in that in the end the government of the nation simply isn't a viable target, a new one would re-establish itself in short order. (Must take the Revolutionaries Flaw)",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.revolutionary"
     },
     {
       "title": "Dystopia",
-      "description": "The nation is deeply flawed and in a near hellish state, crime is rampant, violence is common, but while this is a major issue for the nation its people are strong, hardened, resistant to almost any adversity and more importantly, greed chaps generally have no interest in even attempting to exploit a nation like this. (MUST take the Dystopia Flaw. Cannot take with Utopia.)",
-      "points": 1
+      "description": "The nation is deeply flawed and in a near hellish state, crime is rampant, violence is common, but while this is a major issue for the nation its people are strong, hardened, resistant to almost any adversity and more importantly, greed chaps generally have no interest in even attempting to exploit a nation like this. (MUST take the Dystopian Flaw. Cannot take with Utopia.)",
+      "points": 1,
+      "requires": [
+        "commonFlaws.dystopian"
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        "commonTraits.utopia"
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.dystopia"
     },
     {
       "title": "Utopia",
-      "description": "The nation is a shining jewel of possibility, crime is next to nothing, happiness is at an all time high, everything is running like clockwork, the nation is at peace and revels in its golden age. But such nations rarely understand the threat beyond the borders, they're prime targets for invasion and exploitation and their naiveté is often exploited politically as well. (MUST take the Utopia Flaw. Cannot take with Dystopia.)",
-      "points": 1
+      "description": "The nation is a shining jewel of possibility, crime is next to nothing, happiness is at an all time high, everything is running like clockwork, the nation is at peace and revels in its golden age. But such nations rarely understand the threat beyond the borders, they're prime targets for invasion and exploitation and their naiveté is often exploited politically as well. (MUST take the Utopian Flaw. Cannot take with Dystopia.)",
+      "points": 1,
+      "requires": [
+        "commonFlaws.utopian"
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        "commonTraits.dystopia"
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.utopia"
     },
     {
       "title": "Peaceful",
       "description": "Your nation is a peaceful one unlikely to start wars, it isn't incapable of fighting wars, or even bad at doing so, but it is disinclined to do so if any other acceptable option is open. This makes them more trustworthy.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.peaceful"
     },
     {
       "title": "Vengeful",
       "description": "Your nation is a vengeful beast that doesn't take slights well. And when slighted it moves quickly to avenge such a slight. This leaves them at a higher state of readiness than most. But also leaves them compelled to try and avenge a slight, even when such a decision could escalate into something so much worse.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.vengeful"
     }
   ],
   "Population Traits": [
     {
       "title": "Loyalty",
       "description": "A populace that through some reason or another is loyal to its government, through fear or \"cookie day\" it doesn't matter, these people are loyal.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.loyalty"
     },
     {
       "title": "Heroic Age",
       "description": "Your people see themselves as Spartan Heroes, not Persian Generals. Shame the Spartans made poor civilians . . .",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.heroic-age"
     },
     {
       "title": "Flag-Wavers",
       "description": "It doesn't matter what you do, you'll always win the elections. You must choose something particularly dear to your population that they wave flags about.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.flag-wavers"
     },
     {
       "title": "Stupidly Brave",
       "description": "Nobody would think of calling your people cowards.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.stupidly-brave"
     },
     {
       "title": "Not One Step Back",
       "description": "You hold your ground no matter what, militarily OR politically.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.not-one-step-back"
     },
     {
       "title": "Clannish",
       "description": "Your people are divided into clans or other forms of familial groupings. While this can lead to genetic degradation if there is no breeding out of the Clan it lends towards more tightly bound units of people who work together with flawless efficiency.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.clannish"
     },
     {
       "title": "Crimeless",
       "description": "Your nation has abolished crime in its entirety, whether by simply making everything legal,some form of mental conditioning or other reasons. There is no crime, as such should there be any it would be noticed immediately as suspicious goings-on.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.crimeless"
     },
     {
       "title": "Ultra-Hygienic",
       "description": "Your people don't suffer from natural diseases as they have refrained from contact with one another for whatever reasons. Whether they breed by using science clinics to 'do the deed' or it's just a remote-controlled sperm-cell implant. The downside, your people aren't very social and exposure can lead to disease.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.ultra-hygienic"
     },
     {
       "title": "Population Controls",
       "description": "Your population is controlled both in number and even in purpose. Your government conducts a practice known as 'social engineering' to control the population. As such undesired elements are greatly reduced.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.population-controls"
     },
     {
       "title": "Organised Chaos",
       "description": "Your society is so bizarre that most cannot comprehend what they are seeing when exposed to it. This makes any attempt to infiltrate it or target it much more difficult if there is anything other than the intent to simply kill them all.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.organised-chaos"
     },
     {
       "title": "Manifest Destiny",
       "description": "The people have a future and it is glorious. Of course there is the little issues like other species who think that they have a right to their own destinies, but a little killing never hurt anybody that mattered anyway.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.manifest-destiny"
     },
     {
       "title": "We Act as One",
       "description": "The people are not simply loyal. They are YOURS when a threat to the nation is felt on the outside, the people unite as rarely seen before to act with a singular will and purpose against that threat.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.we-act-as-one"
     },
     {
       "title": "Limited Cybernetic Enhancement",
       "description": "Your people do not consider cybernetics to be completely alien, Cybernetic prostheses and replacement limbs and organs, while not common, certainly not on a Cybernetic states scale, they are present in the society.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.limited-cybernetic-enhancement"
     },
     {
       "title": "Heroic Sacrifice",
       "description": "The leaders of your government and military are not afraid to take a bullet, as long as it can be done in such a way that can be considered as a heroic sacrifice, driving your people to a mad frenzy to avenge said sacrifice.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.heroic-sacrifice"
     },
     {
       "title": "Artistic",
       "description": "The people of the nation are highly artistic beings and great lovers of beauty, most of the citizenry of a nation may indulge in this and the most treasured artists may even have places of authority in government in recognition of their talents.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.artistic"
     },
     {
       "title": "Martial Pride",
       "description": "The nation takes a great pride in its military, while it is hardly a Heroic Age nation it is less prone to its weaknesses, but still, military parades would be fairly common events, when it comes to the military they have the moral support of the people.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.martial-pride"
     },
     {
       "title": "Accepting",
       "description": "This is a nation that doesn't brook excuses. It doesn't want great extemporisations about why an event happened. That it happened is all that is of consequence to them. They are a people who accept the universe as it is, they work to carve out their own existence with monotonous resolve. They accept the universe as it is, but are not adverse to trying to shape it to their will.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.accepting"
     },
     {
       "title": "Genetic Augments.",
-      "description": "(Costs 2 Points) Your nation practices genetic engineering on a civilisation-wide scale, from simply making crops, and people, resistant to certain diseases and viruses to enhancing eyesight or hearing, while the genetic engineering is rudimentary and early in its development, one for one, your people remain slightly above average than normal. This also slightly reduces the effect of flaws. Slightly. (Cannot take with Cybermen)",
-      "points": 2
+      "description": "(Costs 2 Points) Your nation practices genetic engineering on a civilisation-wide scale, from simply making crops, and people, resistant to certain diseases and viruses to enhancing eyesight or hearing, while the genetic engineering is rudimentary and early in its development, one for one, your people remain slightly above average than normal. This also slightly reduces the effect of flaws. Slightly.",
+      "points": 2,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        "commonTraits.cybermen"
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.genetic-augments"
     },
     {
       "title": "Cybermen",
-      "description": "(Costs 2 Points) Your nation practices extensive cybernetic enhancement, from simple neural laces to serve as internal computers to limb replacement and augmentation. Faster thought processes and greater strength are the rewards, on the downside a vulnerability to electromagnetic pulses or other electrical system targeting attacks is the downside, to say nothing of rust. (Cannot take with Genetic Augments)",
-      "points": 2
+      "description": "Your nation practices extensive cybernetic enhancement, from simple neural laces to serve as internal computers to limb replacement and augmentation. Faster thought processes and greater strength are the rewards, on the downside a vulnerability to electromagnetic pulses or other electrical system targeting attacks is the downside, to say nothing of rust.",
+      "points": 2,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        "Genetic Augments"
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.cybermen"
     },
     {
       "title": "Highly Religious.",
       "description": "Your people are so deep into their faith it marks every moment, and aspect, of their lives.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.highly-religious"
     },
     {
       "title": "Freethought Obsession.",
       "description": "An absolute faith... In the scientific method. Whilst not exclusionary towards religions, most (or at least the government) put their money on what is verifiable true, and not in the supernatural. While they may be a little more prone to indecision, this is offset by every decision being that little bit better thought out.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.freethought-obsession"
     },
     {
       "title": "Jackrabbits!",
       "description": "Your people breed far more often than other members of their race. Females may as well be baby-farms. Oh by the gods, at least go inside first!",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.jackrabbits"
     },
     {
       "title": "Medicine",
       "description": "Your people practice advanced medicines and surgical procedures compared to the rough norm across the galaxy. Recovery times are quicker and your people in general are in better health than is typical.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.medicine"
     },
     {
       "title": "Good Schools",
       "description": "Your people value education and require the youth be trained in more advanced skills they will need in life. This leaves your people better educated than the common rabble.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.good-schools"
     },
     {
       "title": "University of War",
       "description": "This is where your officers and generals, as well as possibly admirals, go to learn the craft of war from experienced men who have survived the worse rigours of war. Most instructors are scarred from their time on the battlefield.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.university-of-war"
     },
     {
       "title": "Agricultural Institute",
       "description": "This is a place of both learning and trading. Here farmer, fishers and hunters gather together with their best produce and discuss their trades and how they can be improved upon.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.agricultural-institute"
     },
     {
       "title": "Tradesmen Academy",
       "description": "Here your people go to learn advanced building techniques from their creators, or even to develop new methods. This academy is both valued by civilian tradesmen and the engineers of the military.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.tradesmen-academy"
     },
     {
       "title": "Theological University",
-      "description": "Here your clerics and priests go to learn the more in depth secrets of their gods and any benefits that might entail. (Requires: Highly Religious)",
-      "points": 1
+      "description": "Here your clerics and priests go to learn the more in depth secrets of their gods and any benefits that might entail.",
+      "points": 1,
+      "requires": [
+        "Highly Religious"
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.theological-university"
     },
     {
       "title": "Missionaries",
       "description": "Missionaries go out from your nation into others to preach to the masses, and they learn while they're at it passing much information across.Of course not everyone likes door-to-door preachers, and it's not unheard of for them to be horribly murderised by those who don't welcome such.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.missionaries"
     },
     {
       "title": "Hidden Staging",
       "description": "Your nation builds hidden staging areas, often far from his own holdings, from which he can launch his missions without detection.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.hidden-staging"
     }
   ],
   "Star Navy Traits": [
     {
       "title": "Capital Warship Obsession",
       "description": "Your nation has a fascination with large warships. Your ratio of large capital ships are significantly higher than any nations who does not possess this trait.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.capital-warship-obsession"
     },
     {
       "title": "Relativity is a Bitch",
-      "description": "Your nation prefers fast ships over heavily armed, and yet lumbering, warships. As such some of their weapons capacity is sacrificed for a significant increase in engine power. Hit and Fade strikes are your favourite. (Cannot take with Ironclad)",
-      "points": 1
+      "description": "Your nation prefers fast ships over heavily armed, and yet lumbering, warships. As such some of their weapons capacity is sacrificed for a significant increase in engine power. Hit and Fade strikes are your favourite.",
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        "commonTraits.ironclad"
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.relativity-is-a-bitch"
     },
     {
       "title": "Isaac Newton Hates You",
-      "description": "You think energy weapons are fine, missiles are all well and good, graviton weapons are ok. But none of them compare to the deadliest son of a bitch in space. Isaac motherfucking Newton. After all, your antimatter bomb may go up big. But so does two tons of tungsten going at .5 lightspeed. (Cannot take with Who Needs to Reload, Use the Force or Macross Missile Massacre)",
-      "points": 1
+      "description": "You think energy weapons are fine, missiles are all well and good, graviton weapons are ok. But none of them compare to the deadliest son of a bitch in space. Isaac motherfucking Newton. After all, your antimatter bomb may go up big. But so does two tons of tungsten going at .5 lightspeed.",
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        "Who Needs to Reload",
+        "commonTraits.use-the-force",
+        "commonTraits.macross-missile-massacre"
+      ],
+      "rejectMode": "OR",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.isaac-newton-hates-you"
     },
     {
       "title": "Who needs to reload?",
-      "description": "Projectile weapons, missiles they are nice enough I suppose. But what do they all have in common? That's right. Ammo requirements. Energy weapons, while often not as powerful pound for pound, just don't need bulky amounts of ammunition to enter combat with. All you need is your reactors and a decent sensor suite. (Cannot take with Isaac Newton Hates You, Use the Force or Macross Missile Massacre)",
-      "points": 1
+      "description": "Projectile weapons, missiles they are nice enough I suppose. But what do they all have in common? That's right. Ammo requirements. Energy weapons, while often not as powerful pound for pound, just don't need bulky amounts of ammunition to enter combat with. All you need is your reactors and a decent sensor suite.",
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        "commonTraits.isaac-newton-hates-you",
+        "commonTraits.use-the-force",
+        "commonTraits.macross-missile-massacre"
+      ],
+      "rejectMode": "OR",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.who-needs-to-reload"
     },
     {
       "title": "Macross Missile Massacre",
-      "description": "\"On the count of three fuck them up Mr Nyder.\" Guns are ok, energy weapons are fine. But who gives a shit how many guns they have if they can't survive to get close enough to use them. Of course, the frequent need to reload is a good opportunity to get in some shore leave! (Cannot take with Who Needs to Reload, Isaac Newton Hates You or Use the Force!)",
-      "points": 1
+      "description": "\"On the count of three fuck them up Mr Nyder.\" Guns are ok, energy weapons are fine. But who gives a shit how many guns they have if they can't survive to get close enough to use them. Of course, the frequent need to reload is a good opportunity to get in some shore leave!",
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        "Who Needs to Reload",
+        "commonTraits.isaac-newton-hates-you",
+        "Use the Force!"
+      ],
+      "rejectMode": "OR",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.macross-missile-massacre"
     },
     {
       "title": "Use the Force",
-      "description": "\"What? Expose our ships to enemy fire? Fuck that shit, launch all fighters, maybe they have an exhaust port we can fuck up or something.\" Your nation has a hardon for strike craft and would rather never leave home without them.(Cannot take with Macross Missile Massacre, Who Needs to Reload or Isaac Newton Hates You.)",
-      "points": 1
+      "description": "\"What? Expose our ships to enemy fire? Fuck that shit, launch all fighters, maybe they have an exhaust port we can fuck up or something.\" Your nation has a hardon for strike craft and would rather never leave home without them.",
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        "commonTraits.macross-missile-massacre",
+        "Who Needs to Reload",
+        "commonTraits.isaac-newton-hates-you"
+      ],
+      "rejectMode": "OR",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.use-the-force"
     },
     {
       "title": "Hangar Queens",
       "description": "Your fighters are incredibly advanced. They possess the best technologies you could possibly pack into a beast their size making them 4x as good as any other nations fighters (if they don't have this trait) with one problem. They spend at least twice as much time in their hangars being serviced due to their complexity.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.hangar-queens"
     },
     {
       "title": "Ironclad",
-      "description": "You favour armour over speed. You sacrifice a portion of your weapon space in favour of considerably thicker armour than is the norm. This is cumulative with any nation traits regarding armour. (Cannot take with Relativity is a Bitch)",
-      "points": 1
+      "description": "You favour armour over speed. You sacrifice a portion of your weapon space in favour of considerably thicker armour than is the norm. This is cumulative with any nation traits regarding armour.",
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        "commonTraits.relativity-is-a-bitch"
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.ironclad"
     },
     {
       "title": "A gift from the Stars",
       "description": "Nothing says \"we hate you and hope your cat dies\" more than an Orbital Bombardment. And you guys LOVE Orbital Bombardment. To the point you have rebuilt your medium weapon batteries to deliver firepower from orbit on top of Heavies!",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.a-gift-from-the-stars"
     },
     {
       "title": "When in doubt FIRE EVERYTHING!",
       "description": "You don't just rock up and fire off a few broadsides. Your ships have been built in such a way that when you arrive you can comfortably, and literally fire EVERYTHING at anyone who decides to be in front of you. This gives you unparalleled first strike capabilities.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.when-in-doubt-fire-everything"
     },
     {
       "title": "Fleet Unity Protocols",
       "description": "The fleet is a unified whole in combat with skilled and powerful fleet co-ordination. There are few things that can work as well together as a whole compared to your fleets.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.fleet-unity-protocols"
     },
     {
       "title": "RAMMING SPEED",
       "description": "There are few plans as expected as simply RAMMING the enemy when things look grim. It's not easy to score hits, but when you do, fuck it that will hurt.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.ramming-speed"
     },
     {
       "title": "Shield Baron",
       "description": "Your people LOVE shields. They can't get enough of shields. They wear shields if it's goddamned raining. Nevermind the fact their shields reduce the quality of their sensors.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.shield-baron"
     },
     {
       "title": "We See All",
       "description": "You can't bear not knowing what's out there. Your sensor packages are bigger, better and brighter than anyone else's. Unfortunately, your shields suffer for it because otherwise they interfere.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.we-see-all"
     }
   ],
   "Ground-War Traits": [
     {
-      "title": "Note",
-      "description": "You may only select a single \"Elite\" trait."
-    },
-    {
       "title": "Elite Infantry Formations",
       "description": "Your Infantry has little if any equals. At least from other infantry. They are extremely well trained, and while no special forces they can definitely hold their own.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.elite-infantry-formations"
     },
     {
       "title": "Elite Armoured Divisions",
       "description": "Your tank regiments and divisions are extremely well trained. Other tank regiments are horribly exposed against your tank-hunters.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.elite-armoured-divisions"
     },
     {
       "title": "Elite Artillery Regiments",
       "description": "Your Artillery are masters of the trade and can hit anything they have the inclination to do so, at least as well as their weapons will allow.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.elite-artillery-regiments"
     },
     {
       "title": "Elite Mobile Infantry",
       "description": "Your Mobile Infantry are an extremely skilled high mobility force. They can get where they're needed in record time and fight like hell itself.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.elite-mobile-infantry"
     },
     {
       "title": "Elite Special Forces",
       "description": "Your Spec-ops are disturbingly skilled. Few if any can match them on their terms. More importantly they can often be out of the engagement area before you can turn the fight to your own terms of engagement.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.elite-special-forces"
     },
     {
       "title": "Elite Air Forces",
       "description": "Your atmospheric pilots are skilled and are likely all aces. They'll do what you need them to and when.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.elite-air-forces"
     },
     {
-      "title": "Combined Arms is key",
-      "description": "Your forces are at their best when working with one another on every level. Provided you have some troops of all categories present at a battle your chances of success get a significant bonus. If the opponent has this as well they negate each other. (Cannot take with Guerilla Tactics or any Elite trait)",
-      "points": 1
+      "title": "Combined Arms is Key",
+      "description": "Your forces are at their best when working with one another on every level. Provided you have some troops of all categories present at a battle your chances of success get a significant bonus. If the opponent has this as well they negate each other. (Cannot take with any Elite trait)",
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        "commonTraits.guerilla-tactics",
+        "Elite"
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.combined-arms-is-key"
     },
     {
       "title": "Strategic Response",
       "description": "You HATE losing. To the point that if you think you are you're quite likely to call orbital fire support or maybe a nuclear missile or ten in order to 'level the playing field' (Not to mention the engagement area.)",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.strategic-response"
     },
     {
       "title": "Guerilla Tactics",
-      "description": "Your people don't fight as a combined arms force. It makes you too easy to locate, whether in a Jungle, an Urban Jungle or a tunnel network diverse far-spread lines of skill troops is your key to victory. When the enemy commits against what they thought was a stronghold,that is when you strike. (Cannot take with Combined Arms)",
-      "points": 1
+      "description": "Your people don't fight as a combined arms force. It makes you too easy to locate, whether in a Jungle, an Urban Jungle or a tunnel network diverse far-spread lines of skill troops is your key to victory. When the enemy commits against what they thought was a stronghold,that is when you strike.",
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        "Combined Arms"
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.guerilla-tactics"
     },
     {
       "title": "Occupationists",
       "description": "Your nation has a history of invading and successful occupations of its neighbours.Thus they are hard to draw out of somewhere they have chosen to emplace themselves.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.occupationists"
     },
     {
       "title": "Sweep-Scorch",
       "description": "The tactic is simple. When an enemy is suspected to be dug in deep, you blast it... deep. This is very poor for keeping an area though.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.sweep-scorch"
     },
     {
       "title": "Orbital Support",
       "description": "The ground forces are trained to work with orbital support when it is available calling in weaker strikes from the weaker guns of their orbiting allies. Of course if the enemy intercepts the transmission they can just support with a not so weak strike on the transmission source.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.orbital-support"
     },
     {
       "title": "Thunderstruck",
       "description": "Three words 'Orbital Concussion Weapons' These are usually your opening salvo in a ground war before your troops charge in. They have the nasty effect of scaring the fuck out of your targets while knocking them senseless and boosting the moral of your own troops in the process.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.thunderstruck"
     },
     {
       "title": "You Shook Me All Night Long",
       "description": "Your nation likes to make displays during war, a continuous bombardment all night long can shake the morale of many troops. Whether simply a non-stop rolling wall of artillery shells or orbital bombardments etc. Fear can be as much a weapon as any projectile or blade.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.you-shook-me-all-night-long"
     },
     {
       "title": "Hammer to Fall",
       "description": "Displays are all well and good but sometimes you just need to bring things to a close quickly, this in itself can be a hell of a display as your forces ruthlessly use every bit of heavy weaponry they have to crush their opponent to dust.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.hammer-to-fall"
     },
     {
       "title": "Shoot to thrill",
       "description": "Your soldiers will not always go for a clean kill, seriously wounding an enemy enough that they live but can no longer fight sends a far stronger message than straight out killing them, besides killing them in one deliberate hit just takes all the fun out of a fight.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.shoot-to-thrill"
     },
     {
       "title": "More Dakka",
       "description": "Accuracy isn't your peoples best quality, or even a quality you recognise, but fortunately you make up for it by firing so much more than average.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.more-dakka"
     },
     {
       "title": "Space Marines!",
-      "description": "(Costs 2 Points)(Requires Cybermen and Genetic Augments.) This trait overrides the restriction on taking Cybermen and Genetic Augments together, but only applies them to your special forces. Your special forces cost 10 times normal. And hit even harder.",
-      "points": 2
+      "description": "This trait overrides the restriction on taking Cybermen and Genetic Augments together, but only applies them to your special forces. Your special forces cost 10 times normal. And hit even harder.",
+      "points": 2,
+      "requires": [
+        "commonTraits.cybermen",
+        "Genetic Augments"
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.space-marines"
     },
     {
       "title": "Grav Vehicles",
       "description": "(Costs 2 Points) You have developed a gravity suspension technology that allows you to levitate your vehicles providing high top speeds and unusual agility for ground vehicles. Though if brought down they take a lot more work to repair.",
-      "points": 2
+      "points": 2,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.grav-vehicles"
     },
     {
       "title": "Behind the Lines",
       "description": "Not all warfare is a clear-cut development. The Spymasters often get saboteurs behind enemy lines to strike at supply lines or other vulnerable locations. In some extremes they can even strike at enemy power generators. Bye-bye shields.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.behind-the-lines"
     }
   ],
   "Technical Traits": [
     {
       "title": "On The Run!",
       "description": "Most people don't strap engines to factories and cram them into carriers. Most people.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.on-the-run"
     },
     {
       "title": "Flash",
       "description": "Your stuff just has that extra polish that makes it look cooler than everyone else's inferior-looking, blockily-functional equipment.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.flash"
     },
     {
       "title": "Ghost in the Machine",
       "description": "People are a hindrance, so you use machinery as much as possible.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.ghost-in-the-machine"
     },
     {
       "title": "Nazi Superscience",
       "description": "A role for every machine and a machine for every role.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.nazi-superscience"
     },
     {
       "title": "Better Than Your {Keyword}",
       "description": "(Costs 2 Points) Don't apply this too broadly or I'll smack you, otherwise it's exactly what it implies. (Subject to approval)",
-      "points": 1
+      "points": 2,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.better-than-your-keyword"
     },
     {
       "title": "Hangerize!",
       "description": "Fighters are cool (or just an overly important part of your doctrines) so you stick them in everything you can. This provides strike/superiority ability in addition to the usual utility-craft hangars.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.hangerize"
     },
     {
       "title": "Accelerated Repairs",
       "description": "Whether by massive modularity or simple natural awareness things are repaired far faster than might be expected of the technicians and engineers.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.accelerated-repairs"
     },
     {
       "title": "Redundancy",
       "description": "Your nation has been working on making everything with multiple redundancy. When it is broken it is possible that it isn't \"really\" broken and can be brought online by other means.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.redundancy"
     },
     {
       "title": "Synchronicity",
       "description": "Coordination is key, and very few understand it better than you. When push comes to shove you can really get the shoving working for you. And all timed perfectly too.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.synchronicity"
     },
     {
       "title": "Mechs Ahoy!",
       "description": "Your nation likes Mechs. They have supplanted tanks and many starfighters are Mechs as well.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.mechs-ahoy"
     },
     {
       "title": "Slaved Ships",
       "description": "The nation can get ships smaller than Cruisers to be slaved to a master-ship that will enable those craft to run without crew whatsoever. However they obviously cannot be rearmed or repaired without returning to fleet bases.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.slaved-ships"
     },
     {
       "title": "Stellar Fuel",
       "description": "These ships have a limited ability to regain some power in emergencies sufficient to run their engines and FTL drives as well as all life support systems for a limited time.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.stellar-fuel"
     },
     {
       "title": "Industrial Autoprinting",
-      "description": "Your nation employs massive additive printers to manufacture ships, parts, and equipment wholesale by simply printing them out by template, it also enables ships in transit to print spare parts on demand instead of hoping that they're carrying the replacement parts they will require. Production costs are less than normal, however undetected imperfections reduces the quality of such craft. Though most ships can conduct limited self-repairs. (Cannot take with Master Shipwrights)",
-      "points": 1
+      "description": "Your nation employs massive additive printers to manufacture ships, parts, and equipment wholesale by simply printing them out by template, it also enables ships in transit to print spare parts on demand instead of hoping that they're carrying the replacement parts they will require. Production costs are less than normal, however undetected imperfections reduces the quality of such craft. Though most ships can conduct limited self-repairs.",
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        "commonTraits.master-shipwrights"
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.industrial-autoprinting"
     },
     {
       "title": "Master Shipwrights",
-      "description": "Your nation considers shipbuilding an art, a well build starship is expected to last centuries or more. Each piece is manufactured to the strictest standards. Testing to prevent any flaw in manufacture or design. As such ships built by the Master Shipwrights are more expensive and take longer to build than normal, however they have higher quality hulls and any due to the high standards shrug off damage that might otherwise cripple a system.(Cannot take with Industrial Autoprinting) NOTE: Ships built by Master Shipwrights also have a tendency towards rather bombastic names with 'significant gravitas'.",
-      "points": 1
+      "description": "Your nation considers shipbuilding an art, a well build starship is expected to last centuries or more. Each piece is manufactured to the strictest standards. Testing to prevent any flaw in manufacture or design. As such ships built by the Master Shipwrights are more expensive and take longer to build than normal, however they have higher quality hulls and any due to the high standards shrug off damage that might otherwise cripple a system. NOTE: Ships built by Master Shipwrights also have a tendency towards rather bombastic names with 'significant gravitas'.",
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        "commonTraits.industrial-autoprinting"
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.master-shipwrights"
     },
     {
       "title": "Accidental Awesome",
       "description": "(Costs 2 Points)  Sometimes your engineers manage to design a system in just THAT way where it works well and above what is normally expected of any of the systems individually, this means there is a random chance certain types of ships will perform above average on a normal basis, but conversely, sometimes there is more accidental than awesome.",
-      "points": 1
+      "points": 2,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.accidental-awesome"
     },
     {
       "title": "Fort Shields",
-      "description": "(Cannot take with Ironclad) You have developed an advanced shield generator, one that consumes an ungodly amount of power, and requires an even less holy number of heat sinks, the vessel is basically a chassis, reactors, engines and the shield generator. These vessels only come in the Capital or Supercapital types. This ship's role is to project a shield around an entire fleet group. But it is entirely defenceless other than that shield, so make sure to protect it.",
-      "points": 1
+      "description": "You have developed an advanced shield generator, one that consumes an ungodly amount of power, and requires an even less holy number of heat sinks, the vessel is basically a chassis, reactors, engines and the shield generator. These vessels only come in the Capital or Supercapital types. This ship's role is to project a shield around an entire fleet group. But it is entirely defenceless other than that shield, so make sure to protect it.",
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        "commonTraits.ironclad"
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.fort-shields"
     },
     {
       "title": "Total Missile Eruption",
-      "description": "(Requires Macross Missile Massacre, Blow Your Load) You have a rather unique strategy for overwhelming enemy point defence. Your ships are designed to dump virtually their entire magazines into space in a matter of minutes compared to the standard operation. This allows you enormous alpha strike capacity. But if it doesn't work, pucker up because you're in for a bad day (or a very short one).",
-      "points": 1
+      "description": "You have a rather unique strategy for overwhelming enemy point defence. Your ships are designed to dump virtually their entire magazines into space in a matter of minutes compared to the standard operation. This allows you enormous alpha strike capacity. But if it doesn't work, pucker up because you're in for a bad day (or a very short one).",
+      "points": 1,
+      "requires": [
+        "commonTraits.macross-missile-massacre",
+        "commonFlaws.blow-your-load"
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.total-missile-eruption"
     },
     {
       "title": "Wet Willy",
       "description": "Your homeworld has a decent set of oceans, and so it makes sense your people like the water, this has resulted in developing a set of extensive modifications applied to parasite ships that allows them to drop into an ocean or sea and perform as an oceangoing vessel.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.wet-willy"
     },
     {
       "title": "Holographic Disguises",
       "description": "You have the technology to conduct rudimentary holographic disguises. These disguises are quite advanced but are far from infallible. The disguises will not hold up to contact for example.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.holographic-disguises"
     },
     {
       "title": "Skinmasks",
       "description": "Skinmasks are generally a rubber or false skin mask designed to disguise someone that will stand up to touch contact, they're also of benefit due to their disposability. But even it has a point of failure. However unlike a holographic disguise a skinmask cannot radically alter one's form.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.skinmasks"
     },
     {
-      "title": "Suicide Devices",
-      "description": "Suicide devices are simple things, easily hidden, easily triggered, fast and hopefully powerful.",
-      "points": 1
+      "title": "End of Life Devices",
+      "description": "End of Life devices are simple things, easily hidden, easily triggered, fast and hopefully powerful.",
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.end-of-life-devices"
     },
     {
       "title": "Erasers",
-      "description": "Requires Suicide Devices. For when the simple death of the agent is not enough to protect your secrets an Eraser device destroys the agent completely, his or her knowledge, body and equipment and anyone within five metres of them.",
-      "points": 1
+      "description": "For when the simple death of the agent is not enough to protect your secrets an Eraser device destroys the agent completely, his or her knowledge, body and equipment and anyone within five metres of them.",
+      "points": 1,
+      "requires": [
+        "commonTraits.end-of-life-devices"
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.erasers"
     },
     {
       "title": "Enigma Machine",
       "description": "Knowing well that it is possible for other forces to intercept your transmissions you have a highly classified encryption system in place to protect your own networks.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.enigma-machine"
     },
     {
       "title": "Counter-Terrorism",
       "description": "You have a unit trained in dealing with terrorist methods and intelligence work. And so their training allows them to deal with the situations more ably than most. (Must take the Dangerous Cults Flaw)",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.counter-terrorism"
     },
     {
       "title": "Counter Intelligence Unit",
       "description": "A dedicated unit trained in counter-intelligence techniques. This gives them a general bonus vs intelligence gathering techniques against the enemy.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.counter-intelligence-unit"
     },
     {
       "title": "Advanced Infiltration Unit",
       "description": "This unit is trained to get spies and small tactical units where they're needed most in the best time possible.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.advanced-infiltration-unit"
     },
     {
       "title": "A Weston Moment",
       "description": "Sometimes your spies don't get the benefit of fancy gadgets, toys, intelligence aid, or pretty much any aid, in those times only their skill,training and resourcefulness can bring about a solution.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.a-weston-moment"
     },
     {
       "title": "Secret Police",
       "description": "Whatever they're called, all nations have a secret police, yours however is far enlarged compared to others. This gives you a larger pool of resources with which to react to situations as they happen/develop.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.secret-police"
     },
     {
       "title": "Bond, james bond",
       "description": "While you run an effective intelligence network, one or two of your operatives stand head and shoulders above the rest. While they are very good both with and without support they do have something of a reputation that your opponents may sometimes be prepared for them or even try to target them directly.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.bond-james-bond"
     },
     {
       "title": "Mata Hari",
       "description": "your agents are just that good at seducing targets for information... and blackmail purposes... After all, would this alien senator really want it public knowledge that certain activities became known to his spouse(s)? Just remember, cross-species seduction attempts may backfire... badly.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.mata-hari"
     },
     {
       "title": "Obsidian Order",
       "description": "The nation loses some of its military and navy to a secret intelligence order who has autonomous powers to protect the nation. This leads to a greater safety net, but more people are concerned about abuse of said powers.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.obsidian-order"
     },
     {
       "title": "Criminal Connections",
       "description": "The intelligence community has access and ability to get access to criminal networks to try and turn unstable elements in a target nation to try and get information that would not normally be accessible.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.criminal-connections"
     },
     {
       "title": "Government Co-Ordination",
       "description": "Your Intelligence divisions have a centralised branch that co-ordinates and centralises your activities, information and sources. This leads to a generally more effective intelligence agency ... except... while more capable, if infiltrated its much easier for an enemy to learn all you know.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.government-co-ordination"
     },
     {
       "title": "Authority of one",
       "description": "Your intelligence agency is practically religiously secretive, agents protecting secrets like precious jewels. The agents are capable of extremely effective individual investigation, and if they are infiltrated it is of much less use to an enemy, but overall the effectiveness is reduced somewhat due to the highly secretive nature of the agents.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.authority-of-one"
     },
     {
       "title": "Terrorism",
       "description": "Your nation sometimes needs to do things without being quite so... direct... in those cases it employs the dangerous crazies to conduct nothing short of terrorist actions against the enemy, suicide bombers, suitcases nukes, a fearful populace is one in paralysis. Of course, if you're ever directly implicated Operation Alien Freedom is probably going to come and free the living shit out of you from orbit. (Must take the Dangerous Cults Flaw)",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.terrorism"
     },
     {
       "title": "Disguise",
-      "description": "(Requires Skinmasks or Holographic Disguises) This covers a wide range of options, mostly the fact that such agents are injected with shapeshifting technologies allowing them to feign and pretend they're part of the target race. But such things include incredible levels of linguistics skill and cultural doctrine training as well as very real IDs. (Stolen from others who were killed to 'make room' for the Spies insertion)",
-      "points": 1
+      "description": "This covers a wide range of options, mostly the fact that such agents are injected with shapeshifting technologies allowing them to feign and pretend they're part of the target race. But such things include incredible levels of linguistics skill and cultural doctrine training as well as very real IDs. (Stolen from others who were killed to 'make room' for the Spies insertion)",
+      "points": 1,
+      "requires": [
+        "commonTraits.skinmasks",
+        "commonTraits.holographic-disguises"
+      ],
+      "requireMode": "OR",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.disguise"
     },
     {
       "title": "Dirty Secrets",
       "description": "You have blackmail material on some individuals of significance, influential individuals. You can, infrequently, call off or misdirect another player's attempts against you, or someone else even. This cannot work on any significant fleet action however. Common sense required.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.dirty-secrets"
     },
     {
       "title": "Flying Casino Royale!",
       "description": "Sometimes a good theft doesn't require planning, commitment and firepower, sometimes a good theft requires alcohol, rigged games and a target audience with the collective intellect of a grapefruit three days past ripe.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.flying-casino-royale"
     }
   ],
   "Psionic Traits": [
     {
       "title": "Empathic Mind",
       "description": "Your psychics can sense the moods of others and even feel them in turn unwillingly.This can give you an edge in negotiations as your psychics can sense the moods of the other party.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.empathic-mind"
     },
     {
       "title": "Tele-Empath",
       "description": "Your psychics can project emotions and feelings into the minds of others this can be a powerful weapon if used correctly.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.tele-empath"
     },
     {
       "title": "Projective Mind",
       "description": "One-way telepathy. When discovered, it is often used to create telepathic commanders who command their troops with the un-interceptable power of psychic control. It's a pity that any stronger Psychics can just take that control away from you.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.projective-mind"
     },
     {
       "title": "Predictive Omniscience",
       "description": "It's not as powerful as it sounds. These individuals do not actually see into the future but can interpret a set of most likely events based upon what their occipital cortex is receiving psychically. This effectively allows them to avoid bullets. Provided the person's aim was good and weapon accurate. And Shotguns are a Predictive Omniscient's bane.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.predictive-omniscience"
     },
     {
       "title": "Mind Tracker",
       "description": "Where many people hunt the trail left behind by someone the mind-tracker follows the mental imprints on the environment left behind by a sentient's interaction with it. However doing so IS time consuming.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.mind-tracker"
     },
     {
       "title": "Telecommunications",
       "description": "No, not phones. Networked telepaths communicating over incredible distances. They can provide nearly real-time instantaneous communication across an entire nation.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.telecommunications"
     },
     {
       "title": "Mental Shock",
       "description": "The psychic is trained for combat, but not well, at best all they can do is stun an enemy.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.mental-shock"
     },
     {
       "title": "Rapture",
       "description": "These psychics can send an individual into a psychically induced comatose state during which their mind will be quite thoroughly occupied. However it only lasts as long as the psychic is concentrating. This is a useful tool for capturing individuals.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.rapture"
     },
     {
       "title": "Chains of the Mind",
       "description": "The psychic entangles a person in mental bindings of their own creations, fears made manifest. However people of strong will can easily fight past the effects and kill the poor bastard responsible.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.chains-of-the-mind"
     },
     {
       "title": "Telekinesis",
       "description": "A technique for levitating and moving physical objects mentally. Though this is not the strongest it can allow a single skilled Telekine to control a ship on his own if forced to. (By manipulating the bridge controls telekinetically.)",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.telekinesis"
     },
     {
       "title": "Masking Minds",
       "description": "The psychic has a limited ability to conceal himself from the inattentive as something not worth noticing. It doesn't work if the Psychic does anything overt however.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.masking-minds"
     },
     {
       "title": "Subtle Touch",
       "description": "The Psychics are more subtle with their powers than other psychics might be leaving them to be more likely to go unnoticed by people when using their gifts.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.subtle-touch"
     },
     {
       "title": "Stubborn as a Mule",
       "description": "Your people are exceptionally resistant to psychic meddling, even those who are not themselves properly psychic.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.stubborn-as-a-mule"
     }
   ],
   "Economic Traits": [
     {
       "title": "Trade Cartels",
       "description": "Trade within your nation is controlled by the Cartels. There is little to no independent trade, though there is probably a thriving black market.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.trade-cartels"
     },
     {
       "title": "Abundant Trade Goods",
       "description": "You gain an extra 5 points of trade goods for every Industrial World, Industrial Capital Fleet, Industrial Outpost or Industrial Habitat.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.abundant-trade-goods"
     },
     {
       "title": "Abundant Trade Ships",
       "description": "You believe in keeping a safe number of trade ships available at all times.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.abundant-trade-ships"
     },
     {
       "title": "Currency Exchange",
       "description": "You have decided to ensure the compatibility of your markets with alien markets you forged a Currency exchange for the easy conducting of business.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.currency-exchange"
     },
     {
       "title": "Interstellar Stock Market",
       "description": "Every Solar System of your Empire has its own microcosm of a Stock Market, controlling one",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.interstellar-stock-market"
     },
     {
       "title": "Point Defender Gun",
       "description": "All your transports are fitted with a light gun with which to defend themselves against pirate attacks. It's not perfect and won't help against any considerable pirate efforts. But it's better than nothing.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.point-defender-gun"
     },
     {
       "title": "The \"Pirate\" Lanes",
       "description": "Your traders have big balls. They realise that they can get small and profitable cargoes through the Pirate Lanes very quickly and generally 'tax free' if the Pirates don't get them.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.the-pirate-lanes"
     },
     {
       "title": "Sprint Traders",
-      "description": "(Cannot be taken with Bulk Traders) These traders sacrifice some of their cargo capacity for greater engines to get them faster.",
-      "points": 1
+      "description": "These traders sacrifice some of their cargo capacity for greater engines to get them faster.",
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        "commonTraits.bulk-traders"
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.sprint-traders"
     },
     {
       "title": "Bulk Traders",
-      "description": "(Cannot be taken with Sprint Traders) These traders sacrifice their engines for larger cargo bays. There is little they cannot carry. Of course they couldn't outrun an Insectoid with six broken legs, but that's hardly the point.",
-      "points": 1
+      "description": "These traders sacrifice their engines for larger cargo bays. There is little they cannot carry. Of course they couldn't outrun an Insectoid with six broken legs, but that's hardly the point.",
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        "commonTraits.sprint-traders"
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.bulk-traders"
     },
     {
       "title": "Lax Restrictions",
       "description": "How does one solve a problem with illicit goods? They simply decide to change what is classified as \"illicit\".",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.lax-restrictions"
     },
     {
       "title": "Bargaining Chip",
       "description": "The traders are good at getting the best deals possible. Of course they can annoy those who have fixed market prices with their persistent haggling.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.bargaining-chip"
     },
     {
       "title": "Borrowed Money",
       "description": "You need a little money to make money, but that doesn't mean that money needs to be yours to start with! Just... be careful, loan sharks aren't nice people.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.borrowed-money"
     },
     {
       "title": "That's Some Fine Shit Son",
       "description": "Your nation produces some great quality fertiliser, so good people claim there's even gold flakes in it. Your food producing worlds produce greatly improved yields. Especially any grain product that helps… yield… more of the great brown gold.",
-      "points": 1
+      "points": 1,
+      "requires": [
+        ""
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY",
+      "slug": "commonTraits.that-s-some-fine-shit-son"
     }
   ]
 }

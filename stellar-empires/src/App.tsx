@@ -4,22 +4,29 @@ import NationBrowser from "./components/NationBrowser";
 import CommonTab from "./components/CommonTab";
 // import nations from "./data/nations.json";
 import { fetchAllNationData } from "./helpers/nationLoader";
-import commonTraits from "./data/commonTraits.json";
-import commonFlaws from "./data/commonFlaws.json";
+import commonTraitsRaw from "./data/commonTraits.json";
+import commonFlawsRaw from "./data/commonFlaws.json";
 import { TraitOrFlawList, NationData, TraitOrFlaw } from "./types";
 import ColorModeToggle from "./components/ColorModeToggle";
 import TraitSearch from "./components/TraitSearch";
 
 import se6bg from './assets/se6bg.png';
+import NationDesigner from "./components/NationDesigner";
+import { toTraitArray } from "./helpers/flatten";
 
-type TabType = "nations" | "commonTraits" | "commonFlaws" | "traitSearch";
+type TabType = "nations" | "commonTraits" | "commonFlaws" | "traitSearch" | "nationDesign";
 
 const TAB_LIST: { label: string; value: TabType }[] = [
   { label: "Nations", value: "nations" },
   { label: "Common Traits", value: "commonTraits" },
   { label: "Common Flaws", value: "commonFlaws" },
-  { label: "Trait/Flaw Search", value: "traitSearch" }
+  { label: "Trait/Flaw Search", value: "traitSearch" },
+  { label: "Nation Designer", value: "nationDesign" }
 ];
+
+const commonTraits: TraitOrFlawList = commonTraitsRaw as TraitOrFlawList;
+
+const commonFlaws: TraitOrFlawList = commonFlawsRaw as TraitOrFlawList;
 
 const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState<TabType>("nations");
@@ -268,6 +275,20 @@ const App: React.FC = () => {
                 }}
               />
             )}
+            {activeTab === "nationDesign" && (
+              loading || !nations ? (
+                <Box py={10} textAlign="center">Loading nations...</Box>
+              ) : (
+                <NationDesigner
+                  nations={nations}
+                  commonTraits={toTraitArray(commonTraits)}
+                  commonFlaws={toTraitArray(commonFlaws)}
+                  traitBoxColor={traitBg}
+                  flawBoxColor={flawBg}
+                />
+              )
+          )}
+
           </Box>
         </Flex>
       </Box>

@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Mad Scientists Disease",
+    "description": "Being a nation formed on the very principles of scientific development and expansion it only makes sense that scientists largely have the final say in things. Which is a pity because they are LOUSY at OH&S procedures. Not to mention keeping them concentrated on the Quantum Harmonizer they've been working on for six months instead of them slipping over to \"spend some time\" on the Eidetic Assault Ray that they dreamed about and simply MUST build. Get used to your scientists re-assigning themselves to their newest pet projects if you don't hover over them with a stun prod.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.AncientTechnologists.flaws.mad-scientists-disease"
+  },
+  {
+    "title": "Interstellar Detritus",
+    "description": "Congratulation, you have been an advanced ancient nation, sure you're in decline a bit, sure you aren't as widespread as you were before, but at least you're good about sanitising your belongings instead of leaving dangerous, unstable inventions that might do pretty much anything just lying about ready to cause an international incident… oh, you did. Well shit.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.AncientTechnologists.flaws.interstellar-detritus"
+  },
+  {
+    "title": "Grey G…oops",
+    "description": "You really like your nanotechnology, or used to until you started having outbreaks of grey goo scenarios, it's kind of a hell of a mess, and you're constantly having to deal with outbreaks on your worlds, and sometimes ships… and people.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.AncientTechnologists.flaws.grey-g-oops"
+  },
+  {
+    "title": "Quantum Instability Grid",
+    "description": "Before your nation got where it is today, you were actually even more advanced and were actually tapping into the very quantum grid of the universe (or that's what the ignorant call it), and spacetime around your nation is… unpleasantly flexible. Sometimes people find themselves copied, sometimes capital ships just poof out of the universe as if they never existed, it would be more amusing if you had any control over it. You don't.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.AncientTechnologists.flaws.quantum-instability-grid"
+  },
+  {
+    "title": "Solar Sharts",
+    "description": "You experimented with creating closed-loop wormholes in stars as a power source. The stars your people inhabit have never quite forgiven you for this, after the devices all eventually failed, you're left with uncontrolled free-standing portals that randomly burp coronal mass ejections at you occasionally. Unfortunately, the scientists responsible for the research kind of destroyed it to prevent it being weaponised.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.AncientTechnologists.flaws.solar-sharts"
+  }
+]

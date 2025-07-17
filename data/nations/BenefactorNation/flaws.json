@@ -1,0 +1,121 @@
+[
+  {
+    "title": "Uplifted Assholes",
+    "description": "Not all uplifts are a good idea, unfortunately that's a lesson you're having to learn the hard way. You have one or more uplifted species who have proven to be a bad match for the uplift, their cultures being severely misaligned with your own with potentially hostile results, whether by virtue of being rebellious, or being easily subverted by cultures more palatable to them.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
+  },
+  {
+    "title": "Reticent Clients",
+    "description": "You have called yourself a benevolent patron, uplifting those kind and good people with great promise, in exchange all you've asked for is their gratitude and a little… compensation. Unfortunately, you have not been as benevolent as you tell yourself and your clients are reluctant and find you overbearing, demanding and even a threat. Your clients will be reluctant and less helpful than you could hope. When the time comes to call the levies to aid their patron, you may find less help than you hope.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
+  },
+  {
+    "title": "Waste of Time",
+    "description": "Some people accidentally uplift assholes, some people push their clients too far, you fucked up by uplifting about the worst possible candidate you could think of. You took a relatively unintelligent and disinterested species and uplifted them to have a hopefully more peaceful and calm client. What you got was a client whose only traits you managed to somehow elevate was the depths of their stupidity and disinterest. To call them lazy would be an understatement. You have to encourage them to even breed, without that they'd probably go extinct. Unfortunately, preventing such a client from apathy-ing itself to death is resource intensive.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
+  },
+  {
+    "title": "Extinction Trauma",
+    "description": "Your people had uplifted a species to be near-peers and equals, they were great and you believed they even had the potential to surpass you. But through misfortune, malevolence or other circumstance they were wiped out and nothing your people did was able to prevent it leading to a near nationwide PTSD over the event that has led you to be more cautious and hesitant in becoming the patrons of another species.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
+  },
+  {
+    "title": "The Trauma of Being Left Behind",
+    "description": "You succeeded! You created an equal! You.. created a successor. A far more successful successor who was not interested in elevating their allies with them, in fact they lost interest in the rest of the coalition entirely and surpassed you before simply departing this spacetime. This has lead you to being a marginally less than entirely benevolent overlord, intentionally or unintentionally acting to sabotage your clients to prevent them reaching, let alone surpassing, your own level of development.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
+  },
+  {
+    "title": "Self-Loathing Patrons",
+    "description": "Your reasons for uplifting another people were not happy ones. For whatever reason, your main species absolutely hates themselves, inflicting far more misery upon themselves than they in any way deserve. It's to the degree that your client peoples often find themselves roped into providing emergency mental health support for their benefactors.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
+  },
+  {
+    "title": "Crazy Groupies!",
+    "description": "Your clients are not something you have any direct influence over, only ever doing their best to mimic and make themselves more like you, but annoying. Unfortunately, they very much have an idealised vision of your nation, and departing too far from that can turn your erstwhile clients into enemies that try and ‘correct' your path.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
+  }
+]

@@ -2,76 +2,256 @@
   {
     "title": "By the light of God/s",
     "description": ":Key: Guided by the Gods your power, your weapons and even souls are powered by the divine light that your nation worships. This means they're immune to conversion and deception. While they can still be infiltrated they cannot be turned against their own.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "His(Her) will be done",
     "description": "Your nation obeys the will of its god with unyielding fervour. The edicts are obeyed instantly and to the letter. The commands are followed without hesitation. There are no dissenters to God's will.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Nobody Expects the (input name) Inquisition!",
     "description": "\"The shadows are the hiding place of the Heretics, Iconoclasts and Defiling Masses, and so from them we shall operate watching the lesser elements for the slightest errors. And when we find it we prosecute it, in the light where it can bathe in God's light.\" While other nations might have problems with rebellious elements, terrorists or hippies, the inquisitorial department of a Theocracy does their best to root out heretical enclaves like that and exterminate its members before their heretical misdeeds can be executed. And to do this the Inquisition remains buried in the shadows. Hidden and watching with cold hearts for the slightest sign of faithlessness.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Thumbscrews and Hot Pokers",
     "description": "\"Truth is what we desire. And truth is what we will find. If we must extract it through the application of pain and suffering, so be it.\" The Inquisition uses torture extensively to get the information it believes exists regardless. And it is well practiced at doing so. While it may no longer use the Thumbscrews and Hot Pokers. Its methods are effective regardless.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Truth into God's Light",
     "description": "\"And thus the heretic was thrust into God's light. His agonising brilliance passing through the pores of the unfaithful as he searched their mind for the truths or placed them there himself.\" Torture using the most agonising method possible. The victim is placed into a chamber and energy from the Gods Path drives is unleashed through them. If the victim survives they are seen as pure and innocent, if not they are guilty and into gods hands was the heretics punishment delivered. But God is really really strict apparently. There have been no survivors.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Ever Watching the Darkness",
     "description": "\"The threats within are naught compared to the threats without. Together we watch and act against those who would threaten the will of God.\" The Inquisition watches for those others in the darkness and other nations for any threat to their power and sovereignty. They capture people for interrogation and torture, do whatever they perceive as ‘necessary'",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Holy War",
     "description": "\"Unto the heretics did we descend with the will of God bolstering our strength. And so didst they fall with the twisted ruins of their faithless hearts.\" When a nation of heretics and blasphemers have gone too far with insulting your faith it might be time to just eradicate the whole lot of them and that calls for a holy war. While your enemy might scoff and laugh at your antics they will soon learn to stop laughing and start screaming in terror as wave after wave of fanatical warriors decent upon them with the intent of destroying all in their path and will not rest until the high clergy and the god(s) of the Theocracy are satisfied that the religious injustice is paid in full.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Convert or Die!",
     "description": "\"And unto the Altar was the man placed. A choice given him, pray unto God, or his heart would be sacrificed to cleanse his sin of disbelief so he might enter the afterlife clean.\" The Theocracy has a simple policy of convert to the religion. Or perish upon its altars. This can force a planet's population to bow before the new God more quickly than a slow ‘natural' conversion.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "FOR THE FAITH!!!",
     "description": "\"And so the meek rose to resist the invaders who sought to remove their gaze from the face of god. And numerous were they.\" The citizenry of the Theocracy will rise to repel invasions believing their very faith and religion itself to be under threat from the invader. While they will be so poorly armed as to be meaningless to a soldier normally. So in their numbers would they make up this shortfall.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Will of God",
     "description": "The Theocracy troops are fanatically loyal. Especially in battle with the prospect of meeting their god should they fall in battle. They will never waver. Never fall back. Never ever defy an order to hold. Unfortunately the do tend to be difficult to order AWAY from a battle.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Purge the Unclean",
     "description": "The Theocracy likes to cleanse the enemy with light. And when that is unavailable they use fire. Lots of fire. Fire until the fire is on fire. BURN BABY BURN! (All Theocracy infantry units are in possession of at least one flamethrower.)",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Fanatical Devotion",
     "description": "The Theocracy has its troops with fanatical dedication to their cause. From time to time it will take a starship, fighter, tank or other piece of equipment and fit it with a bomb. Typically a fusion bomb. So when the high priest said \"let there be light\" little Jimmy said. \"Yes sir.\"",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Shield of Faith",
     "description": "Devotion to their God or Gods is so paramount that they will defend their ships with their very lives. It is not unusual to see smaller Theocracy vessels, fighters, even cruisers flying into the path of enemy fire that would otherwise have crippled or killed more valuable ships in the theocratic fleet.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "WOLOLO!",
     "description": ":Key: Roses are red, WOLOLO, Roses are Blue. Your missionaries are convincing, potent and dedicated to say the very least. Whether there is something else behind it you will never know.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Space Pope",
     "description": "You have a spiritual leader who serves as the leader for the entire nations faith, elected by the clergy into power this individual is largely a figurehead intended to draw the attention away from the much quieter, and messier, politics in the background, but they are the direct speaker of the gods! So that's nice.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   }
 ]
