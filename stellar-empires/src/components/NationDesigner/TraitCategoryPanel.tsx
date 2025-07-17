@@ -17,7 +17,7 @@ interface TraitCategoryPanelProps {
 
 const SCROLL_CONTAINER_HEIGHT = "60vh";
 
-const TraitCategoryPanel: React.FC<TraitCategoryPanelProps> = ({
+const TraitCategoryPanel: React.FC<TraitCategoryPanelProps> = React.memo(({
   title, traits, selected, onToggle, isTrait, color, max
 }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +26,8 @@ const TraitCategoryPanel: React.FC<TraitCategoryPanelProps> = ({
   const descColor = useColorModeValue("gray.800", "gray.100");
 
   return (
-    <Box className="traitCategoryPanel"
+    <Box
+      className="traitCategoryPanel"
       maxH={SCROLL_CONTAINER_HEIGHT}
       overflowY="auto"
       borderRadius="lg"
@@ -57,10 +58,15 @@ const TraitCategoryPanel: React.FC<TraitCategoryPanelProps> = ({
         stickyOffset={0}
       >
         <Collapse in={isOpen} animateOpacity>
-          <List spacing={3} mt={2}>
-            {traits.map((trait, i) => (
-              <ListItem key={trait.title + "trait" + i} onClick={() => onToggle(trait)} style={{ cursor: "pointer" }}>
-                <TraitBox
+          {isOpen && (
+            <List spacing={3} mt={2}>
+              {traits.map((trait, i) => (
+                <ListItem
+                  key={trait.title + "trait" + i}
+                  onClick={() => onToggle(trait)}
+                  style={{ cursor: "pointer" }}
+                >
+                  <TraitBox
                     key={"traitBox" + trait.title + title + i}
                     title={trait.title}
                     description={trait.description}
@@ -71,14 +77,15 @@ const TraitCategoryPanel: React.FC<TraitCategoryPanelProps> = ({
                     boxBg={selected.includes(trait.title) ? color : undefined}
                     boxBorder={selected.includes(trait.title) ? "blue.400" : "gray.300"}
                     descColor={descColor}
-                />
-              </ListItem>
-            ))}
-          </List>
+                  />
+                </ListItem>
+              ))}
+            </List>
+          )}
         </Collapse>
       </Section>
     </Box>
   );
-};
+});
 
 export default TraitCategoryPanel;

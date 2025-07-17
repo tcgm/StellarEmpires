@@ -13,7 +13,7 @@ interface ForeignTraitsPanelProps {
 
 const SCROLL_CONTAINER_HEIGHT = "60vh";
 
-const ForeignTraitsPanel: React.FC<ForeignTraitsPanelProps> = ({
+const ForeignTraitsPanel: React.FC<ForeignTraitsPanelProps> = React.memo(({
   allForeignTraits, selected, onToggle
 }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +22,8 @@ const ForeignTraitsPanel: React.FC<ForeignTraitsPanelProps> = ({
   const descColor = useColorModeValue("gray.800", "gray.100");
 
   return (
-    <Box className="foreignTraitsPanel"
+    <Box
+      className="foreignTraitsPanel"
       maxH={SCROLL_CONTAINER_HEIGHT}
       overflowY="auto"
       borderRadius="lg"
@@ -51,10 +52,15 @@ const ForeignTraitsPanel: React.FC<ForeignTraitsPanelProps> = ({
         stickyOffset={0}
       >
         <Collapse in={isOpen} animateOpacity>
-          <List spacing={3} mt={2}>
-            {allForeignTraits.map((trait, i) => (
-              <ListItem key={trait.title + "foreignTrait" + i} onClick={() => onToggle(trait)} style={{ cursor: "pointer" }}>
-                <TraitBox
+          {isOpen && (
+            <List spacing={3} mt={2}>
+              {allForeignTraits.map((trait, i) => (
+                <ListItem
+                  key={trait.title + "foreignTrait" + i}
+                  onClick={() => onToggle(trait)}
+                  style={{ cursor: "pointer" }}
+                >
+                  <TraitBox
                     key={"traitBox" + trait.title + "foreignTrait" + i}
                     title={trait.title}
                     description={trait.description}
@@ -65,14 +71,15 @@ const ForeignTraitsPanel: React.FC<ForeignTraitsPanelProps> = ({
                     boxBg={selected.includes(trait.title) ? "#f7e6ff" : undefined}
                     boxBorder={selected.includes(trait.title) ? "purple.400" : "gray.300"}
                     descColor={descColor}
-                />
-              </ListItem>
-            ))}
-          </List>
+                  />
+                </ListItem>
+              ))}
+            </List>
+          )}
         </Collapse>
       </Section>
     </Box>
   );
-};
+});
 
 export default ForeignTraitsPanel;

@@ -1,6 +1,6 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState, useCallback } from "react";
 import {
-  Box, VStack, HStack, Text, Input, Divider, Stack, useBreakpointValue, useToast,
+  Box, VStack, HStack, Text, Input, Divider, useBreakpointValue, useToast,
 } from "@chakra-ui/react";
 import NationTypeScaleSelector from "./NationDesigner/NationTypeScaleSelector";
 import TraitCategoryPanel from "./NationDesigner/TraitCategoryPanel";
@@ -10,6 +10,13 @@ import DesignerControls from "./NationDesigner/DesignerControls";
 import DesignSummary from "./NationDesigner/DesignSummary";
 import { NationData, TraitOrFlaw, NationDesign, SCALES } from "../types";
 import { saveNationDesign, loadNationDesign, clearNationDesign } from "../helpers/nationDesignerStorage";
+
+// Memoized trait/summary/control components to prevent re-renders on nationName input
+const MemoizedTraitCategoryPanel = React.memo(TraitCategoryPanel);
+const MemoizedForeignTraitsPanel = React.memo(ForeignTraitsPanel);
+const MemoizedCustomTraitPanel = React.memo(CustomTraitPanel);
+const MemoizedDesignSummary = React.memo(DesignSummary);
+const MemoizedDesignerControls = React.memo(DesignerControls);
 
 type NationDesignerProps = {
   nations: NationData[];
@@ -43,22 +50,31 @@ const NationDesigner: React.FC<NationDesignerProps> = ({
   const toast = useToast();
   const [design, setDesign] = useState<NationDesign>(() => loadNationDesign() || defaultDesign);
 
-    const saveTimeout = useRef<NodeJS.Timeout | null>(null);
+  // Separate state for laggy input field
+  const [nationNameInput, setNationNameInput] = useState(design.nationName);
+  const nationNameDebounceRef = useRef<NodeJS.Timeout | null>(null);
 
-    useEffect(() => {
-    if (saveTimeout.current) {
-        clearTimeout(saveTimeout.current);
-    }
+  // Keep nationNameInput in sync with design.nationName if design changes (eg: reset/load)
+  useEffect(() => { setNationNameInput(design.nationName); }, [design.nationName]);
+
+  // Debounced nation name save
+  function handleNationNameChange(e: React.ChangeEvent<HTMLInputElement>) {
+    setNationNameInput(e.target.value);
+    if (nationNameDebounceRef.current) clearTimeout(nationNameDebounceRef.current);
+    nationNameDebounceRef.current = setTimeout(() => {
+      setDesign(d => d.nationName === e.target.value ? d : { ...d, nationName: e.target.value });
+    }, 250);
+  }
+
+  // Save entire design on change (except for rapid nationName edits)
+  const saveTimeout = useRef<NodeJS.Timeout | null>(null);
+  useEffect(() => {
+    if (saveTimeout.current) clearTimeout(saveTimeout.current);
     saveTimeout.current = setTimeout(() => {
-        saveNationDesign(design);
-    }, 500); // 500ms debounce (tweak as needed)
-
-    return () => {
-        if (saveTimeout.current) {
-        clearTimeout(saveTimeout.current);
-        }
-    };
-    }, [design]);
+      saveNationDesign(design);
+    }, 500);
+    return () => { if (saveTimeout.current) clearTimeout(saveTimeout.current); };
+  }, [design]);
 
   const selectedNationData = nations.find(n => n.nation === design.nationType);
   const nationTraits: TraitOrFlaw[] = selectedNationData?.traits || [];
@@ -66,6 +82,7 @@ const NationDesigner: React.FC<NationDesignerProps> = ({
   const points = SCALE_POINTS[design.scale];
   const isWide = useBreakpointValue({ base: false, md: true });
 
+  // --- Utilities ---
   function updateField<K extends keyof NationDesign>(key: K, value: NationDesign[K]) {
     setDesign(d => ({ ...d, [key]: value }));
   }
@@ -75,8 +92,8 @@ const NationDesigner: React.FC<NationDesignerProps> = ({
       ? list.filter(t => t !== value)
       : [...list, value];
   }
-  
-  function selectTrait(type: "common" | "nation" | "foreign", trait: TraitOrFlaw) {
+
+  const selectTrait = useCallback((type: "common" | "nation" | "foreign", trait: TraitOrFlaw) => {
     const used = {
       CT: design.selectedCommonTraits.length,
       NT: design.selectedNationTraits.length,
@@ -114,7 +131,10 @@ const NationDesigner: React.FC<NationDesignerProps> = ({
       }
       updateField("selectedForeignTraits", toggleInList(design.selectedForeignTraits, trait.title));
     }
-  }
+  // dependencies are intentionally minimal for memoization (design and points are stable, toast can be omitted)
+  // eslint-disable-next-line
+  }, [design, points]);
+
   function handleCustomTraitTitle(e: React.ChangeEvent<HTMLInputElement>) {
     updateField("customTrait", { ...design.customTrait, title: e.target.value } as TraitOrFlaw);
   }
@@ -157,102 +177,104 @@ const NationDesigner: React.FC<NationDesignerProps> = ({
 
   return (
     <Box
-        h="100%"
-        w="100%"
-        display="flex"
-        flexDirection="column"
-        minH={0}
-        minW={0}
-        bg="chakra-body-bg"
-        overflow="hidden"
+      h="100%"
+      w="100%"
+      display="flex"
+      flexDirection="column"
+      minH={0}
+      minW={0}
+      bg="chakra-body-bg"
+      overflow="hidden"
     >
-        {/* Header: nation name & selectors */}
-        <Box p={[2, 3]} borderBottom="1px solid" borderColor="gray.200" flexShrink={0} bg="chakra-body-bg" zIndex={2}>
+      {/* Header: nation name & selectors */}
+      <Box p={[2, 3]} borderBottom="1px solid" borderColor="gray.200" flexShrink={0} bg="chakra-body-bg" zIndex={2}>
         <HStack spacing={3} mb={0} verticalAlign={"center"}>
-            <Text fontWeight={500}>Nation Name</Text>
-            <Input
+          <Text fontWeight={500}>Nation Name</Text>
+          <Input
             size="sm"
             maxW="180px"
-            value={design.nationName}
-            onChange={e => setDesign(d => ({ ...d, nationName: e.target.value }))}
-            />
-            <NationTypeScaleSelector
-                nations={nations}
-                nationType={design.nationType}
-                scale={design.scale}
-                onChangeNation={nt => setDesign(d => ({
-                ...d, nationType: nt, selectedNationTraits: [], selectedNationFlaws: [], selectedForeignTraits: []
-                }))}
-                onChangeScale={sc => setDesign(d => ({ ...d, scale: sc as typeof SCALES[number] }))}
-                points={points}
-            />
+            value={nationNameInput}
+            onChange={handleNationNameChange}
+            // Optionally, update onBlur as well:
+            onBlur={() => setDesign(d => d.nationName === nationNameInput ? d : { ...d, nationName: nationNameInput })}
+          />
+          <NationTypeScaleSelector
+            nations={nations}
+            nationType={design.nationType}
+            scale={design.scale}
+            onChangeNation={nt => setDesign(d => ({
+              ...d, nationType: nt, selectedNationTraits: [], selectedNationFlaws: [], selectedForeignTraits: []
+            }))}
+            onChangeScale={sc => setDesign(d => ({ ...d, scale: sc as typeof SCALES[number] }))}
+            points={points}
+          />
         </HStack>
-        </Box>
+      </Box>
 
-        {/* Main content: trait panels (scrollable) + sidebar */}
-        <Box flex="1" minH={0} minW={0} display="flex" flexDirection="row" overflow="hidden">
+      {/* Main content: trait panels (scrollable) + sidebar */}
+      <Box flex="1" minH={0} minW={0} display="flex" flexDirection="row" overflow="hidden">
         {/* Traits column */}
         <Box
-            flex="2"
-            minW="320px"
-            maxW="850px"
-            mx="auto"
-            px={[1, 4]}
-            py={2}
-            h="100%"
-            overflowY="auto"
+          flex="2"
+          minW="320px"
+          maxW="850px"
+          mx="auto"
+          px={[1, 4]}
+          py={2}
+          h="100%"
+          overflowY="auto"
         >
-            <TraitCategoryPanel
-                title="Common Traits"
-                traits={commonTraits.map(t => ({ ...t, isTrait: true }))}
-                selected={design.selectedCommonTraits}
-                onToggle={trait => selectTrait("common", { ...trait, isTrait: true })}
-                isTrait
-                color={traitBoxColor}
-                max={points.CT}
-            />
-            <TraitCategoryPanel
-                title="Common Flaws"
-                traits={commonFlaws.map(f => ({ ...f, isTrait: false }))}
-                selected={design.selectedCommonFlaws}
-                onToggle={trait => selectTrait("common", { ...trait, isTrait: false })}
-                isTrait={false}
-                color={flawBoxColor}
-                max={points.CF}
-            />
-            <TraitCategoryPanel
-                title="Nation Traits"
-                traits={nationTraits.map(t => ({ ...t, isTrait: true }))}
-                selected={design.selectedNationTraits}
-                onToggle={trait => selectTrait("nation", { ...trait, isTrait: true })}
-                isTrait
-                color={traitBoxColor}
-                max={points.NT}
-            />
-            <TraitCategoryPanel
-                title="Nation Flaws"
-                traits={nationFlaws.map(f => ({ ...f, isTrait: false }))}
-                selected={design.selectedNationFlaws}
-                onToggle={trait => selectTrait("nation", { ...trait, isTrait: false })}
-                isTrait={false}
-                color={flawBoxColor}
-                max={points.NF}
-            />
-            <ForeignTraitsPanel
-                allForeignTraits={allForeignTraits}
-                selected={design.selectedForeignTraits}
-                onToggle={trait => selectTrait("foreign", { ...trait, isTrait: true })}
-            />
-            <CustomTraitPanel
-                trait={design.customTrait ?? null}
-                onTitleChange={handleCustomTraitTitle}
-                onDescChange={handleCustomTraitDesc}
-                onClear={clearCustomTrait}
-            />
+          <MemoizedTraitCategoryPanel
+            title="Common Traits"
+            traits={commonTraits.map(t => ({ ...t, isTrait: true }))}
+            selected={design.selectedCommonTraits}
+            onToggle={trait => selectTrait("common", { ...trait, isTrait: true })}
+            isTrait
+            color={traitBoxColor}
+            max={points.CT}
+          />
+          <MemoizedTraitCategoryPanel
+            title="Common Flaws"
+            traits={commonFlaws.map(f => ({ ...f, isTrait: false }))}
+            selected={design.selectedCommonFlaws}
+            onToggle={trait => selectTrait("common", { ...trait, isTrait: false })}
+            isTrait={false}
+            color={flawBoxColor}
+            max={points.CF}
+          />
+          <MemoizedTraitCategoryPanel
+            title="Nation Traits"
+            traits={nationTraits.map(t => ({ ...t, isTrait: true }))}
+            selected={design.selectedNationTraits}
+            onToggle={trait => selectTrait("nation", { ...trait, isTrait: true })}
+            isTrait
+            color={traitBoxColor}
+            max={points.NT}
+          />
+          <MemoizedTraitCategoryPanel
+            title="Nation Flaws"
+            traits={nationFlaws.map(f => ({ ...f, isTrait: false }))}
+            selected={design.selectedNationFlaws}
+            onToggle={trait => selectTrait("nation", { ...trait, isTrait: false })}
+            isTrait={false}
+            color={flawBoxColor}
+            max={points.NF}
+          />
+          <MemoizedForeignTraitsPanel
+            allForeignTraits={allForeignTraits}
+            selected={design.selectedForeignTraits}
+            onToggle={trait => selectTrait("foreign", { ...trait, isTrait: true })}
+          />
+          <MemoizedCustomTraitPanel
+            trait={design.customTrait ?? null}
+            onTitleChange={handleCustomTraitTitle}
+            onDescChange={handleCustomTraitDesc}
+            onClear={clearCustomTrait}
+          />
         </Box>
         {/* Sidebar (summary + controls): sticky on desktop, below on mobile */}
         {isWide && (
-            <Box
+          <Box
             flex="1"
             minW="260px"
             maxW="320px"
@@ -263,46 +285,45 @@ const NationDesigner: React.FC<NationDesignerProps> = ({
             display="flex"
             flexDirection="column"
             alignItems="stretch"
+          >
+            <Box
+              position="sticky"
+              zIndex={2}
+              bg="chakra-body-bg"
+              borderRadius="md"
+              border="1px solid"
+              borderColor="gray.300"
+              boxShadow="sm"
+              p={2}
             >
-                <Box
-                    position="sticky"
-                    zIndex={2}
-                    bg="chakra-body-bg"
-                    borderRadius="md"
-                    border="1px solid"
-                    borderColor="gray.300"
-                    boxShadow="sm"
-                    p={2}
-                >
-                    <DesignSummary design={design} />
-                    <DesignerControls
-                    onReset={handleReset}
-                    onLoad={handleLoad}
-                    onClear={handleClear}
-                    onCopy={handleCopyJSON}
-                    onImport={handleImportJSON}
-                    />
-                </Box>
+              <MemoizedDesignSummary design={design} />
+              <MemoizedDesignerControls
+                onReset={handleReset}
+                onLoad={handleLoad}
+                onClear={handleClear}
+                onCopy={handleCopyJSON}
+                onImport={handleImportJSON}
+              />
             </Box>
+          </Box>
         )}
-        </Box>
-        {/* On mobile: summary/controls below trait list */}
-        {!isWide && (
+      </Box>
+      {/* On mobile: summary/controls below trait list */}
+      {!isWide && (
         <VStack align="stretch" spacing={4} my={4}>
-            <Divider />
-            <DesignSummary design={design} />
-            <DesignerControls
+          <Divider />
+          <MemoizedDesignSummary design={design} />
+          <MemoizedDesignerControls
             onReset={handleReset}
             onLoad={handleLoad}
             onClear={handleClear}
             onCopy={handleCopyJSON}
             onImport={handleImportJSON}
-            />
+          />
         </VStack>
-        )}
+      )}
     </Box>
-    );
-
+  );
 };
 
 export default NationDesigner;
