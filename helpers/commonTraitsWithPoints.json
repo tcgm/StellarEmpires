@@ -543,13 +543,13 @@
       "points": 1
     },
     {
-      "title": "Suicide Devices",
-      "description": "Suicide devices are simple things, easily hidden, easily triggered, fast and hopefully powerful.",
+      "title": "End of Life Devices",
+      "description": "End of Life devices are simple things, easily hidden, easily triggered, fast and hopefully powerful.",
       "points": 1
     },
     {
       "title": "Erasers",
-      "description": "Requires Suicide Devices. For when the simple death of the agent is not enough to protect your secrets an Eraser device destroys the agent completely, his or her knowledge, body and equipment and anyone within five metres of them.",
+      "description": "Requires End of Life Devices. For when the simple death of the agent is not enough to protect your secrets an Eraser device destroys the agent completely, his or her knowledge, body and equipment and anyone within five metres of them.",
       "points": 1
     },
     {

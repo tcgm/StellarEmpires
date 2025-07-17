@@ -3,90 +3,135 @@
     "title": "Simplicity of Steel",
     "description": "You don't have the highly advanced technology of many other races, your lasers are crude and large units, your ballistics are simpler railguns, your missiles are little more than rockets with nuclear warheads bolted to the end. But what you lack in advancement, you make up for in numbers.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Naturally Stealthy",
     "description": "While true stealth doesn't exist without the cloaking devices employed by a handful of nations, most nations have their equipment set for the discovery of more advanced technologies and their unique signatures, the sheer crudity of your technologies have allowed for you to more ably move close enough to play your part on the battlefield with surprising efficacy.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Birth Lack of Control?",
     "description": "Condoms? IUDs? Abstinence? What are these weird and strange words? What are you going to do without thirty two children to feed? Read a book or something?",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Mysterious Benefactor",
     "description": "There is a rumour that a highly advanced artificial intelligence has actually turned itself to aiding your nation in its battle against the oppressors and the universe at large. When this \"EmmBee\" tips their hand cannot be easily predicted, and how it manifests is even less so.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Underdogs",
     "description": "You were less advanced, less capable, and you still figured out how to kick your oppressors in the teeth. You are intelligent enough to come to grasp the limitations of the technology.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Bizarre Retroengineering",
     "description": "You have discovered how to employ some of your oppressors technology in strange ways allowing you access to some of their advanced technology. (May take a Nation Trait that is technology from another Nation Type.)",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Hidden Infrastructure",
     "description": "You have become used to concealing your infrastructure from advanced enemies, manufacturing, labs, population centres, power facilities, they're buried, concealed and armoured as well as possible.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Ritualistic",
     "description": "Your culture is built around ritual and as such your entire society is well aware of the expectations and responsibilities of every other citizen. This leads to a more stratified society that doesn't need to ponder problems for too long.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Willing to Burn",
     "description": "You have a demonstrated willingness to inflict great harm on yourselves in the efforts to supplant and destroy and enemy and so those who would otherwise anger your people are well aware that the price may very well be too high to bear.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Charismatic",
     "description": "You actually did not resist your oppressors on your own, you convinced others to rise alongside you. You may take the ‘Client Race' trait from the Benefactors up to twice.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Accidentally Won the War",
     "description": "Your creators were not defeated by you, in fact you barely survived, no they fucked up and defeated themselves, the process by which they tried to uplift you had side effects. Side effects that included an extinction level pandemic. You cannot be blamed for your creators destruction, but maybe those who learn the truth will be smart enough to maintain a little distance.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "The Tables Turned",
     "description": "You actually haven't wiped out your creators, they aren't extinct at all, they now exist as third class citizens if not slaves. Much of their knowledge was lost with the brightest of them, the effects of your tech illiteracy are reduced… but you must take the Dangerous Cults flaw.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Lessons of the Lost",
     "description": "Your people are surprisingly unified, however crude they seem to be, the fact your prior masters had exploited division to get to your people to begin with is something that they never intend to allow a repeat of.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Xenonauts",
-    "description": "(Requires Elite Special Forces, Mechanics at Heart, Science Forum) Your history didn't allow you to rest on your laurels, and where your armies failed a set of very special forces dedicated to dealing with the problem, apt scientists, engineers and the best special forces you can hope to field freed you from the clutches of alien influence. Your special forces are not affected by Tech Illiteracy.",
+    "description": "Your history didn't allow you to rest on your laurels, and where your armies failed a set of very special forces dedicated to dealing with the problem, apt scientists, engineers and the best special forces you can hope to field freed you from the clutches of alien influence. Your special forces are not affected by Tech Illiteracy.",
     "points": 1,
-    "requires": []
+    "requires": [
+      "Elite Special Forces", "Mechanics at Heart", "Science Forum"
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Pathetic Creatures",
     "description": "You defeated your oppressors in an extremely unconventional manner. You engaged in the most heinous form of malicious compliance. You became the best lazy pricks you could be, you met demands with engineered ineptitude, you weaponised not giving a fuck and being too pathetic to do the job to the point your oppressors simply packed their shit and left out of sheer disgust. And that's the kind of reputation that has helped keep slavers and the like well away.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   }
 ]

@@ -68,6 +68,7 @@ const TraitCategoryPanel: React.FC<TraitCategoryPanelProps> = React.memo(({
                 >
                   <TraitBox
                     key={"traitBox" + trait.title + title + i}
+                    trait={trait}
                     title={trait.title}
                     description={trait.description}
                     points={trait.points}

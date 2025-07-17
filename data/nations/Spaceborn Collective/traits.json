@@ -3,90 +3,135 @@
     "title": "Orbital Habitats",
     "description": ":Key: (All Spaceborn Collectives gain this trait free.) Your civilisation has been forced to abandon the rigours of gravity and planets, or has chosen to do so. Built to minimise the risks of a hull breach they are relatively safe and are typically very well armoured. Your civilization now exists wholly in these null or low gravity structures.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Nomadic",
     "description": "You have forsaken the majority of your fixed infrastructure, leaving only your home system to permanently house the heaviest industry needed to produce your habitats, in exchange, those otherwise fixed orbital habitats are adapted with drives and FTL systems in order to cross the void.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Homesick",
     "description": ":Key: (Must be a Tall Nation) Your people became spaceborn through tragic circumstances and the homeworld has been lost to you, destroyed or poisoned beyond the point of recovery, you have spent millennia building a ringworld around your home star where the vast majority of your population live instead.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Greater Habitats",
     "description": ":Key: Your people have adopted even larger habitats than is typical, with massive populations and industrial capacity. These habitats are either placed close to a star with massive shielding to protect them, or placed in orbit of gas giants. The Greater Habitats require either to provide the power for minimum maintenance.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Counter-Gravity Suits",
     "description": ":Key: Sometimes the nation must act on a planetary surface, and as painful as the process is, a series of drugs and counter-gravity fields built into armour can allow teams to perform actions on a planet's surface for a limited time before needing to return to have consumables replaced.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Living Missiles",
     "description": ":Key: Inertia-countering technology that has proven near impossible to scale up is deployed on the Strike Craft of the Spaceborn collective allowing said strike craft to ignore the effects of gravity sickness that escort and capital ships have to take into account.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Dwellers",
     "description": "The Spaceborn Collective has a well hidden facility beyond the edge of any known solar systems. It is dependent on supply from the Spaceborn but difficult to discover and attack.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Orbital Supply Extraordinaires",
     "description": "The Spaceborn are excellent at harvesting fuels from gas giants or even solar harvesters while this is to be expected, this particular nation particularly excels at that, and has developed a degree of a shield against hostility by having an excellent reputation as traders of various fuel types, and even performing rescue missions should other craft be unfortunate enough to travel with insufficient fuel.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Burrows",
     "description": "Dwarf planets don't count, right? Anyway, it was discovered that digging into dwarf planets is a quick and cheap way to build habitats, and even get some valuable minerals in the process. Beard not included.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "World-Eaters",
     "description": "Planets are a pain, but they're still the densest accumulations of mineral resources available. So you designed self-replicating mining robots to use solar power for tearing apart planets and mass driving chunks of said planet into orbit. They can be made to work even faster if you have a way to focus more sunlight on the collectors.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Reflected Power Array",
     "description": "A shitton of satellites equipped with cheap reflective foil solar sails. These beauties can provide all the clean energy your industrial base could ever want!",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "EAT THE SUN (requires World Eaters and Reflected Power Array)",
     "description": "Turns out that those technologies you designed for tearing planets apart are readily adapted to extract mass from stars. Expensive as all get out to set up, but there's a surprising amount of heavy elements in most stars. Removing them even makes the stars last longer, so you're doing everyone a favor here.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Persistent Bastards",
     "description": "It doesn't matter how shit the star system is; you can still build a home here with enough determination and radiation shielding.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Extravehicular Adaptations",
-    "description": "(Requires Cybermen or Genetic Augments) You have modified some or all of your people for vacuum, they can perform basic EVA duties without the use of complex suits, and this leads to greater chances of survival in the event of hull breaches.",
+    "description": "You have modified some or all of your people for vacuum, they can perform basic EVA duties without the use of complex suits, and this leads to greater chances of survival in the event of hull breaches.",
     "points": 1,
-    "requires": []
+    "requires": [
+      "Cybermen", "Genetic Augments"
+    ],
+    "requireMode": "OR"
   },
   {
     "title": "Modular Habitats",
     "description": "Your Habitats are designed with modularity in mind. This allows them to be manufactured relatively quickly, and if absolutely necessarily, disassembled for moving.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   }
 ]

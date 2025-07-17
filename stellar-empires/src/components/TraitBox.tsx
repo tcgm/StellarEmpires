@@ -1,8 +1,10 @@
 import React from "react";
 import { Box, Badge, Text, Flex, Link } from "@chakra-ui/react";
+import { TraitOrFlaw } from "../types";
 
 interface TraitBoxProps {
   index?: number;
+  trait?: TraitOrFlaw;
   title: string;
   description: string;
   points?: number;
@@ -15,6 +17,7 @@ interface TraitBoxProps {
   boxBg?: string;
   boxBorder?: string;
   nations?: string[];
+  showRequires?: boolean; // Show 'Points' badge
   getNationDisplayName?: (name: string) => string;
   goToNation?: (name: string) => void;
   mb?: number | string;
@@ -24,6 +27,7 @@ interface TraitBoxProps {
 
 const TraitBox: React.FC<TraitBoxProps> = ({
   index,
+  trait,
   title,
   description,
   points,
@@ -36,6 +40,7 @@ const TraitBox: React.FC<TraitBoxProps> = ({
   boxBg,
   boxBorder,
   nations,
+  showRequires = true,
   getNationDisplayName,
   goToNation,
   mb = 4,
@@ -91,6 +96,21 @@ const TraitBox: React.FC<TraitBoxProps> = ({
     <Text className="traitText" mt={2} color={descColor} whiteSpace="pre-line">
       {description}
     </Text>
+    <Box>
+        {trait?.requires && showRequires && (
+            <>
+            {trait.requires.map((req, ri, arr) => (
+                <Link
+                key={"requireListing" + req + ri}
+                _hover={{ textDecoration: "underline", color: "blue.100" }}
+                mr={ri < arr.length - 1 ? 1 : 0}
+                >
+                    {req}
+                </Link>
+            ))}
+            </>
+        )}
+    </Box>
   </Box>
 );
 

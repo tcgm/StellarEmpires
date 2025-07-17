@@ -4,6 +4,7 @@ export interface TraitOrFlaw {
   nations?: string[];
   isTrait?:boolean;
   points?:number;
+  requires?: string[];
 }
 
 export interface NationData {

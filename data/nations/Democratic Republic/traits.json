@@ -3,90 +3,135 @@
     "title": "State of the Union",
     "description": "Your people are kept up to date on the state of the nation in an objective and factual manner this leads to the people being more engaged and better informed, they are less likely to react unpredictably to negative events.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Strong Leadership",
     "description": "Being elected by the people gives the leaders of a democracy deep wells of legitimacy and popular loyalty, which can see a republic through tough times. Provided that the elected leaders are actually working on solving the issues they campaigned on (or any new problems that get the public's attention).",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Fair Media Laws",
     "description": "Your media is free, but is obliged to stick to factual information and present unbiased positions. As such, it is less prone to external interference as well as internal interference as media corporations that fail to meet the laws may find their broadcasting rights suspended.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Volunteer Military",
     "description": "Staffing your military with people who actually want to be there has considerable benefits in terms of morale and professionalism. However, during a protracted war it can make recruiting enough personnel to keep up with losses difficult.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Adaptable",
     "description": "Unusually for a democratic nation, as new information is made available the government is actually very quick to adapt to the changing circumstances and promote changes for the benefit of the people.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Leader Mentality",
     "description": "Your nation tries to act in a way that is inspirational and encouraging not just to its people, but to its neighbours as well, and so long as it maintains this course, diplomacy and negotiation proceeds more smoothly than might be expected.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Freedom of Expression",
     "description": "Knowing you won't be punished for sharing bad news or criticizing the Dear Leader has several benefits; chief among them, leadership might actually be informed about developing problems before they become unmanageably bad.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Referenda",
     "description": "The people can directly vote to enact laws themselves, should the legislature refuse to act as needed. This can force through important solutions to problems that the legislature is stuck on, but can also be exploited by demagogues with an agenda.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Mandatory Voting",
     "description": "Voting is not merely a right, it is a civic duty; failure to vote is therefore punishable by law. This makes voter suppression rather infeasible, but has the potential to cause resentment among people who'd rather not vote for whatever reason.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Nation of Immigrants",
     "description": "(Cannot take with Closed Borders) Pick an additional Nation Type Trait from another Empire Type. Nation of Immigrants may be taken up to three times.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "XCOM",
-    "description": "(Requires Elite Special Forces, Mechanics at Heart, Science Forum) You have had a history of less than friendly contact prior to ascending to the stars, and have a set of very special forces dedicated to dealing with the problem, apt scientists, engineers and the best special forces you can hope to have.",
+    "description": "You have had a history of less than friendly contact prior to ascending to the stars, and have a set of very special forces dedicated to dealing with the problem, apt scientists, engineers and the best special forces you can hope to have.",
     "points": 1,
-    "requires": []
+    "requires": [
+      "Elite Special Forces", "Mechanics at Heart", "Science Forum"
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Closed Borders",
     "description": "Your nation, while democratic and welcoming to guests, is strongly opposed to them overstaying said welcome, it fervently tracks and monitors its visitors and is quite ungentle about how it approaches reminding them their time is up and its time to go home. It isn't unknown for innocent folks to be caught up in these sweeps, and they aren't always seen again.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Police Action",
     "description": "It's not a war, it's a police action, or a special military operation. No reasonable person could even try and claim it's a war. You have the inclination, and enough means, to conduct small military actions without rousing major interstellar hackles, but be careful, if your victim proves unvictimlike you might find yourselves with an embarrassment instead.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Cheques and Balances",
     "description": "You have an organisation that stands outside of all the others, one whose sole duty is to maintain the balance of power, to ensure that at the end of the day, those otherwise in power are kept honest. Because if not, it's that organisations duty to put them in the ground and organise the next elections.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   },
   {
     "title": "Strong Unions",
     "description": "Part of the way your nation has managed to become the way it is is due to the presence of powerful unions that have worked hard to ensure fair working rights, to the point that there are no hyper-rich classes in your nation. This leads to a more content and productive working class.",
     "points": 1,
-    "requires": []
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND"
   }
 ]

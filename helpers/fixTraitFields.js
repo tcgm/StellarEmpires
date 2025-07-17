@@ -8,6 +8,7 @@ const COMMON_FILES = ['commonTraits.json', 'commonFlaws.json'];
 // What field(s) to ensure exist on each trait/flaw object?
 const FIELDS_TO_ENSURE = [
   { name: 'requires', default: [""], type: 'array', traitOnly: false },
+  { name: 'requireMode', default: "AND", type: 'string', traitOnly: false },
   // Add more fields as needed, e.g. { name: 'points', default: 0, type: 'number' }
 ];
 
