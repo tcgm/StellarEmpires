@@ -16,23 +16,23 @@ const NationTypeScaleSelector: React.FC<NationTypeScaleSelectorProps> = ({
 }) => (
   <Box>
     <HStack spacing={6}>
-      <Box>
-        <Text fontWeight="bold">Nation Type</Text>
+      <HStack>
+        <Text fontWeight="bold">Type</Text>
         <Select value={nationType} onChange={e => onChangeNation(e.target.value)} width="220px">
           <option value="">-- Select Nation Type --</option>
           {nations.map(n => (
             <option key={n.nation} value={n.nation}>{n.nation}</option>
           ))}
         </Select>
-      </Box>
-      <Box>
+      </HStack>
+      <HStack>
         <Text fontWeight="bold">Scale</Text>
         <Select value={scale} onChange={e => onChangeScale(e.target.value as ScaleType)} width="140px">
           <option value="Wide">Wide</option>
           <option value="Tall">Tall</option>
           <option value="Balanced">Balanced</option>
         </Select>
-      </Box>
+      </HStack>
       <Box>
         <Text fontWeight="bold">Points</Text>
         <HStack>

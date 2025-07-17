@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import {
-  Box, VStack, HStack, Heading, useToast, Divider, Text, Stack, useBreakpointValue,
-  Input
+  Box, VStack, HStack, Text, Input, Divider, Stack, useBreakpointValue, useToast,
 } from "@chakra-ui/react";
 import NationTypeScaleSelector from "./NationDesigner/NationTypeScaleSelector";
 import TraitCategoryPanel from "./NationDesigner/TraitCategoryPanel";
@@ -9,33 +8,28 @@ import ForeignTraitsPanel from "./NationDesigner/ForeignTraitsPanel";
 import CustomTraitPanel from "./NationDesigner/CustomTraitPanel";
 import DesignerControls from "./NationDesigner/DesignerControls";
 import DesignSummary from "./NationDesigner/DesignSummary";
-
-import { NationData, TraitOrFlaw, NationDesign, SCALES, ScaleType } from "../types";
+import { NationData, TraitOrFlaw, NationDesign, SCALES } from "../types";
 import { saveNationDesign, loadNationDesign, clearNationDesign } from "../helpers/nationDesignerStorage";
 
 type NationDesignerProps = {
-    nations: NationData[];
-    commonTraits: TraitOrFlaw[];
-    commonFlaws: TraitOrFlaw[];
-    traitBoxColor?: string;
-    flawBoxColor?: string;
+  nations: NationData[];
+  commonTraits: TraitOrFlaw[];
+  commonFlaws: TraitOrFlaw[];
+  traitBoxColor?: string;
+  flawBoxColor?: string;
 };
 
 const defaultDesign: NationDesign = {
-    nationName: "Unnamed Nation",
-    nationType: "",
-    scale: "Balanced",
-    selectedCommonTraits: [],
-    selectedCommonFlaws: [],
-    selectedNationTraits: [],
-    selectedNationFlaws: [],
-    selectedForeignTraits: [],
-    customTrait: null
+  nationName: "Unnamed Nation",
+  nationType: "",
+  scale: "Balanced",
+  selectedCommonTraits: [],
+  selectedCommonFlaws: [],
+  selectedNationTraits: [],
+  selectedNationFlaws: [],
+  selectedForeignTraits: [],
+  customTrait: null
 };
-
-function isScaleType(value: string): value is ScaleType {
-  return SCALES.includes(value as ScaleType);
-}
 
 const SCALE_POINTS = {
   Balanced: { CT: 20, NT: 8, CF: 2, NF: 1 },
@@ -55,22 +49,8 @@ const NationDesigner: React.FC<NationDesignerProps> = ({
   const nationTraits: TraitOrFlaw[] = selectedNationData?.traits || [];
   const nationFlaws: TraitOrFlaw[] = selectedNationData?.flaws || [];
   const points = SCALE_POINTS[design.scale];
+  const isWide = useBreakpointValue({ base: false, md: true });
 
-  // Point count for all sections
-  const used = {
-    CT: design.selectedCommonTraits.length,
-    NT: design.selectedNationTraits.length,
-    CF: design.selectedCommonFlaws.length,
-    NF: design.selectedNationFlaws.length,
-    FT: design.selectedForeignTraits.length,
-  };
-
-  // Foreign traits pool
-  const allForeignTraits = nations
-    .filter(n => n.nation !== design.nationType)
-    .flatMap(n => n.traits);
-
-  // Handlers
   function updateField<K extends keyof NationDesign>(key: K, value: NationDesign[K]) {
     setDesign(d => ({ ...d, [key]: value }));
   }
@@ -80,6 +60,13 @@ const NationDesigner: React.FC<NationDesignerProps> = ({
       : [...list, value];
   }
   function selectTrait(type: "common" | "nation" | "foreign", trait: TraitOrFlaw) {
+    const used = {
+      CT: design.selectedCommonTraits.length,
+      NT: design.selectedNationTraits.length,
+      CF: design.selectedCommonFlaws.length,
+      NF: design.selectedNationFlaws.length,
+      FT: design.selectedForeignTraits.length,
+    };
     if (type === "common") {
       if (trait.isTrait) {
         if (used.CT >= points.CT && !design.selectedCommonTraits.includes(trait.title)) {
@@ -120,8 +107,6 @@ const NationDesigner: React.FC<NationDesignerProps> = ({
   function clearCustomTrait() {
     updateField("customTrait", null);
   }
-
-  // Controls
   function handleReset() { setDesign(defaultDesign); }
   function handleLoad() {
     const loaded = loadNationDesign();
@@ -149,104 +134,159 @@ const NationDesigner: React.FC<NationDesignerProps> = ({
     }
   }
 
-  // Responsive layout: stack vertically on mobile, horizontally on desktop
-  const isWide = useBreakpointValue({ base: false, md: true });
+  const allForeignTraits = nations
+    .filter(n => n.nation !== design.nationType)
+    .flatMap(n => n.traits);
 
   return (
-    <Box p={[2, 4]} maxW="1200px" mx="auto">
-      <VStack align="stretch" spacing={6}>
-        {/* <Heading size="lg" mb={2}>Nation Designer</Heading> */}
-        <HStack>
-            <Text id="nationName">Nation Name</Text>
-            <Input defaultValue={design.nationName}></Input>
-        </HStack>
-        {/* Step 1: Nation type & scale */}
-        <NationTypeScaleSelector
-            nations={nations}
-            nationType={design.nationType}
-            scale={design.scale}
-            onChangeNation={nt => setDesign(d => ({
+    <Box
+        h="100%"
+        w="100%"
+        display="flex"
+        flexDirection="column"
+        minH={0}
+        minW={0}
+        bg="chakra-body-bg"
+        overflow="hidden"
+    >
+        {/* Header: nation name & selectors */}
+        <Box p={[2, 3]} borderBottom="1px solid" borderColor="gray.200" flexShrink={0} bg="chakra-body-bg" zIndex={2}>
+        <HStack spacing={3} mb={0} verticalAlign={"center"}>
+            <Text fontWeight={500}>Nation Name</Text>
+            <Input
+            size="sm"
+            maxW="180px"
+            value={design.nationName}
+            onChange={e => setDesign(d => ({ ...d, nationName: e.target.value }))}
+            />
+            <NationTypeScaleSelector
+                nations={nations}
+                nationType={design.nationType}
+                scale={design.scale}
+                onChangeNation={nt => setDesign(d => ({
                 ...d, nationType: nt, selectedNationTraits: [], selectedNationFlaws: [], selectedForeignTraits: []
-            }))}
-            onChangeScale={sc => setDesign(d => ({ ...d, scale: sc as typeof SCALES[number] }))}
-            points={points}
-        />
-        <Divider />
-        {/* Step 2: Traits selection */}
-        <Stack direction={isWide ? "row" : "column"} spacing={6} align="start">
-          <VStack align="stretch" flex="2" spacing={6}>
+                }))}
+                onChangeScale={sc => setDesign(d => ({ ...d, scale: sc as typeof SCALES[number] }))}
+                points={points}
+            />
+        </HStack>
+        </Box>
+
+        {/* Main content: trait panels (scrollable) + sidebar */}
+        <Box flex="1" minH={0} minW={0} display="flex" flexDirection="row" overflow="hidden">
+        {/* Traits column */}
+        <Box
+            flex="2"
+            minW="320px"
+            maxW="850px"
+            mx="auto"
+            px={[1, 4]}
+            py={2}
+            h="100%"
+            overflowY="auto"
+        >
             <TraitCategoryPanel
-              title="Common Traits"
-              traits={commonTraits.map(t => ({ ...t, isTrait: true }))}
-              selected={design.selectedCommonTraits}
-              onToggle={trait => selectTrait("common", { ...trait, isTrait: true })}
-              isTrait
-              color={traitBoxColor}
-              max={points.CT}
+            title="Common Traits"
+            traits={commonTraits.map(t => ({ ...t, isTrait: true }))}
+            selected={design.selectedCommonTraits}
+            onToggle={trait => selectTrait("common", { ...trait, isTrait: true })}
+            isTrait
+            color={traitBoxColor}
+            max={points.CT}
             />
             <TraitCategoryPanel
-              title="Common Flaws"
-              traits={commonFlaws.map(f => ({ ...f, isTrait: false }))}
-              selected={design.selectedCommonFlaws}
-              onToggle={trait => selectTrait("common", { ...trait, isTrait: false })}
-              isTrait={false}
-              color={flawBoxColor}
-              max={points.CF}
+            title="Common Flaws"
+            traits={commonFlaws.map(f => ({ ...f, isTrait: false }))}
+            selected={design.selectedCommonFlaws}
+            onToggle={trait => selectTrait("common", { ...trait, isTrait: false })}
+            isTrait={false}
+            color={flawBoxColor}
+            max={points.CF}
             />
             <TraitCategoryPanel
-              title="Nation Traits"
-              traits={nationTraits.map(t => ({ ...t, isTrait: true }))}
-              selected={design.selectedNationTraits}
-              onToggle={trait => selectTrait("nation", { ...trait, isTrait: true })}
-              isTrait
-              color={traitBoxColor}
-              max={points.NT}
+            title="Nation Traits"
+            traits={nationTraits.map(t => ({ ...t, isTrait: true }))}
+            selected={design.selectedNationTraits}
+            onToggle={trait => selectTrait("nation", { ...trait, isTrait: true })}
+            isTrait
+            color={traitBoxColor}
+            max={points.NT}
             />
             <TraitCategoryPanel
-              title="Nation Flaws"
-              traits={nationFlaws.map(f => ({ ...f, isTrait: false }))}
-              selected={design.selectedNationFlaws}
-              onToggle={trait => selectTrait("nation", { ...trait, isTrait: false })}
-              isTrait={false}
-              color={flawBoxColor}
-              max={points.NF}
+            title="Nation Flaws"
+            traits={nationFlaws.map(f => ({ ...f, isTrait: false }))}
+            selected={design.selectedNationFlaws}
+            onToggle={trait => selectTrait("nation", { ...trait, isTrait: false })}
+            isTrait={false}
+            color={flawBoxColor}
+            max={points.NF}
             />
             <ForeignTraitsPanel
-              allForeignTraits={allForeignTraits}
-              selected={design.selectedForeignTraits}
-              onToggle={trait => selectTrait("foreign", { ...trait, isTrait: true })}
+            allForeignTraits={allForeignTraits}
+            selected={design.selectedForeignTraits}
+            onToggle={trait => selectTrait("foreign", { ...trait, isTrait: true })}
             />
             <CustomTraitPanel
-              trait={design.customTrait ?? null}
-              onTitle={handleCustomTraitTitle}
-              onDesc={handleCustomTraitDesc}
-              onClear={clearCustomTrait}
+            trait={design.customTrait ?? null}
+            onTitle={handleCustomTraitTitle}
+            onDesc={handleCustomTraitDesc}
+            onClear={clearCustomTrait}
             />
-          </VStack>
-          {/* Optional: sticky summary panel on wide screens */}
-          {isWide && (
-            <Box flex="1" position="sticky" top="24px" alignSelf="flex-start" minW="260px">
-              <DesignSummary design={design} />
+        </Box>
+        {/* Sidebar (summary + controls): sticky on desktop, below on mobile */}
+        {isWide && (
+            <Box
+            flex="1"
+            minW="260px"
+            maxW="320px"
+            position="relative"
+            h="100%"
+            px={2}
+            py={2}
+            display="flex"
+            flexDirection="column"
+            alignItems="stretch"
+            >
+            <Box
+                position="sticky"
+                top="24px"
+                zIndex={2}
+                bg="chakra-body-bg"
+                borderRadius="md"
+                border="1px solid"
+                borderColor="gray.300"
+                boxShadow="sm"
+                p={3}
+            >
+                <DesignSummary design={design} />
+                <DesignerControls
+                onReset={handleReset}
+                onLoad={handleLoad}
+                onClear={handleClear}
+                onCopy={handleCopyJSON}
+                onImport={handleImportJSON}
+                />
             </Box>
-          )}
-        </Stack>
+            </Box>
+        )}
+        </Box>
+        {/* On mobile: summary/controls below trait list */}
         {!isWide && (
-          <>
+        <VStack align="stretch" spacing={4} my={4}>
             <Divider />
             <DesignSummary design={design} />
-          </>
+            <DesignerControls
+            onReset={handleReset}
+            onLoad={handleLoad}
+            onClear={handleClear}
+            onCopy={handleCopyJSON}
+            onImport={handleImportJSON}
+            />
+        </VStack>
         )}
-        <Divider />
-        <DesignerControls
-          onReset={handleReset}
-          onLoad={handleLoad}
-          onClear={handleClear}
-          onCopy={handleCopyJSON}
-          onImport={handleImportJSON}
-        />
-      </VStack>
     </Box>
-  );
+    );
+
 };
 
 export default NationDesigner;
