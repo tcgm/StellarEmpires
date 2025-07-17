@@ -465,7 +465,7 @@
     {
       "title": "Better Than Your {Keyword}",
       "description": "(Costs 2 Points) Don't apply this too broadly or I'll smack you, otherwise it's exactly what it implies. (Subject to approval)",
-      "points": 1
+      "points": 2
     },
     {
       "title": "Hangerize!",
@@ -515,7 +515,7 @@
     {
       "title": "Accidental Awesome",
       "description": "(Costs 2 Points)  Sometimes your engineers manage to design a system in just THAT way where it works well and above what is normally expected of any of the systems individually, this means there is a random chance certain types of ships will perform above average on a normal basis, but conversely, sometimes there is more accidental than awesome.",
-      "points": 1
+      "points": 2
     },
     {
       "title": "Fort Shields",
