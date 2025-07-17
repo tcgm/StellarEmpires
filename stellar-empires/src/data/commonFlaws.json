@@ -15,7 +15,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "honourable-to-a-fault"
+    "slug": "commonFlaws.honourable-to-a-fault"
   },
   {
     "title": "Creaky Military",
@@ -33,7 +33,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "creaky-military"
+    "slug": "commonFlaws.creaky-military"
   },
   {
     "title": "Soylent Green Is People!",
@@ -51,7 +51,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "soylent-green-is-people"
+    "slug": "commonFlaws.soylent-green-is-people"
   },
   {
     "title": "Government Red Tape",
@@ -69,7 +69,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "government-red-tape"
+    "slug": "commonFlaws.government-red-tape"
   },
   {
     "title": "Cult Of {Keyword}",
@@ -87,7 +87,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "cult-of-keyword"
+    "slug": "commonFlaws.cult-of-keyword"
   },
   {
     "title": "Hilariously Fail",
@@ -105,7 +105,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "hilariously-fail"
+    "slug": "commonFlaws.hilariously-fail"
   },
   {
     "title": "Public Outcry",
@@ -123,7 +123,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "public-outcry"
+    "slug": "commonFlaws.public-outcry"
   },
   {
     "title": "Wimpy",
@@ -141,7 +141,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "wimpy"
+    "slug": "commonFlaws.wimpy"
   },
   {
     "title": "Paranoia!",
@@ -159,7 +159,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "paranoia"
+    "slug": "commonFlaws.paranoia"
   },
   {
     "title": "Trade Dependent",
@@ -177,7 +177,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "trade-dependent"
+    "slug": "commonFlaws.trade-dependent"
   },
   {
     "title": "Dangerous Cults",
@@ -195,7 +195,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "dangerous-cults"
+    "slug": "commonFlaws.dangerous-cults"
   },
   {
     "title": "Psychic Nulls",
@@ -213,7 +213,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "psychic-nulls"
+    "slug": "commonFlaws.psychic-nulls"
   },
   {
     "title": "Limited Psy",
@@ -231,7 +231,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "limited-psy"
+    "slug": "commonFlaws.limited-psy"
   },
   {
     "title": "GLaDoS",
@@ -249,7 +249,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "glados"
+    "slug": "commonFlaws.glados"
   },
   {
     "title": "Famine",
@@ -267,7 +267,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "famine"
+    "slug": "commonFlaws.famine"
   },
   {
     "title": "Resource Shortage",
@@ -278,14 +278,14 @@
     ],
     "requireMode": "AND",
     "rejects": [
-      "abundant-trade-goods"
+      "commonTraits.abundant-trade-goods"
     ],
     "rejectMode": "AND",
     "scales": [
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "resource-shortage"
+    "slug": "commonFlaws.resource-shortage"
   },
   {
     "title": "Cowardly",
@@ -303,7 +303,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "cowardly"
+    "slug": "commonFlaws.cowardly"
   },
   {
     "title": "Self Destructive",
@@ -321,7 +321,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "self-destructive"
+    "slug": "commonFlaws.self-destructive"
   },
   {
     "title": "Shitty Workmanship",
@@ -339,7 +339,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "shitty-workmanship"
+    "slug": "commonFlaws.shitty-workmanship"
   },
   {
     "title": "Delectable",
@@ -357,7 +357,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "delectable"
+    "slug": "commonFlaws.delectable"
   },
   {
     "title": "Frontier Difficulties",
@@ -375,7 +375,7 @@
       "Wide"
     ],
     "scalesMode": "DENY",
-    "slug": "frontier-difficulties"
+    "slug": "commonFlaws.frontier-difficulties"
   },
   {
     "title": "Undermined Leadership",
@@ -393,7 +393,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "undermined-leadership"
+    "slug": "commonFlaws.undermined-leadership"
   },
   {
     "title": "Poor Colony Standards",
@@ -411,7 +411,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "poor-colony-standards"
+    "slug": "commonFlaws.poor-colony-standards"
   },
   {
     "title": "Pirates Favourite Pickings",
@@ -429,7 +429,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "pirates-favourite-pickings"
+    "slug": "commonFlaws.pirates-favourite-pickings"
   },
   {
     "title": "Quarantine?",
@@ -447,7 +447,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "quarantine"
+    "slug": "commonFlaws.quarantine"
   },
   {
     "title": "Capital Gluttony",
@@ -465,7 +465,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "capital-gluttony"
+    "slug": "commonFlaws.capital-gluttony"
   },
   {
     "title": "Degenerative Generations",
@@ -483,7 +483,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "degenerative-generations"
+    "slug": "commonFlaws.degenerative-generations"
   },
   {
     "title": "Pariah",
@@ -501,7 +501,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "pariah"
+    "slug": "commonFlaws.pariah"
   },
   {
     "title": "Collective Stupidity",
@@ -519,7 +519,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "collective-stupidity"
+    "slug": "commonFlaws.collective-stupidity"
   },
   {
     "title": "Sensor Resolution, 640x480",
@@ -537,7 +537,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "sensor-resolution-640x480"
+    "slug": "commonFlaws.sensor-resolution-640x480"
   },
   {
     "title": "Patriots Fervour",
@@ -555,7 +555,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "patriots-fervour"
+    "slug": "commonFlaws.patriots-fervour"
   },
   {
     "title": "Shieldless",
@@ -573,7 +573,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "shieldless"
+    "slug": "commonFlaws.shieldless"
   },
   {
     "title": "Armour is for Wimps",
@@ -591,7 +591,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "armour-is-for-wimps"
+    "slug": "commonFlaws.armour-is-for-wimps"
   },
   {
     "title": "Colonial Justice",
@@ -609,7 +609,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "colonial-justice"
+    "slug": "commonFlaws.colonial-justice"
   },
   {
     "title": "Imperial Stormtrooper Academy",
@@ -627,7 +627,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "imperial-stormtrooper-academy"
+    "slug": "commonFlaws.imperial-stormtrooper-academy"
   },
   {
     "title": "Bad Boss",
@@ -645,7 +645,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "bad-boss"
+    "slug": "commonFlaws.bad-boss"
   },
   {
     "title": "Critical Dice Roll Failure",
@@ -663,7 +663,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "critical-dice-roll-failure"
+    "slug": "commonFlaws.critical-dice-roll-failure"
   },
   {
     "title": "A.I. Allergic",
@@ -681,7 +681,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "a-i-allergic"
+    "slug": "commonFlaws.a-i-allergic"
   },
   {
     "title": "Hollywood Tactics",
@@ -699,7 +699,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "hollywood-tactics"
+    "slug": "commonFlaws.hollywood-tactics"
   },
   {
     "title": "Non-Expansionistic",
@@ -717,7 +717,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "non-expansionistic"
+    "slug": "commonFlaws.non-expansionistic"
   },
   {
     "title": "Big Red Target",
@@ -735,7 +735,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "big-red-target"
+    "slug": "commonFlaws.big-red-target"
   },
   {
     "title": "Religious Intolerance",
@@ -753,7 +753,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "religious-intolerance"
+    "slug": "commonFlaws.religious-intolerance"
   },
   {
     "title": "Conspiracy not so Theory",
@@ -771,7 +771,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "conspiracy-not-so-theory"
+    "slug": "commonFlaws.conspiracy-not-so-theory"
   },
   {
     "title": "Starfleet Curiosity",
@@ -789,7 +789,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "starfleet-curiosity"
+    "slug": "commonFlaws.starfleet-curiosity"
   },
   {
     "title": "Post Apocalypse Survivors",
@@ -807,7 +807,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "post-apocalypse-survivors"
+    "slug": "commonFlaws.post-apocalypse-survivors"
   },
   {
     "title": "Non-Unified Government.",
@@ -825,7 +825,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "non-unified-government"
+    "slug": "commonFlaws.non-unified-government"
   },
   {
     "title": "Hive-Minded to the Nth Degree.",
@@ -843,7 +843,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "hive-minded-to-the-nth-degree"
+    "slug": "commonFlaws.hive-minded-to-the-nth-degree"
   },
   {
     "title": "Collaborators",
@@ -861,7 +861,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "collaborators"
+    "slug": "commonFlaws.collaborators"
   },
   {
     "title": "Oddly Superstitious",
@@ -879,7 +879,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "oddly-superstitious"
+    "slug": "commonFlaws.oddly-superstitious"
   },
   {
     "title": "AI Overlords",
@@ -897,7 +897,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "ai-overlords"
+    "slug": "commonFlaws.ai-overlords"
   },
   {
     "title": "For Science!",
@@ -915,7 +915,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "for-science"
+    "slug": "commonFlaws.for-science"
   },
   {
     "title": "Anarchy",
@@ -933,7 +933,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "anarchy"
+    "slug": "commonFlaws.anarchy"
   },
   {
     "title": "Utopian",
@@ -951,7 +951,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "utopian"
+    "slug": "commonFlaws.utopian"
   },
   {
     "title": "Dystopian",
@@ -969,7 +969,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "dystopian"
+    "slug": "commonFlaws.dystopian"
   },
   {
     "title": "Revolutionaries",
@@ -987,7 +987,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "revolutionaries"
+    "slug": "commonFlaws.revolutionaries"
   },
   {
     "title": "Freedom of way too much information",
@@ -1005,7 +1005,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "freedom-of-way-too-much-information"
+    "slug": "commonFlaws.freedom-of-way-too-much-information"
   },
   {
     "title": "Cone of Silence",
@@ -1023,7 +1023,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "cone-of-silence"
+    "slug": "commonFlaws.cone-of-silence"
   },
   {
     "title": "It's... not... a spy's life",
@@ -1041,7 +1041,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "it-s-not-a-spy-s-life"
+    "slug": "commonFlaws.it-s-not-a-spy-s-life"
   },
   {
     "title": "Misplaced information",
@@ -1059,7 +1059,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "misplaced-information"
+    "slug": "commonFlaws.misplaced-information"
   },
   {
     "title": "Dark Forest Theory",
@@ -1077,7 +1077,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "dark-forest-theory"
+    "slug": "commonFlaws.dark-forest-theory"
   },
   {
     "title": "Blow Your Load",
@@ -1088,14 +1088,14 @@
     ],
     "requireMode": "AND",
     "rejects": [
-      "who-needs-to-reload"
+      "commonTraits.who-needs-to-reload"
     ],
     "rejectMode": "AND",
     "scales": [
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "blow-your-load"
+    "slug": "commonFlaws.blow-your-load"
   },
   {
     "title": "Small Armies",
@@ -1113,6 +1113,6 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "small-armies"
+    "slug": "commonFlaws.small-armies"
   }
 ]

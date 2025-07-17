@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Gravity Sickness",
+    "description": "(Spaceborn Collectives must take this flaw.) Your people can no longer handle moderate or heavier gravities, your ships cannot accelerate as fast as most others and you will never be able to survive descent to a heavy gravity world.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.SpacebornCollective.flaws.gravity-sickness"
+  },
+  {
+    "title": "Pressure Vessel",
+    "description": "Your civilisation has hurtled itself into space and forsaken the comfort of planets. This has left you in the void of space protected only by the armour and shields of your habitats, where they are less protected by a thick atmosphere. Your habitats being cracked is typically apocalyptic for the majority of their population.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.SpacebornCollective.flaws.pressure-vessel"
+  },
+  {
+    "title": "Atrophied Immune Systems",
+    "description": "As a result of living in engineered environments for so long, your people haven't been exposed to very many pathogens. Which in turn means that if someone does get infected, it's so much worse than normal. It gets even worse if the disease is one that can spread.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.SpacebornCollective.flaws.atrophied-immune-systems"
+  },
+  {
+    "title": "Exotic Atmosphere Mix",
+    "description": "Your people have spent so long in the vacuum of space that, after decades of tinkering, even if they respirate the same gases as everyone else, the exact mixture is so specific and precise that they have difficulty breathing in any other combination. The same may or may not apply inversely for other species. Bring an encounter suit!",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.SpacebornCollective.flaws.exotic-atmosphere-mix"
+  },
+  {
+    "title": "Devalued Garden Worlds",
+    "description": "Having such a penchant for simply building places to live means you don't view garden worlds with the same value as others. And they get so mad if you do things like strip-mine garden worlds for habitat materials. It's just good sense! You already know those places have all the materials needed to sustain life, so why not put them to more efficient use?",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.SpacebornCollective.flaws.devalued-garden-worlds"
+  },
+  {
+    "title": "Delicate Garden Systems",
+    "description": "Spaceborn habitats are closed environmental systems, but ones that lack a true planet's biodiversity leaving them open for cascade failures if issues interfere with any section of the biosphere. A single problem can snowball into a nutrient failure for the life support that would kill an entire Habitat.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.SpacebornCollective.flaws.delicate-garden-systems"
+  }
+]

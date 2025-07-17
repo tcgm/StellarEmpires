@@ -16,7 +16,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "implausibly-efficient-government"
+      "slug": "commonTraits.implausibly-efficient-government"
     },
     {
       "title": "Fair Dinkum",
@@ -34,7 +34,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "fair-dinkum"
+      "slug": "commonTraits.fair-dinkum"
     },
     {
       "title": "Who cares about Uzbekistan?",
@@ -52,7 +52,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "who-cares-about-uzbekistan"
+      "slug": "commonTraits.who-cares-about-uzbekistan"
     },
     {
       "title": "Party Please",
@@ -70,7 +70,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "party-please"
+      "slug": "commonTraits.party-please"
     },
     {
       "title": "Manipulative",
@@ -88,7 +88,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "manipulative"
+      "slug": "commonTraits.manipulative"
     },
     {
       "title": "Colonial Spirit",
@@ -106,7 +106,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "colonial-spirit"
+      "slug": "commonTraits.colonial-spirit"
     },
     {
       "title": "Mechanics at Heart",
@@ -124,7 +124,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "mechanics-at-heart"
+      "slug": "commonTraits.mechanics-at-heart"
     },
     {
       "title": "Passive Aggressive",
@@ -142,7 +142,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "passive-aggressive"
+      "slug": "commonTraits.passive-aggressive"
     },
     {
       "title": "For the People",
@@ -160,7 +160,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "for-the-people"
+      "slug": "commonTraits.for-the-people"
     },
     {
       "title": "I-GUN",
@@ -178,7 +178,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "i-gun"
+      "slug": "commonTraits.i-gun"
     },
     {
       "title": "Rule of All",
@@ -196,7 +196,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "rule-of-all"
+      "slug": "commonTraits.rule-of-all"
     },
     {
       "title": "Pyramid Rule",
@@ -214,7 +214,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "pyramid-rule"
+      "slug": "commonTraits.pyramid-rule"
     },
     {
       "title": "Made a Slave",
@@ -232,7 +232,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "made-a-slave"
+      "slug": "commonTraits.made-a-slave"
     },
     {
       "title": "For the Greater Good",
@@ -250,7 +250,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "for-the-greater-good"
+      "slug": "commonTraits.for-the-greater-good"
     },
     {
       "title": "Science Forum",
@@ -268,7 +268,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "science-forum"
+      "slug": "commonTraits.science-forum"
     },
     {
       "title": "Shadow Government",
@@ -286,7 +286,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "shadow-government"
+      "slug": "commonTraits.shadow-government"
     },
     {
       "title": "Distributed Administration",
@@ -304,7 +304,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "distributed-administration"
+      "slug": "commonTraits.distributed-administration"
     },
     {
       "title": "Revolutionary",
@@ -322,43 +322,43 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "revolutionary"
+      "slug": "commonTraits.revolutionary"
     },
     {
       "title": "Dystopia",
       "description": "The nation is deeply flawed and in a near hellish state, crime is rampant, violence is common, but while this is a major issue for the nation its people are strong, hardened, resistant to almost any adversity and more importantly, greed chaps generally have no interest in even attempting to exploit a nation like this. (MUST take the Dystopian Flaw. Cannot take with Utopia.)",
       "points": 1,
       "requires": [
-        "dystopian"
+        "commonFlaws.dystopian"
       ],
       "requireMode": "AND",
       "rejects": [
-        "utopia"
+        "commonTraits.utopia"
       ],
       "rejectMode": "AND",
       "scales": [
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "dystopia"
+      "slug": "commonTraits.dystopia"
     },
     {
       "title": "Utopia",
       "description": "The nation is a shining jewel of possibility, crime is next to nothing, happiness is at an all time high, everything is running like clockwork, the nation is at peace and revels in its golden age. But such nations rarely understand the threat beyond the borders, they're prime targets for invasion and exploitation and their naiveté is often exploited politically as well. (MUST take the Utopian Flaw. Cannot take with Dystopia.)",
       "points": 1,
       "requires": [
-        "utopian"
+        "commonFlaws.utopian"
       ],
       "requireMode": "AND",
       "rejects": [
-        "dystopia"
+        "commonTraits.dystopia"
       ],
       "rejectMode": "AND",
       "scales": [
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "utopia"
+      "slug": "commonTraits.utopia"
     },
     {
       "title": "Peaceful",
@@ -376,7 +376,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "peaceful"
+      "slug": "commonTraits.peaceful"
     },
     {
       "title": "Vengeful",
@@ -394,7 +394,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "vengeful"
+      "slug": "commonTraits.vengeful"
     }
   ],
   "Population Traits": [
@@ -414,7 +414,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "loyalty"
+      "slug": "commonTraits.loyalty"
     },
     {
       "title": "Heroic Age",
@@ -432,7 +432,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "heroic-age"
+      "slug": "commonTraits.heroic-age"
     },
     {
       "title": "Flag-Wavers",
@@ -450,7 +450,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "flag-wavers"
+      "slug": "commonTraits.flag-wavers"
     },
     {
       "title": "Stupidly Brave",
@@ -468,7 +468,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "stupidly-brave"
+      "slug": "commonTraits.stupidly-brave"
     },
     {
       "title": "Not One Step Back",
@@ -486,7 +486,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "not-one-step-back"
+      "slug": "commonTraits.not-one-step-back"
     },
     {
       "title": "Clannish",
@@ -504,7 +504,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "clannish"
+      "slug": "commonTraits.clannish"
     },
     {
       "title": "Crimeless",
@@ -522,7 +522,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "crimeless"
+      "slug": "commonTraits.crimeless"
     },
     {
       "title": "Ultra-Hygienic",
@@ -540,7 +540,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "ultra-hygienic"
+      "slug": "commonTraits.ultra-hygienic"
     },
     {
       "title": "Population Controls",
@@ -558,7 +558,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "population-controls"
+      "slug": "commonTraits.population-controls"
     },
     {
       "title": "Organised Chaos",
@@ -576,7 +576,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "organised-chaos"
+      "slug": "commonTraits.organised-chaos"
     },
     {
       "title": "Manifest Destiny",
@@ -594,7 +594,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "manifest-destiny"
+      "slug": "commonTraits.manifest-destiny"
     },
     {
       "title": "We Act as One",
@@ -612,7 +612,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "we-act-as-one"
+      "slug": "commonTraits.we-act-as-one"
     },
     {
       "title": "Limited Cybernetic Enhancement",
@@ -630,7 +630,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "limited-cybernetic-enhancement"
+      "slug": "commonTraits.limited-cybernetic-enhancement"
     },
     {
       "title": "Heroic Sacrifice",
@@ -648,7 +648,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "heroic-sacrifice"
+      "slug": "commonTraits.heroic-sacrifice"
     },
     {
       "title": "Artistic",
@@ -666,7 +666,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "artistic"
+      "slug": "commonTraits.artistic"
     },
     {
       "title": "Martial Pride",
@@ -684,7 +684,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "martial-pride"
+      "slug": "commonTraits.martial-pride"
     },
     {
       "title": "Accepting",
@@ -702,7 +702,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "accepting"
+      "slug": "commonTraits.accepting"
     },
     {
       "title": "Genetic Augments.",
@@ -713,14 +713,14 @@
       ],
       "requireMode": "AND",
       "rejects": [
-        "cybermen"
+        "commonTraits.cybermen"
       ],
       "rejectMode": "AND",
       "scales": [
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "genetic-augments"
+      "slug": "commonTraits.genetic-augments"
     },
     {
       "title": "Cybermen",
@@ -738,7 +738,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "cybermen"
+      "slug": "commonTraits.cybermen"
     },
     {
       "title": "Highly Religious.",
@@ -756,7 +756,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "highly-religious"
+      "slug": "commonTraits.highly-religious"
     },
     {
       "title": "Freethought Obsession.",
@@ -774,7 +774,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "freethought-obsession"
+      "slug": "commonTraits.freethought-obsession"
     },
     {
       "title": "Jackrabbits!",
@@ -792,7 +792,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "jackrabbits"
+      "slug": "commonTraits.jackrabbits"
     },
     {
       "title": "Medicine",
@@ -810,7 +810,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "medicine"
+      "slug": "commonTraits.medicine"
     },
     {
       "title": "Good Schools",
@@ -828,7 +828,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "good-schools"
+      "slug": "commonTraits.good-schools"
     },
     {
       "title": "University of War",
@@ -846,7 +846,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "university-of-war"
+      "slug": "commonTraits.university-of-war"
     },
     {
       "title": "Agricultural Institute",
@@ -864,7 +864,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "agricultural-institute"
+      "slug": "commonTraits.agricultural-institute"
     },
     {
       "title": "Tradesmen Academy",
@@ -882,7 +882,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "tradesmen-academy"
+      "slug": "commonTraits.tradesmen-academy"
     },
     {
       "title": "Theological University",
@@ -900,7 +900,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "theological-university"
+      "slug": "commonTraits.theological-university"
     },
     {
       "title": "Missionaries",
@@ -918,7 +918,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "missionaries"
+      "slug": "commonTraits.missionaries"
     },
     {
       "title": "Hidden Staging",
@@ -936,7 +936,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "hidden-staging"
+      "slug": "commonTraits.hidden-staging"
     }
   ],
   "Star Navy Traits": [
@@ -956,7 +956,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "capital-warship-obsession"
+      "slug": "commonTraits.capital-warship-obsession"
     },
     {
       "title": "Relativity is a Bitch",
@@ -967,14 +967,14 @@
       ],
       "requireMode": "AND",
       "rejects": [
-        "ironclad"
+        "commonTraits.ironclad"
       ],
       "rejectMode": "AND",
       "scales": [
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "relativity-is-a-bitch"
+      "slug": "commonTraits.relativity-is-a-bitch"
     },
     {
       "title": "Isaac Newton Hates You",
@@ -986,15 +986,15 @@
       "requireMode": "AND",
       "rejects": [
         "Who Needs to Reload",
-        "use-the-force",
-        "macross-missile-massacre"
+        "commonTraits.use-the-force",
+        "commonTraits.macross-missile-massacre"
       ],
       "rejectMode": "OR",
       "scales": [
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "isaac-newton-hates-you"
+      "slug": "commonTraits.isaac-newton-hates-you"
     },
     {
       "title": "Who needs to reload?",
@@ -1005,16 +1005,16 @@
       ],
       "requireMode": "AND",
       "rejects": [
-        "isaac-newton-hates-you",
-        "use-the-force",
-        "macross-missile-massacre"
+        "commonTraits.isaac-newton-hates-you",
+        "commonTraits.use-the-force",
+        "commonTraits.macross-missile-massacre"
       ],
       "rejectMode": "OR",
       "scales": [
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "who-needs-to-reload"
+      "slug": "commonTraits.who-needs-to-reload"
     },
     {
       "title": "Macross Missile Massacre",
@@ -1026,7 +1026,7 @@
       "requireMode": "AND",
       "rejects": [
         "Who Needs to Reload",
-        "isaac-newton-hates-you",
+        "commonTraits.isaac-newton-hates-you",
         "Use the Force!"
       ],
       "rejectMode": "OR",
@@ -1034,7 +1034,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "macross-missile-massacre"
+      "slug": "commonTraits.macross-missile-massacre"
     },
     {
       "title": "Use the Force",
@@ -1045,16 +1045,16 @@
       ],
       "requireMode": "AND",
       "rejects": [
-        "macross-missile-massacre",
+        "commonTraits.macross-missile-massacre",
         "Who Needs to Reload",
-        "isaac-newton-hates-you"
+        "commonTraits.isaac-newton-hates-you"
       ],
       "rejectMode": "OR",
       "scales": [
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "use-the-force"
+      "slug": "commonTraits.use-the-force"
     },
     {
       "title": "Hangar Queens",
@@ -1072,7 +1072,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "hangar-queens"
+      "slug": "commonTraits.hangar-queens"
     },
     {
       "title": "Ironclad",
@@ -1083,14 +1083,14 @@
       ],
       "requireMode": "AND",
       "rejects": [
-        "relativity-is-a-bitch"
+        "commonTraits.relativity-is-a-bitch"
       ],
       "rejectMode": "AND",
       "scales": [
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "ironclad"
+      "slug": "commonTraits.ironclad"
     },
     {
       "title": "A gift from the Stars",
@@ -1108,7 +1108,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "a-gift-from-the-stars"
+      "slug": "commonTraits.a-gift-from-the-stars"
     },
     {
       "title": "When in doubt FIRE EVERYTHING!",
@@ -1126,7 +1126,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "when-in-doubt-fire-everything"
+      "slug": "commonTraits.when-in-doubt-fire-everything"
     },
     {
       "title": "Fleet Unity Protocols",
@@ -1144,7 +1144,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "fleet-unity-protocols"
+      "slug": "commonTraits.fleet-unity-protocols"
     },
     {
       "title": "RAMMING SPEED",
@@ -1162,7 +1162,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "ramming-speed"
+      "slug": "commonTraits.ramming-speed"
     },
     {
       "title": "Shield Baron",
@@ -1180,7 +1180,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "shield-baron"
+      "slug": "commonTraits.shield-baron"
     },
     {
       "title": "We See All",
@@ -1198,7 +1198,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "we-see-all"
+      "slug": "commonTraits.we-see-all"
     }
   ],
   "Ground-War Traits": [
@@ -1218,7 +1218,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "elite-infantry-formations"
+      "slug": "commonTraits.elite-infantry-formations"
     },
     {
       "title": "Elite Armoured Divisions",
@@ -1236,7 +1236,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "elite-armoured-divisions"
+      "slug": "commonTraits.elite-armoured-divisions"
     },
     {
       "title": "Elite Artillery Regiments",
@@ -1254,7 +1254,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "elite-artillery-regiments"
+      "slug": "commonTraits.elite-artillery-regiments"
     },
     {
       "title": "Elite Mobile Infantry",
@@ -1272,7 +1272,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "elite-mobile-infantry"
+      "slug": "commonTraits.elite-mobile-infantry"
     },
     {
       "title": "Elite Special Forces",
@@ -1290,7 +1290,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "elite-special-forces"
+      "slug": "commonTraits.elite-special-forces"
     },
     {
       "title": "Elite Air Forces",
@@ -1308,7 +1308,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "elite-air-forces"
+      "slug": "commonTraits.elite-air-forces"
     },
     {
       "title": "Combined Arms is Key",
@@ -1319,7 +1319,7 @@
       ],
       "requireMode": "AND",
       "rejects": [
-        "guerilla-tactics",
+        "commonTraits.guerilla-tactics",
         "Elite"
       ],
       "rejectMode": "AND",
@@ -1327,7 +1327,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "combined-arms-is-key"
+      "slug": "commonTraits.combined-arms-is-key"
     },
     {
       "title": "Strategic Response",
@@ -1345,7 +1345,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "strategic-response"
+      "slug": "commonTraits.strategic-response"
     },
     {
       "title": "Guerilla Tactics",
@@ -1363,7 +1363,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "guerilla-tactics"
+      "slug": "commonTraits.guerilla-tactics"
     },
     {
       "title": "Occupationists",
@@ -1381,7 +1381,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "occupationists"
+      "slug": "commonTraits.occupationists"
     },
     {
       "title": "Sweep-Scorch",
@@ -1399,7 +1399,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "sweep-scorch"
+      "slug": "commonTraits.sweep-scorch"
     },
     {
       "title": "Orbital Support",
@@ -1417,7 +1417,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "orbital-support"
+      "slug": "commonTraits.orbital-support"
     },
     {
       "title": "Thunderstruck",
@@ -1435,7 +1435,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "thunderstruck"
+      "slug": "commonTraits.thunderstruck"
     },
     {
       "title": "You Shook Me All Night Long",
@@ -1453,7 +1453,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "you-shook-me-all-night-long"
+      "slug": "commonTraits.you-shook-me-all-night-long"
     },
     {
       "title": "Hammer to Fall",
@@ -1471,7 +1471,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "hammer-to-fall"
+      "slug": "commonTraits.hammer-to-fall"
     },
     {
       "title": "Shoot to thrill",
@@ -1489,7 +1489,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "shoot-to-thrill"
+      "slug": "commonTraits.shoot-to-thrill"
     },
     {
       "title": "More Dakka",
@@ -1507,14 +1507,14 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "more-dakka"
+      "slug": "commonTraits.more-dakka"
     },
     {
       "title": "Space Marines!",
       "description": "This trait overrides the restriction on taking Cybermen and Genetic Augments together, but only applies them to your special forces. Your special forces cost 10 times normal. And hit even harder.",
       "points": 2,
       "requires": [
-        "cybermen",
+        "commonTraits.cybermen",
         "Genetic Augments"
       ],
       "requireMode": "AND",
@@ -1526,7 +1526,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "space-marines"
+      "slug": "commonTraits.space-marines"
     },
     {
       "title": "Grav Vehicles",
@@ -1544,7 +1544,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "grav-vehicles"
+      "slug": "commonTraits.grav-vehicles"
     },
     {
       "title": "Behind the Lines",
@@ -1562,7 +1562,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "behind-the-lines"
+      "slug": "commonTraits.behind-the-lines"
     }
   ],
   "Technical Traits": [
@@ -1582,7 +1582,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "on-the-run"
+      "slug": "commonTraits.on-the-run"
     },
     {
       "title": "Flash",
@@ -1600,7 +1600,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "flash"
+      "slug": "commonTraits.flash"
     },
     {
       "title": "Ghost in the Machine",
@@ -1618,7 +1618,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "ghost-in-the-machine"
+      "slug": "commonTraits.ghost-in-the-machine"
     },
     {
       "title": "Nazi Superscience",
@@ -1636,7 +1636,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "nazi-superscience"
+      "slug": "commonTraits.nazi-superscience"
     },
     {
       "title": "Better Than Your {Keyword}",
@@ -1654,7 +1654,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "better-than-your-keyword"
+      "slug": "commonTraits.better-than-your-keyword"
     },
     {
       "title": "Hangerize!",
@@ -1672,7 +1672,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "hangerize"
+      "slug": "commonTraits.hangerize"
     },
     {
       "title": "Accelerated Repairs",
@@ -1690,7 +1690,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "accelerated-repairs"
+      "slug": "commonTraits.accelerated-repairs"
     },
     {
       "title": "Redundancy",
@@ -1708,7 +1708,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "redundancy"
+      "slug": "commonTraits.redundancy"
     },
     {
       "title": "Synchronicity",
@@ -1726,7 +1726,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "synchronicity"
+      "slug": "commonTraits.synchronicity"
     },
     {
       "title": "Mechs Ahoy!",
@@ -1744,7 +1744,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "mechs-ahoy"
+      "slug": "commonTraits.mechs-ahoy"
     },
     {
       "title": "Slaved Ships",
@@ -1762,7 +1762,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "slaved-ships"
+      "slug": "commonTraits.slaved-ships"
     },
     {
       "title": "Stellar Fuel",
@@ -1780,7 +1780,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "stellar-fuel"
+      "slug": "commonTraits.stellar-fuel"
     },
     {
       "title": "Industrial Autoprinting",
@@ -1791,14 +1791,14 @@
       ],
       "requireMode": "AND",
       "rejects": [
-        "master-shipwrights"
+        "commonTraits.master-shipwrights"
       ],
       "rejectMode": "AND",
       "scales": [
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "industrial-autoprinting"
+      "slug": "commonTraits.industrial-autoprinting"
     },
     {
       "title": "Master Shipwrights",
@@ -1809,14 +1809,14 @@
       ],
       "requireMode": "AND",
       "rejects": [
-        "industrial-autoprinting"
+        "commonTraits.industrial-autoprinting"
       ],
       "rejectMode": "AND",
       "scales": [
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "master-shipwrights"
+      "slug": "commonTraits.master-shipwrights"
     },
     {
       "title": "Accidental Awesome",
@@ -1834,7 +1834,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "accidental-awesome"
+      "slug": "commonTraits.accidental-awesome"
     },
     {
       "title": "Fort Shields",
@@ -1845,22 +1845,22 @@
       ],
       "requireMode": "AND",
       "rejects": [
-        "ironclad"
+        "commonTraits.ironclad"
       ],
       "rejectMode": "AND",
       "scales": [
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "fort-shields"
+      "slug": "commonTraits.fort-shields"
     },
     {
       "title": "Total Missile Eruption",
       "description": "You have a rather unique strategy for overwhelming enemy point defence. Your ships are designed to dump virtually their entire magazines into space in a matter of minutes compared to the standard operation. This allows you enormous alpha strike capacity. But if it doesn't work, pucker up because you're in for a bad day (or a very short one).",
       "points": 1,
       "requires": [
-        "macross-missile-massacre",
-        "blow-your-load"
+        "commonTraits.macross-missile-massacre",
+        "commonFlaws.blow-your-load"
       ],
       "requireMode": "AND",
       "rejects": [
@@ -1871,7 +1871,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "total-missile-eruption"
+      "slug": "commonTraits.total-missile-eruption"
     },
     {
       "title": "Wet Willy",
@@ -1889,7 +1889,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "wet-willy"
+      "slug": "commonTraits.wet-willy"
     },
     {
       "title": "Holographic Disguises",
@@ -1907,7 +1907,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "holographic-disguises"
+      "slug": "commonTraits.holographic-disguises"
     },
     {
       "title": "Skinmasks",
@@ -1925,7 +1925,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "skinmasks"
+      "slug": "commonTraits.skinmasks"
     },
     {
       "title": "End of Life Devices",
@@ -1943,14 +1943,14 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "end-of-life-devices"
+      "slug": "commonTraits.end-of-life-devices"
     },
     {
       "title": "Erasers",
       "description": "For when the simple death of the agent is not enough to protect your secrets an Eraser device destroys the agent completely, his or her knowledge, body and equipment and anyone within five metres of them.",
       "points": 1,
       "requires": [
-        "end-of-life-devices"
+        "commonTraits.end-of-life-devices"
       ],
       "requireMode": "AND",
       "rejects": [
@@ -1961,7 +1961,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "erasers"
+      "slug": "commonTraits.erasers"
     },
     {
       "title": "Enigma Machine",
@@ -1979,7 +1979,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "enigma-machine"
+      "slug": "commonTraits.enigma-machine"
     },
     {
       "title": "Counter-Terrorism",
@@ -1997,7 +1997,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "counter-terrorism"
+      "slug": "commonTraits.counter-terrorism"
     },
     {
       "title": "Counter Intelligence Unit",
@@ -2015,7 +2015,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "counter-intelligence-unit"
+      "slug": "commonTraits.counter-intelligence-unit"
     },
     {
       "title": "Advanced Infiltration Unit",
@@ -2033,7 +2033,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "advanced-infiltration-unit"
+      "slug": "commonTraits.advanced-infiltration-unit"
     },
     {
       "title": "A Weston Moment",
@@ -2051,7 +2051,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "a-weston-moment"
+      "slug": "commonTraits.a-weston-moment"
     },
     {
       "title": "Secret Police",
@@ -2069,7 +2069,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "secret-police"
+      "slug": "commonTraits.secret-police"
     },
     {
       "title": "Bond, james bond",
@@ -2087,7 +2087,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "bond-james-bond"
+      "slug": "commonTraits.bond-james-bond"
     },
     {
       "title": "Mata Hari",
@@ -2105,7 +2105,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "mata-hari"
+      "slug": "commonTraits.mata-hari"
     },
     {
       "title": "Obsidian Order",
@@ -2123,7 +2123,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "obsidian-order"
+      "slug": "commonTraits.obsidian-order"
     },
     {
       "title": "Criminal Connections",
@@ -2141,7 +2141,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "criminal-connections"
+      "slug": "commonTraits.criminal-connections"
     },
     {
       "title": "Government Co-Ordination",
@@ -2159,7 +2159,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "government-co-ordination"
+      "slug": "commonTraits.government-co-ordination"
     },
     {
       "title": "Authority of one",
@@ -2177,7 +2177,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "authority-of-one"
+      "slug": "commonTraits.authority-of-one"
     },
     {
       "title": "Terrorism",
@@ -2195,15 +2195,15 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "terrorism"
+      "slug": "commonTraits.terrorism"
     },
     {
       "title": "Disguise",
       "description": "This covers a wide range of options, mostly the fact that such agents are injected with shapeshifting technologies allowing them to feign and pretend they're part of the target race. But such things include incredible levels of linguistics skill and cultural doctrine training as well as very real IDs. (Stolen from others who were killed to 'make room' for the Spies insertion)",
       "points": 1,
       "requires": [
-        "skinmasks",
-        "holographic-disguises"
+        "commonTraits.skinmasks",
+        "commonTraits.holographic-disguises"
       ],
       "requireMode": "OR",
       "rejects": [
@@ -2214,7 +2214,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "disguise"
+      "slug": "commonTraits.disguise"
     },
     {
       "title": "Dirty Secrets",
@@ -2232,7 +2232,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "dirty-secrets"
+      "slug": "commonTraits.dirty-secrets"
     },
     {
       "title": "Flying Casino Royale!",
@@ -2250,7 +2250,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "flying-casino-royale"
+      "slug": "commonTraits.flying-casino-royale"
     }
   ],
   "Psionic Traits": [
@@ -2270,7 +2270,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "empathic-mind"
+      "slug": "commonTraits.empathic-mind"
     },
     {
       "title": "Tele-Empath",
@@ -2288,7 +2288,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "tele-empath"
+      "slug": "commonTraits.tele-empath"
     },
     {
       "title": "Projective Mind",
@@ -2306,7 +2306,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "projective-mind"
+      "slug": "commonTraits.projective-mind"
     },
     {
       "title": "Predictive Omniscience",
@@ -2324,7 +2324,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "predictive-omniscience"
+      "slug": "commonTraits.predictive-omniscience"
     },
     {
       "title": "Mind Tracker",
@@ -2342,7 +2342,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "mind-tracker"
+      "slug": "commonTraits.mind-tracker"
     },
     {
       "title": "Telecommunications",
@@ -2360,7 +2360,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "telecommunications"
+      "slug": "commonTraits.telecommunications"
     },
     {
       "title": "Mental Shock",
@@ -2378,7 +2378,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "mental-shock"
+      "slug": "commonTraits.mental-shock"
     },
     {
       "title": "Rapture",
@@ -2396,7 +2396,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "rapture"
+      "slug": "commonTraits.rapture"
     },
     {
       "title": "Chains of the Mind",
@@ -2414,7 +2414,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "chains-of-the-mind"
+      "slug": "commonTraits.chains-of-the-mind"
     },
     {
       "title": "Telekinesis",
@@ -2432,7 +2432,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "telekinesis"
+      "slug": "commonTraits.telekinesis"
     },
     {
       "title": "Masking Minds",
@@ -2450,7 +2450,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "masking-minds"
+      "slug": "commonTraits.masking-minds"
     },
     {
       "title": "Subtle Touch",
@@ -2468,7 +2468,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "subtle-touch"
+      "slug": "commonTraits.subtle-touch"
     },
     {
       "title": "Stubborn as a Mule",
@@ -2486,7 +2486,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "stubborn-as-a-mule"
+      "slug": "commonTraits.stubborn-as-a-mule"
     }
   ],
   "Economic Traits": [
@@ -2506,7 +2506,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "trade-cartels"
+      "slug": "commonTraits.trade-cartels"
     },
     {
       "title": "Abundant Trade Goods",
@@ -2524,7 +2524,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "abundant-trade-goods"
+      "slug": "commonTraits.abundant-trade-goods"
     },
     {
       "title": "Abundant Trade Ships",
@@ -2542,7 +2542,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "abundant-trade-ships"
+      "slug": "commonTraits.abundant-trade-ships"
     },
     {
       "title": "Currency Exchange",
@@ -2560,7 +2560,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "currency-exchange"
+      "slug": "commonTraits.currency-exchange"
     },
     {
       "title": "Interstellar Stock Market",
@@ -2578,7 +2578,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "interstellar-stock-market"
+      "slug": "commonTraits.interstellar-stock-market"
     },
     {
       "title": "Point Defender Gun",
@@ -2596,7 +2596,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "point-defender-gun"
+      "slug": "commonTraits.point-defender-gun"
     },
     {
       "title": "The \"Pirate\" Lanes",
@@ -2614,7 +2614,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "the-pirate-lanes"
+      "slug": "commonTraits.the-pirate-lanes"
     },
     {
       "title": "Sprint Traders",
@@ -2625,14 +2625,14 @@
       ],
       "requireMode": "AND",
       "rejects": [
-        "bulk-traders"
+        "commonTraits.bulk-traders"
       ],
       "rejectMode": "AND",
       "scales": [
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "sprint-traders"
+      "slug": "commonTraits.sprint-traders"
     },
     {
       "title": "Bulk Traders",
@@ -2643,14 +2643,14 @@
       ],
       "requireMode": "AND",
       "rejects": [
-        "sprint-traders"
+        "commonTraits.sprint-traders"
       ],
       "rejectMode": "AND",
       "scales": [
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "bulk-traders"
+      "slug": "commonTraits.bulk-traders"
     },
     {
       "title": "Lax Restrictions",
@@ -2668,7 +2668,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "lax-restrictions"
+      "slug": "commonTraits.lax-restrictions"
     },
     {
       "title": "Bargaining Chip",
@@ -2686,7 +2686,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "bargaining-chip"
+      "slug": "commonTraits.bargaining-chip"
     },
     {
       "title": "Borrowed Money",
@@ -2704,7 +2704,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "borrowed-money"
+      "slug": "commonTraits.borrowed-money"
     },
     {
       "title": "That's Some Fine Shit Son",
@@ -2722,7 +2722,7 @@
         ""
       ],
       "scalesMode": "DENY",
-      "slug": "that-s-some-fine-shit-son"
+      "slug": "commonTraits.that-s-some-fine-shit-son"
     }
   ]
 }

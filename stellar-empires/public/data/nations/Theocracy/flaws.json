@@ -15,7 +15,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "doctrine-is-the-law-of-the-almighty"
+    "slug": "nations.Theocracy.flaws.doctrine-is-the-law-of-the-almighty"
   },
   {
     "title": "Science equals Heresy",
@@ -33,7 +33,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "science-equals-heresy"
+    "slug": "nations.Theocracy.flaws.science-equals-heresy"
   },
   {
     "title": "CRUSADE!!!",
@@ -51,7 +51,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "crusade"
+    "slug": "nations.Theocracy.flaws.crusade"
   },
   {
     "title": "No Thanks",
@@ -69,7 +69,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "no-thanks"
+    "slug": "nations.Theocracy.flaws.no-thanks"
   },
   {
     "title": "Refusal to Adapt",
@@ -87,7 +87,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "refusal-to-adapt"
+    "slug": "nations.Theocracy.flaws.refusal-to-adapt"
   },
   {
     "title": "Pure as a Puritan",
@@ -105,6 +105,6 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "pure-as-a-puritan"
+    "slug": "nations.Theocracy.flaws.pure-as-a-puritan"
   }
 ]

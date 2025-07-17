@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Rusty Bucket",
+    "description": "Not only do Cybernetics have to worry about cuts, infections, sores etc, they have to worry about rust, static and other feedback. If you see a Cyber with a ‘nervous tick' either he has a nervous tick or his ocular implant is shocking his nervous system due to some system failure or another..",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.CyberneticState.flaws.rusty-bucket"
+  },
+  {
+    "title": "Creatively Bankrupt",
+    "description": "The Cyborgs have put virtually everything into their self of mechanic and organic identity and have expended the limits of their ability, progress has become sluggish and difficult at the best of times. The effect of this flaw is doubled if the Cybernetic Hive trait was taken.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.CyberneticState.flaws.creatively-bankrupt"
+  },
+  {
+    "title": "Forcible Conversion",
+    "description": "The Cybernetic nation did not create itself, someone else did, they no longer remember if their creators exist anymore, only that they were forcibly converted, and they don't understand enough to reverse the process, only perpetuate it. Which unfortunately, is part of their programming. The Cybernetic State is compelled to expand itself when the opportunity allows.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.CyberneticState.flaws.forcible-conversion"
+  },
+  {
+    "title": "Cyber-Psychosis",
+    "description": "There was a downside to their ascension, and it is not one that has been solved. The more extensive the augmentations, the more likely for a being to turn psychotic. And each and every individual has a different threshold.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.CyberneticState.flaws.cyber-psychosis"
+  },
+  {
+    "title": "AI Plague",
+    "description": "The nation is troubled by a plague caused by one, or more, malevolent and sapient artificial intelligences that use the augmented as hosts and weapons against their creator. A situation made worse by the AI's thought patterns being highly adaptable to the meat preventing easy detection.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.CyberneticState.flaws.ai-plague"
+  }
+]

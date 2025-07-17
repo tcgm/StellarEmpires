@@ -1,0 +1,273 @@
+[
+  {
+    "title": "Master Military",
+    "description": "The Warlords are the most skilled military-based nation in the universe. They are better generals and tacticians than anyone else. When it comes to direct action, Warlords know best.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.WarlordState.traits.master-military"
+  },
+  {
+    "title": "Siege Guns",
+    "description": ":Key: The Warlords do enjoy the deployment of large spinal siege weapons on their capitals and supercapitals.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.WarlordState.traits.siege-guns"
+  },
+  {
+    "title": "Heavy Batteries",
+    "description": "Where many races might prefer an even mix of firepower a Warlord focuses his firepower on heavy weapons and the ability to do massive amounts of damage. As such 75% of their vessels weapons are Heavy Weapon Batteries.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.WarlordState.traits.heavy-batteries"
+  },
+  {
+    "title": "AEGIS Point Defence",
+    "description": "The Warlords do not neglect Point Defence. The Aegis is in fact a network of point defence weaponry. While it isn't normally a \"Main Weapon\" when you're fighting off waves of strike craft it definitely is.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.WarlordState.traits.aegis-point-defence"
+  },
+  {
+    "title": "Psychological Controls",
+    "description": "You brainwash your enemies using subliminal messages, psychological influence controls and other questionable methods. It isn't as outright efficient as Slavery and takes more time. But when it works nobody can dispute the results.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.WarlordState.traits.psychological-controls"
+  },
+  {
+    "title": "Extermination Camps",
+    "description": "The easiest way to control a population is to drastically cut its numbers. Well it helps if you order them very nicely. Here, have a shower. (No offence intended.)",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.WarlordState.traits.extermination-camps"
+  },
+  {
+    "title": "Work Camps",
+    "description": "What keeps newly conquered people happy and quiet? Forced Labour! Let them see that you are rebuilding their broken nation by participating! Surely they can't complain about helping to rebuild their homes and industries, you only use the lash out of love!",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.WarlordState.traits.work-camps"
+  },
+  {
+    "title": "Relocation, Relocation, Relocation",
+    "description": "Not quite so heartless as to have open Extermination Camps you slap as many malcontents into sealed cargo containers (re-entry capable) and fire them off into space with a one-use hyperdrive. Of course, you're kind enough to aim them at a Star System, and where you think a planet might be.... Aren't you?",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.WarlordState.traits.relocation-relocation-relocation"
+  },
+  {
+    "title": "Hostages",
+    "description": "While not death camps as far as the conquered are concerned it damn will be if they don't toe the line and do what they're told! After all, It's their ‘proud national spirit' or their families. As far as you are concerned they can only have one. And it's their choice.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.WarlordState.traits.hostages"
+  },
+  {
+    "title": "Rain of Fire",
+    "description": "The Warlord deploys their armies without dropships. They simply load the troops, tanks or other material into a simple object designed to be dropped from orbit through the atmosphere onto the planet below. These pods or ‘tanks' depending on the contents need to be recovered after the battle unlike Dropships.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.WarlordState.traits.rain-of-fire"
+  },
+  {
+    "title": "Linebreakers",
+    "description": "The Warlord can purchase a units of Linebreaker tanks though the number of tanks in the unit is cut by half compared to normal elements these Superheavy tanks have better shields, armour and weapons than their lesser cousins. The Warlord deploys these units en-masse to break enemy lines. Hard.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.WarlordState.traits.linebreakers"
+  },
+  {
+    "title": "Maskelyne",
+    "description": "Deception in warfare is not an oft-practiced element. But it is one of yours. There is no simple line, no practiced formations that lead to an enemies defeat. There is deceit. Trickery and downright tomfoolery! You'll try many tactics to bypass the enemy's expectations.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.WarlordState.traits.maskelyne"
+  },
+  {
+    "title": "On all Fronts",
+    "description": "Only a fool simply attacks a single point of an enemy's defence. Certainly one can bring more force to bear against a single target. But so too can the enemy concentrate their defences on a single point. No, a wise Warlord spreads out his assault across a broad front and force the enemy to either concentrate on one point and concede all others, or spread himself thin and run the risk of the Warlord re-directing his reserves in a single line-smashing hit.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.WarlordState.traits.on-all-fronts"
+  },
+  {
+    "title": "Gigadeath Tanks",
+    "description": ":Key: Your nation does not deploy tanks. It does not deploy superheavy tanks. It deploys grounded starships. The grotesque firepower available is terrible to behold.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      "nations.WarlordState.traits.linebreakers",
+      "nations.WarlordState.traits.maskelyne"
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.WarlordState.traits.gigadeath-tanks"
+  },
+  {
+    "title": "Superdreadnought",
+    "description": "You have access to the largest class of starship it is possible to have. This monstrous vessel is phenomenally expensive, but it brings a firepower to the field that is quite capable of challenging entire fleets.",
+    "points": 1,
+    "requires": [
+      "nations.WarlordState.traits.siege-guns"
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.WarlordState.traits.superdreadnought"
+  }
+]

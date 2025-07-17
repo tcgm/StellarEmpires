@@ -15,7 +15,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "by-the-light-of-god-s"
+    "slug": "nations.Theocracy.traits.by-the-light-of-god-s"
   },
   {
     "title": "His(Her) will be done",
@@ -33,7 +33,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "his-her-will-be-done"
+    "slug": "nations.Theocracy.traits.his-her-will-be-done"
   },
   {
     "title": "Nobody Expects the (input name) Inquisition!",
@@ -51,7 +51,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "nobody-expects-the-input-name-inquisition"
+    "slug": "nations.Theocracy.traits.nobody-expects-the-input-name-inquisition"
   },
   {
     "title": "Thumbscrews and Hot Pokers",
@@ -69,7 +69,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "thumbscrews-and-hot-pokers"
+    "slug": "nations.Theocracy.traits.thumbscrews-and-hot-pokers"
   },
   {
     "title": "Truth into God's Light",
@@ -87,7 +87,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "truth-into-god-s-light"
+    "slug": "nations.Theocracy.traits.truth-into-god-s-light"
   },
   {
     "title": "Ever Watching the Darkness",
@@ -105,7 +105,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "ever-watching-the-darkness"
+    "slug": "nations.Theocracy.traits.ever-watching-the-darkness"
   },
   {
     "title": "Holy War",
@@ -123,7 +123,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "holy-war"
+    "slug": "nations.Theocracy.traits.holy-war"
   },
   {
     "title": "Convert or Die!",
@@ -141,7 +141,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "convert-or-die"
+    "slug": "nations.Theocracy.traits.convert-or-die"
   },
   {
     "title": "FOR THE FAITH!!!",
@@ -159,7 +159,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "for-the-faith"
+    "slug": "nations.Theocracy.traits.for-the-faith"
   },
   {
     "title": "Will of God",
@@ -177,7 +177,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "will-of-god"
+    "slug": "nations.Theocracy.traits.will-of-god"
   },
   {
     "title": "Purge the Unclean",
@@ -195,7 +195,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "purge-the-unclean"
+    "slug": "nations.Theocracy.traits.purge-the-unclean"
   },
   {
     "title": "Fanatical Devotion",
@@ -213,7 +213,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "fanatical-devotion"
+    "slug": "nations.Theocracy.traits.fanatical-devotion"
   },
   {
     "title": "Shield of Faith",
@@ -231,7 +231,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "shield-of-faith"
+    "slug": "nations.Theocracy.traits.shield-of-faith"
   },
   {
     "title": "WOLOLO!",
@@ -249,7 +249,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "wololo"
+    "slug": "nations.Theocracy.traits.wololo"
   },
   {
     "title": "Space Pope",
@@ -267,6 +267,6 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "space-pope"
+    "slug": "nations.Theocracy.traits.space-pope"
   }
 ]

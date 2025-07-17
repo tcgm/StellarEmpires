@@ -1,0 +1,52 @@
+{
+  "nationName": "Test Nation",
+  "nationType": "Ancient Technologists",
+  "scale": "Balanced",
+  "selectedCommonTraits": [
+    "Pyramid Rule",
+    "Distributed Administration",
+    "Vengeful",
+    "Ultra-Hygienic",
+    "Limited Cybernetic Enhancement",
+    "Accepting",
+    "Highly Religious",
+    "Agricultural Institute",
+    "University of War",
+    "Capital Warship Obsession",
+    "Relativity is a Bitch",
+    "Use the Force",
+    "Macross Missile Massacre",
+    "RAMMING SPEED",
+    "Fleet Unity Protocols",
+    "We See All",
+    "Elite Special Forces",
+    "Elite Mobile Infantry",
+    "Elite Air Forces",
+    "Combined Arms is Key"
+  ],
+  "selectedCommonFlaws": [
+    "Sensor Resolution, 640x480",
+    "Collective Stupidity"
+  ],
+  "selectedNationTraits": [
+    "Rapid Terraforming Goo",
+    "Gravity-Wave Weapons",
+    "Zero-Point Weapon",
+    "Zero-Point Reactor",
+    "Nanotech Repairs",
+    "Nanotech Defences",
+    "Nanotech Weaponry",
+    "Rapid Understanding"
+  ],
+  "selectedNationFlaws": [
+    "Grey G…oops"
+  ],
+  "selectedForeignTraits": [
+    "Thumbscrews and Hot Pokers",
+    "His(Her) will be done"
+  ],
+  "customTrait": {
+    "title": "Made You",
+    "description": "Look"
+  }
+}

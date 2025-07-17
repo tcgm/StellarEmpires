@@ -15,7 +15,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "techno-mages"
+    "slug": "nations.Arthurianists.traits.techno-mages"
   },
   {
     "title": "Round Table",
@@ -33,7 +33,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "round-table"
+    "slug": "nations.Arthurianists.traits.round-table"
   },
   {
     "title": "A Good Magician",
@@ -51,7 +51,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "a-good-magician"
+    "slug": "nations.Arthurianists.traits.a-good-magician"
   },
   {
     "title": "Huge Tracts of Lands",
@@ -69,7 +69,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "huge-tracts-of-lands"
+    "slug": "nations.Arthurianists.traits.huge-tracts-of-lands"
   },
   {
     "title": "Merlin Figure",
@@ -87,7 +87,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "merlin-figure"
+    "slug": "nations.Arthurianists.traits.merlin-figure"
   },
   {
     "title": "Hospitality Honoured",
@@ -105,7 +105,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "hospitality-honoured"
+    "slug": "nations.Arthurianists.traits.hospitality-honoured"
   },
   {
     "title": "Knightly Orders",
@@ -123,7 +123,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "knightly-orders"
+    "slug": "nations.Arthurianists.traits.knightly-orders"
   },
   {
     "title": "Excalibur",
@@ -141,14 +141,14 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "excalibur"
+    "slug": "nations.Arthurianists.traits.excalibur"
   },
   {
     "title": "Shield of Faith",
     "description": "This applies the technologies you learned to make weaponry into smaller man-portable units that it is believed are powered by faith (by the uninitiated anyway) the common salt is unaware there is even anything strange about God protecting them with his own light and grace.",
     "points": 1,
     "requires": [
-      "excalibur"
+      "nations.Arthurianists.traits.excalibur"
     ],
     "requireMode": "AND",
     "rejects": [
@@ -159,7 +159,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "shield-of-faith"
+    "slug": "nations.Arthurianists.traits.shield-of-faith"
   },
   {
     "title": "Fogs of the Fens",
@@ -177,14 +177,14 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "fogs-of-the-fens"
+    "slug": "nations.Arthurianists.traits.fogs-of-the-fens"
   },
   {
     "title": "Spelljammers",
     "description": "Somehow, your nation has figured out how to efficiently keep the air inside a spaceship without fully sealing the hull. This has allowed all manner of fanciful designs, ranging from sailing wooden ships across the void to self-propelled castle towers. It also means your crews don't need to fear depressurization anywhere near as badly.",
     "points": 1,
     "requires": [
-      "shield-baron"
+      "commonTraits.shield-baron"
     ],
     "requireMode": "AND",
     "rejects": [
@@ -195,7 +195,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "spelljammers"
+    "slug": "nations.Arthurianists.traits.spelljammers"
   },
   {
     "title": "Scrying Pools",
@@ -213,7 +213,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "scrying-pools"
+    "slug": "nations.Arthurianists.traits.scrying-pools"
   },
   {
     "title": "Holy Hand Grenades",
@@ -231,7 +231,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "holy-hand-grenades"
+    "slug": "nations.Arthurianists.traits.holy-hand-grenades"
   },
   {
     "title": "Camelot",
@@ -249,7 +249,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "camelot"
+    "slug": "nations.Arthurianists.traits.camelot"
   },
   {
     "title": "Mordred",
@@ -267,6 +267,6 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "mordred"
+    "slug": "nations.Arthurianists.traits.mordred"
   }
 ]

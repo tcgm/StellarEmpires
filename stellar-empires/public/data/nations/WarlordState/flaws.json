@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Military Intelligence",
+    "description": "The Warlords are not the universe's most natural intelligence gatherers. While they can keep their own information secure as well as anyone, their attempts at gathering information could be described as bumbling at best.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.WarlordState.flaws.military-intelligence"
+  },
+  {
+    "title": "Walkers",
+    "description": "For some unfathomable reason, your nation promoted someone with a mech obsession into a position of power and influence, this could normally be compensated for, however your nation just isn't very good at it. Instead of regular armoured vehicles you deploy mechs and walkers. And not great ones either.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.WarlordState.flaws.walkers"
+  },
+  {
+    "title": "The Enemy can Drown in the Blood of our Dead!",
+    "description": "Your generals are strong believers in the calculus of war, namely, if their numbers are bigger, they win, HAHA! They will throw your troops, armour, ships and cooks at the enemy to drown them beneath superior numbers. Even if outnumbered.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      "Master Military"
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.WarlordState.flaws.the-enemy-can-drown-in-the-blood-of-our-dead"
+  },
+  {
+    "title": "Sore Losers",
+    "description": "Your leadership is topheavy with sycophantic figures, demagogues and the cattle that follow them, instead of learning from their errors, when faced with defeat the generals and leaders often choose to take their own lives to dispel the shame of their actions.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      "Master Military"
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.WarlordState.flaws.sore-losers"
+  },
+  {
+    "title": "Crippled by Beancounters",
+    "description": "Your government is not quite up to scratch with the concept of a dictatorship, and decisions by the civil government will all too often cripple or tie the hands of the military to prosecute the actions that are necessary in the near future.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nations.WarlordState.flaws.crippled-by-beancounters"
+  }
+]

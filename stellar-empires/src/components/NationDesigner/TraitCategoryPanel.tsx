@@ -35,11 +35,12 @@ const TraitCategoryPanel: React.FC<TraitCategoryPanelProps> = React.memo(({
       borderColor={borderColor}
       p={2}
       pt={0}
+      pb={0}
       bg={useColorModeValue("white", "gray.800")}
     >
       <Section
         label={
-          <HStack justify="space-between">
+          <HStack className="trailCategoryHeader" justify="space-between">
             <Box flex="1">
               {`${title} (${selected.length}${typeof max === "number" ? "/" + max : ""})`}
             </Box>
@@ -57,7 +58,7 @@ const TraitCategoryPanel: React.FC<TraitCategoryPanelProps> = React.memo(({
         sticky
         stickyOffset={0}
       >
-        <Collapse in={isOpen} animateOpacity>
+        <Collapse in={isOpen} animateOpacity animate>
           {isOpen && (
             <List spacing={3} mt={2}>
               {traits.map((trait, i) => (

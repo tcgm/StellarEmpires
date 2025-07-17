@@ -18,6 +18,15 @@ function slugify(str) {
     .replace(/--+/g, '-');
 }
 
+// Given an absolute file path and a title, build a qualified slug
+function buildQualifiedSlug(filePath, title) {
+  let relPath = path.relative(srcDir, filePath); // e.g. nations/sol/traits.json
+  relPath = relPath.replace(/\.json$/i, '');     // e.g. nations/sol/traits
+  relPath = relPath.replace(/[\\/]/g, '.');      // e.g. nations.sol.traits
+  const slug = slugify(title);
+  return `${relPath}.${slug}`;
+}
+
 // Heuristic: must have title, description, points (number)
 function isTraitOrFlaw(obj) {
   return (
@@ -29,15 +38,19 @@ function isTraitOrFlaw(obj) {
   );
 }
 
-// Recursively find all trait/flaw objects inside arbitrary JSON
-function* findTraitOrFlawObjects(obj) {
+// Recursively find all trait/flaw objects inside arbitrary JSON, yielding [object, path]
+function* findTraitOrFlawObjects(obj, parents = []) {
   if (Array.isArray(obj)) {
-    for (const v of obj) yield* findTraitOrFlawObjects(v);
+    for (let i = 0; i < obj.length; i++) {
+      yield* findTraitOrFlawObjects(obj[i], parents.concat(i));
+    }
   } else if (typeof obj === 'object' && obj !== null) {
     if (isTraitOrFlaw(obj)) {
-      yield obj;
+      yield [obj, parents];
     }
-    for (const k in obj) yield* findTraitOrFlawObjects(obj[k]);
+    for (const k in obj) {
+      yield* findTraitOrFlawObjects(obj[k], parents.concat(k));
+    }
   }
 }
 
@@ -56,42 +69,70 @@ async function findAllJsonFiles(dir) {
   return files;
 }
 
-// Pass 1: Build a map of all titles to slugs
+// Pass 1: Build a map of all qualified slugs and support fast title+file lookups
 async function buildSlugMap(jsonFiles) {
-  const slugMap = {};
+  const qualifiedSlugMap = {}; // { qualifiedSlug: {file, obj, title} }
+  const fileTitleToSlug = {};  // { file|title: qualifiedSlug }
+  const titleToSlugs = {};     // { title: [qualifiedSlug, ...] }
+
   for (const file of jsonFiles) {
     const text = await fs.readFile(file, 'utf8');
     let json;
     try { json = JSON.parse(text); } catch { continue; }
-    for (const obj of findTraitOrFlawObjects(json)) {
-      const slug = slugify(obj.title);
-      slugMap[obj.title] = slug;
+    for (const [obj] of findTraitOrFlawObjects(json)) {
+      const qualifiedSlug = buildQualifiedSlug(file, obj.title);
+      qualifiedSlugMap[qualifiedSlug] = { file, obj, title: obj.title };
+      fileTitleToSlug[file + "|" + obj.title] = qualifiedSlug;
+      if (!titleToSlugs[obj.title]) titleToSlugs[obj.title] = [];
+      titleToSlugs[obj.title].push(qualifiedSlug);
     }
   }
-  return slugMap;
+  return { qualifiedSlugMap, fileTitleToSlug, titleToSlugs };
+}
+
+// Given a reference, file, and all slug maps, resolve to qualified slug
+function resolveReference(ref, file, slugMaps) {
+  if (!ref || typeof ref !== 'string' || !ref.trim()) return ref; // blank, keep as-is
+
+  // Already a qualified slug (contains a dot and matches pattern)
+  if (ref.match(/\./) && slugMaps.qualifiedSlugMap[ref]) return ref;
+
+  // Try file-local first
+  const local = slugMaps.fileTitleToSlug[file + "|" + ref];
+  if (local) return local;
+
+  // If only one exists globally, use that
+  const matches = slugMaps.titleToSlugs[ref];
+  if (matches && matches.length === 1) return matches[0];
+
+  // If ambiguous or not found, keep as is and warn
+  if (!matches || matches.length === 0) {
+    console.warn(`[Slugify] Reference not found: "${ref}" in file ${file}`);
+    return ref;
+  }
+  console.warn(`[Slugify] Ambiguous reference: "${ref}" in file ${file} (matches: ${matches.join(', ')})`);
+  return ref;
 }
 
 // Patch trait/flaw object with slug + replace references
-function patchWithSlugs(obj, slugMap, refFields = ['requires', 'rejects', 'scales']) {
-  obj.slug = slugify(obj.title);
+function patchWithSlugs(obj, file, slugMaps, refFields = ['requires', 'rejects', 'scales']) {
+  obj.slug = buildQualifiedSlug(file, obj.title);
   for (const field of refFields) {
     if (Array.isArray(obj[field])) {
-      obj[field] = obj[field].map(ref =>
-        ref && slugMap[ref] ? slugMap[ref] : ref
-      );
+      obj[field] = obj[field].map(ref => resolveReference(ref, file, slugMaps));
     }
   }
 }
 
 // Pass 2: Patch each file and write to output location
-async function patchAndCopyFile(srcFile, outFile, slugMap) {
+async function patchAndCopyFile(srcFile, outFile, slugMaps) {
   const text = await fs.readFile(srcFile, 'utf8');
   let json;
   try { json = JSON.parse(text); } catch { json = null; }
   if (json) {
     let modified = false;
-    for (const obj of findTraitOrFlawObjects(json)) {
-      patchWithSlugs(obj, slugMap);
+    for (const [obj] of findTraitOrFlawObjects(json)) {
+      patchWithSlugs(obj, srcFile, slugMaps);
       modified = true;
     }
     if (modified) {
@@ -108,20 +149,20 @@ async function buildData() {
   // 1. Get all source JSON files
   const allJsonFiles = await findAllJsonFiles(srcDir);
 
-  // 2. Build slug map (all titles to slugs)
-  const slugMap = await buildSlugMap(allJsonFiles);
+  // 2. Build slug maps
+  const slugMaps = await buildSlugMap(allJsonFiles);
 
   // 3. For each destDir: clean, then patch+copy every file
   for (const destDir of destDirs) {
     await fs.ensureDir(destDir);
-    await fs.emptyDir(destDir); // Clean output
+    await fs.emptyDir(destDir);
 
     for (const srcFile of allJsonFiles) {
       const rel = path.relative(srcDir, srcFile);
       const outFile = path.join(destDir, rel);
-      await patchAndCopyFile(srcFile, outFile, slugMap);
+      await patchAndCopyFile(srcFile, outFile, slugMaps);
     }
-    console.log(`Built and copied JSON with slugs to ${destDir}`);
+    console.log(`Built and copied JSON with qualified slugs to ${destDir}`);
   }
 }
 

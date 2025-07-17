@@ -15,7 +15,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "strange-pond-women"
+    "slug": "nations.Arthurianists.flaws.strange-pond-women"
   },
   {
     "title": "Coconut Drive",
@@ -33,7 +33,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "coconut-drive"
+    "slug": "nations.Arthurianists.flaws.coconut-drive"
   },
   {
     "title": "Caerbannog",
@@ -51,7 +51,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "caerbannog"
+    "slug": "nations.Arthurianists.flaws.caerbannog"
   },
   {
     "title": "Morgana Le Fay",
@@ -69,7 +69,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "morgana-le-fay"
+    "slug": "nations.Arthurianists.flaws.morgana-le-fay"
   },
   {
     "title": "Special Effects Budget",
@@ -87,7 +87,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "special-effects-budget"
+    "slug": "nations.Arthurianists.flaws.special-effects-budget"
   },
   {
     "title": "Information Thaumaturgy Support Desk",
@@ -105,7 +105,7 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "information-thaumaturgy-support-desk"
+    "slug": "nations.Arthurianists.flaws.information-thaumaturgy-support-desk"
   },
   {
     "title": "Brave Sir Robin",
@@ -123,6 +123,6 @@
       ""
     ],
     "scalesMode": "DENY",
-    "slug": "brave-sir-robin"
+    "slug": "nations.Arthurianists.flaws.brave-sir-robin"
   }
 ]

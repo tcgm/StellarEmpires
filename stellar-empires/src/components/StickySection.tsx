@@ -20,7 +20,7 @@ const Section: React.FC<SectionProps> = ({
       <Heading
         as="h4"
         size="sm"
-        mb={2}
+        mb={0}
         pb={1}
         color={color}
         letterSpacing={0.5}
@@ -29,6 +29,7 @@ const Section: React.FC<SectionProps> = ({
         bg={sticky ? "chakra-body-bg" : undefined}
         zIndex={sticky ? 1 : undefined}
         px={sticky ? 2 : undefined}
+        verticalAlign={"center"}
       >
         {label}
       </Heading>
