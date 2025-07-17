@@ -5,10 +5,11 @@ import { NationDesign } from "../../types";
 
 // You may want to add props for trait lookup if you want to show descriptions as well.
 const DesignSummary: React.FC<{ design: NationDesign }> = ({ design }) => (
-  <Box borderWidth={1} borderRadius="md" p={4} boxShadow="md" bg="gray.600" minW="250px">
-    <Heading size="sm" mb={3}>Summary</Heading>
+  <Box className="designSummary" borderWidth={1} borderRadius="md" p={2} mb={1} boxShadow="md" bg="gray.600" maxH={"50vh"} overflowY={"auto"}>
+    {/* <Heading size="sm" mb={3}>Summary</Heading> */}
     <VStack align="start" spacing={1}>
-      <Text><b>Nation Type:</b> {design.nationType || "—"}</Text>
+      <Text><b>Nation Name:</b> {design.nationName || "—"}</Text>
+      <Text><b>Type:</b> {design.nationType || "—"}</Text>
       <Text><b>Scale:</b> {design.scale || "—"}</Text>
       <Text fontWeight="bold" mt={2}>Traits & Flaws</Text>
       <Text fontSize="sm"><b>Common Traits:</b> {design.selectedCommonTraits.join(", ") || "—"}</Text>

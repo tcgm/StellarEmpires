@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import {
   Box, VStack, HStack, Text, Input, Divider, Stack, useBreakpointValue, useToast,
 } from "@chakra-ui/react";
@@ -43,7 +43,22 @@ const NationDesigner: React.FC<NationDesignerProps> = ({
   const toast = useToast();
   const [design, setDesign] = useState<NationDesign>(() => loadNationDesign() || defaultDesign);
 
-  useEffect(() => { saveNationDesign(design); }, [design]);
+    const saveTimeout = useRef<NodeJS.Timeout | null>(null);
+
+    useEffect(() => {
+    if (saveTimeout.current) {
+        clearTimeout(saveTimeout.current);
+    }
+    saveTimeout.current = setTimeout(() => {
+        saveNationDesign(design);
+    }, 500); // 500ms debounce (tweak as needed)
+
+    return () => {
+        if (saveTimeout.current) {
+        clearTimeout(saveTimeout.current);
+        }
+    };
+    }, [design]);
 
   const selectedNationData = nations.find(n => n.nation === design.nationType);
   const nationTraits: TraitOrFlaw[] = selectedNationData?.traits || [];
@@ -54,11 +69,13 @@ const NationDesigner: React.FC<NationDesignerProps> = ({
   function updateField<K extends keyof NationDesign>(key: K, value: NationDesign[K]) {
     setDesign(d => ({ ...d, [key]: value }));
   }
+
   function toggleInList(list: string[], value: string) {
     return list.includes(value)
       ? list.filter(t => t !== value)
       : [...list, value];
   }
+  
   function selectTrait(type: "common" | "nation" | "foreign", trait: TraitOrFlaw) {
     const used = {
       CT: design.selectedCommonTraits.length,
@@ -186,51 +203,51 @@ const NationDesigner: React.FC<NationDesignerProps> = ({
             overflowY="auto"
         >
             <TraitCategoryPanel
-            title="Common Traits"
-            traits={commonTraits.map(t => ({ ...t, isTrait: true }))}
-            selected={design.selectedCommonTraits}
-            onToggle={trait => selectTrait("common", { ...trait, isTrait: true })}
-            isTrait
-            color={traitBoxColor}
-            max={points.CT}
+                title="Common Traits"
+                traits={commonTraits.map(t => ({ ...t, isTrait: true }))}
+                selected={design.selectedCommonTraits}
+                onToggle={trait => selectTrait("common", { ...trait, isTrait: true })}
+                isTrait
+                color={traitBoxColor}
+                max={points.CT}
             />
             <TraitCategoryPanel
-            title="Common Flaws"
-            traits={commonFlaws.map(f => ({ ...f, isTrait: false }))}
-            selected={design.selectedCommonFlaws}
-            onToggle={trait => selectTrait("common", { ...trait, isTrait: false })}
-            isTrait={false}
-            color={flawBoxColor}
-            max={points.CF}
+                title="Common Flaws"
+                traits={commonFlaws.map(f => ({ ...f, isTrait: false }))}
+                selected={design.selectedCommonFlaws}
+                onToggle={trait => selectTrait("common", { ...trait, isTrait: false })}
+                isTrait={false}
+                color={flawBoxColor}
+                max={points.CF}
             />
             <TraitCategoryPanel
-            title="Nation Traits"
-            traits={nationTraits.map(t => ({ ...t, isTrait: true }))}
-            selected={design.selectedNationTraits}
-            onToggle={trait => selectTrait("nation", { ...trait, isTrait: true })}
-            isTrait
-            color={traitBoxColor}
-            max={points.NT}
+                title="Nation Traits"
+                traits={nationTraits.map(t => ({ ...t, isTrait: true }))}
+                selected={design.selectedNationTraits}
+                onToggle={trait => selectTrait("nation", { ...trait, isTrait: true })}
+                isTrait
+                color={traitBoxColor}
+                max={points.NT}
             />
             <TraitCategoryPanel
-            title="Nation Flaws"
-            traits={nationFlaws.map(f => ({ ...f, isTrait: false }))}
-            selected={design.selectedNationFlaws}
-            onToggle={trait => selectTrait("nation", { ...trait, isTrait: false })}
-            isTrait={false}
-            color={flawBoxColor}
-            max={points.NF}
+                title="Nation Flaws"
+                traits={nationFlaws.map(f => ({ ...f, isTrait: false }))}
+                selected={design.selectedNationFlaws}
+                onToggle={trait => selectTrait("nation", { ...trait, isTrait: false })}
+                isTrait={false}
+                color={flawBoxColor}
+                max={points.NF}
             />
             <ForeignTraitsPanel
-            allForeignTraits={allForeignTraits}
-            selected={design.selectedForeignTraits}
-            onToggle={trait => selectTrait("foreign", { ...trait, isTrait: true })}
+                allForeignTraits={allForeignTraits}
+                selected={design.selectedForeignTraits}
+                onToggle={trait => selectTrait("foreign", { ...trait, isTrait: true })}
             />
             <CustomTraitPanel
-            trait={design.customTrait ?? null}
-            onTitle={handleCustomTraitTitle}
-            onDesc={handleCustomTraitDesc}
-            onClear={clearCustomTrait}
+                trait={design.customTrait ?? null}
+                onTitleChange={handleCustomTraitTitle}
+                onDescChange={handleCustomTraitDesc}
+                onClear={clearCustomTrait}
             />
         </Box>
         {/* Sidebar (summary + controls): sticky on desktop, below on mobile */}
@@ -242,31 +259,30 @@ const NationDesigner: React.FC<NationDesignerProps> = ({
             position="relative"
             h="100%"
             px={2}
-            py={2}
+            py={0}
             display="flex"
             flexDirection="column"
             alignItems="stretch"
             >
-            <Box
-                position="sticky"
-                top="24px"
-                zIndex={2}
-                bg="chakra-body-bg"
-                borderRadius="md"
-                border="1px solid"
-                borderColor="gray.300"
-                boxShadow="sm"
-                p={3}
-            >
-                <DesignSummary design={design} />
-                <DesignerControls
-                onReset={handleReset}
-                onLoad={handleLoad}
-                onClear={handleClear}
-                onCopy={handleCopyJSON}
-                onImport={handleImportJSON}
-                />
-            </Box>
+                <Box
+                    position="sticky"
+                    zIndex={2}
+                    bg="chakra-body-bg"
+                    borderRadius="md"
+                    border="1px solid"
+                    borderColor="gray.300"
+                    boxShadow="sm"
+                    p={2}
+                >
+                    <DesignSummary design={design} />
+                    <DesignerControls
+                    onReset={handleReset}
+                    onLoad={handleLoad}
+                    onClear={handleClear}
+                    onCopy={handleCopyJSON}
+                    onImport={handleImportJSON}
+                    />
+                </Box>
             </Box>
         )}
         </Box>

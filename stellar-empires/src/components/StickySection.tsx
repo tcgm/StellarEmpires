@@ -1,7 +1,7 @@
 import { Box, Heading } from "@chakra-ui/react";
 
 interface SectionProps {
-  label?: string;
+  label?: string | React.ReactNode;
   color?: string;
   children: React.ReactNode;
   sticky?: boolean;
@@ -15,7 +15,7 @@ const Section: React.FC<SectionProps> = ({
   sticky,
   stickyOffset = 0
 }) => (
-  <Box mb={5}>
+  <Box mb={0}>
     {label && (
       <Heading
         as="h4"

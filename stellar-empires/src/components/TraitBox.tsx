@@ -51,7 +51,6 @@ const TraitBox: React.FC<TraitBoxProps> = ({
     border="1px solid"
     borderColor={boxBorder}
     boxShadow="sm"
-    key={"traitBox" + title + index}
   >
     <Flex align="center" mb={2} wrap="wrap" gap={2}>
       {showTypeBadge && (
