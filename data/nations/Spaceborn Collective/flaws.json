@@ -6,7 +6,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Pressure Vessel",
@@ -15,7 +23,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Atrophied Immune Systems",
@@ -24,7 +40,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Exotic Atmosphere Mix",
@@ -33,7 +57,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Devalued Garden Worlds",
@@ -42,7 +74,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Delicate Garden Systems",
@@ -51,6 +91,14 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   }
 ]

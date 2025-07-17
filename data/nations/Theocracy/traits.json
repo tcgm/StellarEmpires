@@ -6,7 +6,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "His(Her) will be done",
@@ -15,7 +23,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Nobody Expects the (input name) Inquisition!",
@@ -24,7 +40,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Thumbscrews and Hot Pokers",
@@ -33,7 +57,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Truth into God's Light",
@@ -42,7 +74,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Ever Watching the Darkness",
@@ -51,7 +91,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Holy War",
@@ -60,7 +108,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Convert or Die!",
@@ -69,7 +125,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "FOR THE FAITH!!!",
@@ -78,7 +142,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Will of God",
@@ -87,7 +159,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Purge the Unclean",
@@ -96,7 +176,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Fanatical Devotion",
@@ -105,7 +193,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Shield of Faith",
@@ -114,7 +210,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "WOLOLO!",
@@ -123,7 +227,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Space Pope",
@@ -132,6 +244,14 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   }
 ]

@@ -5,6 +5,7 @@ export interface TraitOrFlaw {
   isTrait?:boolean;
   points?:number;
   requires?: string[];
+  requireMode?: "AND" | "OR";
 }
 
 export interface NationData {

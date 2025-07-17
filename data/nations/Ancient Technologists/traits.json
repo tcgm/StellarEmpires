@@ -6,7 +6,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Nanotech Weaponry",
@@ -15,7 +23,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Nanotech Defences",
@@ -24,7 +40,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Nanotech Repairs",
@@ -33,7 +57,15 @@
     "requires": [
       "Nanotech Defences"
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Zero-Point Reactor",
@@ -42,7 +74,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Zero-Point Weapon",
@@ -51,7 +91,15 @@
     "requires": [
       "Zero-Point Reactor"
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Gravity-Wave Weapons",
@@ -60,7 +108,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Rapid Terraforming Goo",
@@ -69,7 +125,15 @@
     "requires": [
       "Grey G…oops"
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Testing Phase!",
@@ -78,7 +142,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Derelict",
@@ -87,7 +159,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Berzerker",
@@ -96,7 +176,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "SQUIDDIES!",
@@ -105,7 +193,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Teleportation Platforms",
@@ -114,16 +210,32 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Sundivers",
-    "description": "(Cannot take if Shieldless) Your ships shields are tuned and capable of allowing them to dive directly into the outer layers of a sun to refuel directly from the source.",
+    "description": "Your ships shields are tuned and capable of allowing them to dive directly into the outer layers of a sun to refuel directly from the source.",
     "points": 1,
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      "Shieldless"
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Shield World",
@@ -132,6 +244,14 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   }
 ]

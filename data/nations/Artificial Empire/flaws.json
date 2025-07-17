@@ -6,7 +6,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Day 1 Vulnerability",
@@ -15,7 +23,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Spontaneity",
@@ -24,7 +40,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Spambots!",
@@ -33,16 +57,32 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Crude Bluebox Intelligence",
-    "description": "(Cannot take with Nanotech Citizens or 3d Computing) Your nation has the unfortunate distinction of becoming self-aware on extremely crude hardware, even the smallest of your citizens is the size of a small organics entire house.",
+    "description": "Your nation has the unfortunate distinction of becoming self-aware on extremely crude hardware, even the smallest of your citizens is the size of a small organics entire house.",
     "points": 1,
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      "Nanotech Citizens", "3D Computing"
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Lossy Compression",
@@ -51,7 +91,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Root Compile Error",
@@ -60,6 +108,14 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   }
 ]

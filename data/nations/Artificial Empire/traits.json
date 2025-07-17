@@ -6,7 +6,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Nanotech Citizens",
@@ -15,7 +23,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Wireless World",
@@ -24,7 +40,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "3D Computing",
@@ -33,7 +57,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Digital Invasion",
@@ -42,7 +74,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "The School",
@@ -51,7 +91,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Rest is Pointless",
@@ -60,7 +108,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Organic Patterning",
@@ -69,7 +125,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Terminators",
@@ -78,7 +142,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Bio-Symbiosis",
@@ -87,7 +159,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Prototype Matryoska Brain",
@@ -96,7 +176,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Mildly Mad",
@@ -105,7 +193,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "404 Damn Not Found",
@@ -114,7 +210,15 @@
     "requires": [
       "Bio-Symbiosis"
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Advanced Data Shunt",
@@ -123,7 +227,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Return to Sender",
@@ -132,6 +244,14 @@
     "requires": [
       "3D Computing"
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   }
 ]

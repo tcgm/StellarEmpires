@@ -6,7 +6,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Lifegivers",
@@ -15,7 +23,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Gen-Select Bioweapons",
@@ -24,7 +40,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Hi-Grade Lasers",
@@ -33,7 +57,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Rapid Intervention",
@@ -42,7 +74,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Crop-Dusting",
@@ -51,7 +91,15 @@
     "requires": [
       "Gen-Select Bioweapons"
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "The Emergency Act",
@@ -60,7 +108,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Preservation",
@@ -69,7 +125,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Planetary Resurrection",
@@ -78,16 +142,32 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Aboreotech",
-    "description": "(Cannot take with Ironclad Common Trait) Growing ships from the living trees of a world and using advanced technology to render them spaceborne, these works of art are.. fragile to say the least. But the integrated technology does make them lighter and cheaper, and while they cannot bear the weight of armour, they are good enough with shields.",
+    "description": "Growing ships from the living trees of a world and using advanced technology to render them spaceborne, these works of art are.. fragile to say the least. But the integrated technology does make them lighter and cheaper, and while they cannot bear the weight of armour, they are good enough with shields.",
     "points": 1,
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      "Ironclad"
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Connected to Nature",
@@ -96,16 +176,33 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Celestial Manifest Destiny",
     "description": "It turns out that semi-sapient world spirits can have a hell of an ambitious streak of their own, on learning that sooner or later even their sun can die, your world spirit has driven you less to conserve nature, and replace other biospheres with its own. And it showed you how.",
     "points": 1,
     "requires": [
-      "Connected to Nature", "Arboreotech"
+      "Connected to Nature",
+      "Arboreotech"
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Geostorm Defence",
@@ -114,15 +211,33 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Living World",
     "description": "Your world is not a rocky body lush with life. It is an actual living world. You don't know how it came to be or why, whether it is some ancient living artefact, or something else, the world spirit is unlikely to elaborate. However, it is capable of independently moving itself, and even faster than light travel, if very slow FTL.",
     "points": 1,
     "requires": [
-      "Connected to Nature", "Geostorm Defence", "Celestial Manifest Destiny"
+      "Connected to Nature",
+      "Geostorm Defence",
+      "Celestial Manifest Destiny"
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   }
 ]

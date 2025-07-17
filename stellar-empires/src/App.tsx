@@ -4,8 +4,8 @@ import NationBrowser from "./components/NationBrowser";
 import CommonTab from "./components/CommonTab";
 // import nations from "./data/nations.json";
 import { fetchAllNationData } from "./helpers/nationLoader";
-import commonTraits from "./data/commonTraits.json";
-import commonFlaws from "./data/commonFlaws.json";
+import commonTraitsRaw from "./data/commonTraits.json";
+import commonFlawsRaw from "./data/commonFlaws.json";
 import { TraitOrFlawList, NationData, TraitOrFlaw } from "./types";
 import ColorModeToggle from "./components/ColorModeToggle";
 import TraitSearch from "./components/TraitSearch";
@@ -23,6 +23,10 @@ const TAB_LIST: { label: string; value: TabType }[] = [
   { label: "Trait/Flaw Search", value: "traitSearch" },
   { label: "Nation Designer", value: "nationDesign" }
 ];
+
+const commonTraits: TraitOrFlawList = commonTraitsRaw as TraitOrFlawList;
+
+const commonFlaws: TraitOrFlawList = commonFlawsRaw as TraitOrFlawList;
 
 const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState<TabType>("nations");

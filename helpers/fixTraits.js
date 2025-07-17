@@ -9,6 +9,10 @@ const COMMON_FILES = ['commonTraits.json', 'commonFlaws.json'];
 const FIELDS_TO_ENSURE = [
   { name: 'requires', default: [""], type: 'array', traitOnly: false },
   { name: 'requireMode', default: "AND", type: 'string', traitOnly: false },
+  { name: 'rejects', default: [""], type: 'array', traitOnly: false },
+  { name: 'rejectMode', default: "AND", type: 'string', traitOnly: false },
+  { name: 'scales', default: [""], type: 'array', traitOnly: false },
+  { name: 'scalesMode', default: "DENY", type: 'string', traitOnly: false },
   // Add more fields as needed, e.g. { name: 'points', default: 0, type: 'number' }
 ];
 

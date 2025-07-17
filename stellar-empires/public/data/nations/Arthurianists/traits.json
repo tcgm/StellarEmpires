@@ -2,76 +2,271 @@
   {
     "title": "Techno-Mages",
     "description": "(Arthurianist nations receive this trait automatically for free.) Your people do not resemble a technologically advanced society and that is the fundamental point. Your technology has turned the mundane into the appearance of magic.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "techno-mages"
   },
   {
     "title": "Round Table",
     "description": "Your government, while headed by a nominal leader, is led by a council of equals who, when in session every voice holds equal weight and can guarantee to be heard and acknowledged with the honour and respect they deserve.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "round-table"
   },
   {
     "title": "A Good Magician",
     "description": "-never reveals their secrets. Your people have a lot of experience with making the apparently impossible happen, and preventing others from seeing how it was actually done. This experience is transferrable to espionage.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "a-good-magician"
   },
   {
     "title": "Huge Tracts of Lands",
     "description": "(Must be a Wide Nation) The Arthurianist nation has huge tracts of (barely developed) land! They begin with an extra 5 Systems, each bearing a Frontier World! (You may not apply upgrades to these systems or worlds.)",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "huge-tracts-of-lands"
   },
   {
     "title": "Merlin Figure",
     "description": "Your nation has an advisory council, wizards, druids, sorcerors, it matters little, the predominant figure leading them is regarded as extremely wise, intelligent and talented. They are also Technomages of the highest regard.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "merlin-figure"
   },
   {
     "title": "Hospitality Honoured",
     "description": "Your nation believes strongly in offering hospitality to strangers in need and doing all within their honour to protect their guests. Their reputation for great hospitality has made them well regarded diplomatically.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "hospitality-honoured"
   },
   {
     "title": "Knightly Orders",
     "description": "Your military is primarily made up of common folk, but at its heart, the honourable Knightly orders are present, equipped with the finest magitech, they serve as the beating heart, and fight well and above what might be otherwise expected.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "knightly-orders"
   },
   {
     "title": "Excalibur",
     "description": "Your primary weapons technology is magitech it is true, but the core of that is a remarkably advanced piece of kit, you figured out how to make zero-point energy taps of unsurpassed miniaturisation. The swords of your people can be sheathed with energy, bows or crossbows firing bolts of light.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "excalibur"
   },
   {
     "title": "Shield of Faith",
-    "description": "(Requires Excalibur) This applies the technologies you learned to make weaponry into smaller man-portable units that it is believed are powered by faith (by the uninitiated anyway) the common salt is unaware there is even anything strange about God protecting them with his own light and grace.",
-    "points": 1
+    "description": "This applies the technologies you learned to make weaponry into smaller man-portable units that it is believed are powered by faith (by the uninitiated anyway) the common salt is unaware there is even anything strange about God protecting them with his own light and grace.",
+    "points": 1,
+    "requires": [
+      "excalibur"
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "shield-of-faith"
   },
   {
     "title": "Fogs of the Fens",
     "description": "Your Technomages have employed disruption technologies on ever smaller scales that disrupt neurological function in order to protect the secrets of their technologies. They serve to distract and distort perceptions without allowing the observer to realise they are being so affected.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "fogs-of-the-fens"
   },
   {
     "title": "Spelljammers",
-    "description": "(Requires Shield Baron) Somehow, your nation has figured out how to efficiently keep the air inside a spaceship without fully sealing the hull. This has allowed all manner of fanciful designs, ranging from sailing wooden ships across the void to self-propelled castle towers. It also means your crews don't need to fear depressurization anywhere near as badly.",
-    "points": 1
+    "description": "Somehow, your nation has figured out how to efficiently keep the air inside a spaceship without fully sealing the hull. This has allowed all manner of fanciful designs, ranging from sailing wooden ships across the void to self-propelled castle towers. It also means your crews don't need to fear depressurization anywhere near as badly.",
+    "points": 1,
+    "requires": [
+      "shield-baron"
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "spelljammers"
   },
   {
     "title": "Scrying Pools",
     "description": "Your technomages have developed an advanced sensor system that is carefully integrated into your vessels, these are powerful sensors that pluck on the very fabric of spacetime and can even provide a more reliable method of picking up even cloaked ships, though they do need to be rather close for that.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "scrying-pools"
   },
   {
     "title": "Holy Hand Grenades",
     "description": "What happens when you put a tiny zero point energy tap in a cylinder and set it to just release whatever when the containment vessel is released? Don't be too close if you don't want a Castle Bravo Sunburn.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "holy-hand-grenades"
   },
   {
     "title": "Camelot",
     "description": "Your Capital is not a planet, (though it has been on one many a times) it is somewhere between a space habitat, starship and landing craft, all while looking like a good old fashioned castle. Regarded by some as a silly place, it doesn't change the fact it can be used to protect your Capital from attack or invasion, or to conduct an invasion instead.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "camelot"
   },
   {
     "title": "Mordred",
     "description": "The Arthurianist nations are generally highly honourable, well set up, stable, and capable. (Insofar as a nation that has technology so advanced they decided they wanted to larp as space wizards can) But when pushed or pressed to extremes, they have a dark side that can manifest. And you won't find their silly anachronism quite as endearing when their angry nobility uses their technology to convert and turn your dead against you.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "mordred"
   }
 ]

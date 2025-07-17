@@ -2,36 +2,127 @@
   {
     "title": "Strange Pond Women",
     "description": "Your nation has some astronomically bizarre notions as to the succession, from extracting perfectly good swords that have been shoved into random stone objects to having a woman throw a different sword at you from a lake. Your people are, seemingly, growing increasingly annoyed by pointless anachronisms.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "strange-pond-women"
   },
   {
     "title": "Coconut Drive",
     "description": "(FTL drive gains the slow flaw. *This overrides the fast advantage*) Your nation might boast about their technology being so good its magic, but you never quite figured out how to solve the FTL problem while maintaining that plausible deniability. It is not unusual for someone who finds themselves near it to find one of your Techno-Mages bashing two coconuts together for the whole trip. That poor bastard.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "coconut-drive"
   },
   {
     "title": "Caerbannog",
     "description": "Your nation withstood a terrible enemy through means most artful, yet no matter how often you retell the story, no matter how detailed you are, foreigners are amused to no end and find the story funny and are slightly embarrassed for you. But you know in your round table that the terrible enemy is still out there. Waiting.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "caerbannog"
   },
   {
     "title": "Morgana Le Fay",
     "description": "Your society is feudal in structure, and has favoured both an oligarchal structure and severe nepotism. As such it is hardly united, and there are often plays of power for the throne. There is something darker behind the curtain, and it's aimed at your seat of power.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "morgana-le-fay"
   },
   {
     "title": "Special Effects Budget",
     "description": "As it turns out, all the extra effort to cosplay as wizards is a lot more expensive than it would be just using normal technology. As a result, your people are considerably poorer than your actual technology would indicate.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "special-effects-budget"
   },
   {
     "title": "Information Thaumaturgy Support Desk",
     "description": "As it turns out, making the inner workings of your technology so incredibly obscure makes it exceedingly difficult to repair, maintain, or diagnose issues. This immense workload ends up heaped upon a cadre of low-rank technomages with horrid burnout statistics. And if you can't get ahold of one of these people, tough luck.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "information-thaumaturgy-support-desk"
   },
   {
     "title": "Brave Sir Robin",
     "description": "Your Knights are brave, so utterly brave that nobody could ever describe how Brave they are!... though admittedly, the credible witnesses to their bravery DOES seem to be lacking.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "brave-sir-robin"
   }
 ]

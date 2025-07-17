@@ -2,26 +2,91 @@
   {
     "title": "Piss Bottles For EVERYONE!",
     "description": "Not everyone is a fan of Spacemazon, but when they own your indentured work contracts, you've got your 0900-2300 shift and your main decision is do you need the two litre piss bottle, or three for this shift? Your people are grossly overworked, and don't even have the dignity of time to relieve themselves, so they go wherever. It's a competition between WHS violations and Urinary Tract Infections for the highest mortality rates.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "piss-bottles-for-everyone"
   },
   {
     "title": "Super-WHS Department",
     "description": "You actually do have a functional work-health safety department in your nation, and it is very VERY powerful. Unfortunately, your Corporate Empire is in a shadow war with it over avoiding WHS laws and practices, it all functions pretty normally, until the WHS department does an audit, and that can shut down the nation for days, or more.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "super-whs-department"
   },
   {
     "title": "The Mighty Credit",
     "description": "Yours is a nation ruled by the almighty credit, this is known, but your people take it to an unfortunate extreme, enough so that it is rather trivial for them to be bought by the highest bidder, and trying to ensure you're the highest bidder is a great way to drain the corporate accounts.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "the-mighty-credit"
   },
   {
     "title": "Unhealthy Competition",
     "description": "Your nation isn't dominated by a single economic mandate, but by several competing megacorps, and they'd have it no other way, unfortunately that leads to the occasional Corpo Wars as they compete over resources, patents, people and product. Don't be too surprised if occasional ships and troops disappear virtually overnight in these little brushfire wars.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "unhealthy-competition"
   },
   {
     "title": "A Tarnished Reputation",
     "description": "Your reputation speaks for itself, unfortunately. Expect foreign dignitaries, military leaders, small children and forest creatures that are blind and deaf to check their pockets if you pass too near. Don't expect anyone to agree to a deal without a Sword of Damocles in place to serve as enforcement.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "a-tarnished-reputation"
   }
 ]

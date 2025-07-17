@@ -6,7 +6,15 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Walkers",
@@ -15,25 +23,49 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "The Enemy can Drown in the Blood of our Dead!",
-    "description": "(Cannot take with Master Military) Your generals are strong believers in the calculus of war, namely, if their numbers are bigger, they win, HAHA! They will throw your troops, armour, ships and cooks at the enemy to drown them beneath superior numbers. Even if outnumbered.",
+    "description": "Your generals are strong believers in the calculus of war, namely, if their numbers are bigger, they win, HAHA! They will throw your troops, armour, ships and cooks at the enemy to drown them beneath superior numbers. Even if outnumbered.",
     "points": 1,
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      "Master Military"
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Sore Losers",
-    "description": "(Cannot take with Master Military) Your leadership is topheavy with sycophantic figures, demagogues and the cattle that follow them, instead of learning from their errors, when faced with defeat the generals and leaders often choose to take their own lives to dispel the shame of their actions.",
+    "description": "Your leadership is topheavy with sycophantic figures, demagogues and the cattle that follow them, instead of learning from their errors, when faced with defeat the generals and leaders often choose to take their own lives to dispel the shame of their actions.",
     "points": 1,
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      "Master Military"
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   },
   {
     "title": "Crippled by Beancounters",
@@ -42,6 +74,14 @@
     "requires": [
       ""
     ],
-    "requireMode": "AND"
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY"
   }
 ]

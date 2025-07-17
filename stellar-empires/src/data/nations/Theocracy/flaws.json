@@ -2,31 +2,109 @@
   {
     "title": "Doctrine is the law of the Almighty",
     "description": "Your people, your nation live according to ancient doctrines passed down from generations and should be followed by everyone. That the alien races don't know the doctrine is their mistake not yours and any good diplomatic relations could be thrown out of the window instantly when all of a sudden the foreign diplomat breaks the divine rule of \"Thou shall not pick your nose on the seventh hour of the seventh day of the seventh month!\"",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "doctrine-is-the-law-of-the-almighty"
   },
   {
     "title": "Science equals Heresy",
     "description": "Science... It brings the means to further spread the word of the divine but sometimes scientists discover something that is against doctrine and which is instantly labelled as heresy and dealt with severely.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "science-equals-heresy"
   },
   {
     "title": "CRUSADE!!!",
     "description": "When a Theocracy's Shrineworlds are attacked there is no greater insult to them and their religion. The Theocracy will almost instantly go into a state of total unrelenting war. They WILL mobilise ships and armies, they WILL attack almost mindlessly. However they WILL prioritise re-taking their Shrineworlds over any other consideration.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "crusade"
   },
   {
     "title": "No Thanks",
     "description": "You might be a bit too preachy, even for a theocracy, your neighbours have a strong habit of rejecting your nation, its faith and everything else. You just really aren't really welcome. At least they're usually polite… usually.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "no-thanks"
   },
   {
     "title": "Refusal to Adapt",
     "description": "Your nation's doctrines, religion and culture has made it dangerously incapable of adapting to new threats in a timely manner and are more likely to dismiss a threat until significant damage is done.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "refusal-to-adapt"
   },
   {
     "title": "Pure as a Puritan",
     "description": "Your nation is particularly vulnerable to contraband because of the sheer amount of stuff that your faith forbids people to engage in. Like, smut, I can sort of understand, but who bans pineapples?!",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "pure-as-a-puritan"
   }
 ]

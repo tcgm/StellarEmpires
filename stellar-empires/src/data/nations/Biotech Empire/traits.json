@@ -2,75 +2,272 @@
   {
     "title": "Regenerative",
     "description": "Your technology is adept at healing and recovering from all but the most catastrophic damage without significant external support, though it might need to be fed.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "regenerative"
   },
   {
     "title": "Living Ships",
-    "description": "(Requires Ageing Nation) Your ships are as much citizens as any people, alive, sapient and will eventually pass on like them too, but until then they are capable of total autonomy and actions that disable or cripple the crew are unlikely to affect the vessels themselves.",
-    "points": 1
+    "description": "Your ships are as much citizens as any people, alive, sapient and will eventually pass on like them too, but until then they are capable of total autonomy and actions that disable or cripple the crew are unlikely to affect the vessels themselves.",
+    "points": 1,
+    "requires": [
+      "Ageing Nation"
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "living-ships"
   },
   {
     "title": "Biosimulacra",
     "description": "You are capable of engineering spies that are very close to the host species as organic drones for the purposes of intelligence gathering.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "biosimulacra"
   },
   {
-    "title": "The spiders are here to fuck us (Requires",
-    "description": "We're not here to fuck spiders): You have realized that your appearance is fundamentally repulsive. You have accepted it, maybe cried a little bit about it, and then you've come to realize that this makes you an all-natural psychological weapon. So you pushed the ick factor into overdrive. Now your appearance causes people to spontaneously crash their starships into random asteroids because you just jumpscared them.."
+    "title": "The spiders are here to fuck us",
+    "description": "You have realized that your appearance is fundamentally repulsive. You have accepted it, maybe cried a little bit about it, and then you've come to realize that this makes you an all-natural psychological weapon. So you pushed the ick factor into overdrive. Now your appearance causes people to spontaneously crash their starships into random asteroids because you just jumpscared them..",
+    "points": 1,
+    "requires": [
+      "we-re-not-here-to-fuck-spiders"
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "the-spiders-are-here-to-fuck-us"
   },
   {
     "title": "Stranger Senses",
     "description": "The nature of biology can give things some senses lacking in machines. Instinct and senses for danger. Bred for these characteristics they become quite prevalent giving most creatures a form of sixth sense.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "stranger-senses"
   },
   {
     "title": "Adaptive Evolution",
     "description": ":Key: You are capable of engaging in directed evolution on the fly in an effort to adapt to changing battlefield conditions, people die in droves.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "adaptive-evolution"
   },
   {
     "title": "Biosphere Modification",
     "description": "The BioTech Empire can quickly adapt to new conditions upon the worlds it comes to settle upon. However this ability can't be extended to their ships.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "biosphere-modification"
   },
   {
     "title": "Zerg Rush!",
-    "description": "(Cannot take with Nidzilla!) You are dependent on masses of small easily mass produced troops. They are not very powerful, not very smart but that doesn't matter when you can deploy a hundred for every average trooper another nation might field.",
-    "points": 1
+    "description": "You are dependent on masses of small easily mass produced troops. They are not very powerful, not very smart but that doesn't matter when you can deploy a hundred for every average trooper another nation might field.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      "nidzilla"
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "zerg-rush"
   },
   {
     "title": "Nidzilla!",
-    "description": "(Cannot take with Zerg Rush!) The reverse side of the Zerg coin. You prefer to deploy massive monsters that are powerful, adaptable and armed to the very literal teeth.",
-    "points": 1
+    "description": "The reverse side of the Zerg coin. You prefer to deploy massive monsters that are powerful, adaptable and armed to the very literal teeth.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      "zerg-rush"
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "nidzilla"
   },
   {
     "title": "Necrosoid",
     "description": "Your technology is terrifying to most species, you don't just employ organic technology, you depend on dead tissue to expand even more heavily. The longer a war goes on, the more dead tissue is available, the more you can call upon.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "necrosoid"
   },
   {
     "title": "Mycelium",
-    "description": "(Cannot take with Zerg Rush! Or Nidzilla!) Your nation is very different from most biotech nations. Largely static, your warfare is conducted through the use of spores, both offensive and parasitic, you do not grow monsters like most, you co-opt biospheres into new ones.",
-    "points": 1
+    "description": "Your nation is very different from most biotech nations. Largely static, your warfare is conducted through the use of spores, both offensive and parasitic, you do not grow monsters like most, you co-opt biospheres into new ones.",
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      "zerg-rush",
+      "nidzilla"
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "mycelium"
   },
   {
-    "title": "Jackhammerrabbits! (Requires Jackrabbits!)",
+    "title": "Jackhammerrabbits!",
     "description": "Your people breed even more. Breed before breakfast, breed on the smoke break, breed on the ride home, breed before sleep, breed during sleep... some have even gone to such lengths as to genetically engineer their entire house into a tentacle pit. You will never run out of babies. Or biomass. Whichever your highness prefers.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      "jackrabbits"
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "jackhammerrabbits"
   },
   {
     "title": "Distributed Intelligence",
-    "description": "(Requires Projective Mind) Psionic connects the hive wholly through and through. The intelligence of the nation is distributed across its organisms. Each and every one, part of a whole. A stranger cannot hide themselves from your senses for long.",
-    "points": 1
+    "description": "Psionic connects the hive wholly through and through. The intelligence of the nation is distributed across its organisms. Each and every one, part of a whole. A stranger cannot hide themselves from your senses for long.",
+    "points": 1,
+    "requires": [
+      "projective-mind"
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "distributed-intelligence"
   },
   {
     "title": "Dwellers in the Deep",
     "description": "You developed from a water world, it was this that led you down the art of perfecting genetic technology and forsaking the far more difficult to deal with metals and conventional technology. You understand how to move in the environs of space second only to the Spaceborn. And on your waterlogged worlds your cities and facilities are much harder to reach due to the deep oceans you hide them at the bottom of.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "dwellers-in-the-deep"
   },
   {
     "title": "Extreme Thermoevolutionary Adaptations",
     "description": "You have learned to adapt your biotechnology to withstand extreme thermal loads, or lack thereof allowing you to exploit regions of intense vulcanism, or even snowballs at the outer edges of a system.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "extreme-thermoevolutionary-adaptations"
   }
 ]

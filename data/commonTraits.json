@@ -7,7 +7,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Fair Dinkum",
@@ -16,7 +24,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Who cares about Uzbekistan?",
@@ -25,7 +41,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Party Please",
@@ -34,7 +58,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Manipulative",
@@ -43,7 +75,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Colonial Spirit",
@@ -52,7 +92,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Mechanics at Heart",
@@ -61,7 +109,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Passive Aggressive",
@@ -70,7 +126,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "For the People",
@@ -79,7 +143,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "I-GUN",
@@ -88,7 +160,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Rule of All",
@@ -97,7 +177,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Pyramid Rule",
@@ -106,7 +194,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Made a Slave",
@@ -115,7 +211,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "For the Greater Good",
@@ -124,7 +228,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Science Forum",
@@ -133,7 +245,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Shadow Government",
@@ -142,7 +262,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Distributed Administration",
@@ -151,7 +279,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Revolutionary",
@@ -160,25 +296,49 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Dystopia",
-      "description": "The nation is deeply flawed and in a near hellish state, crime is rampant, violence is common, but while this is a major issue for the nation its people are strong, hardened, resistant to almost any adversity and more importantly, greed chaps generally have no interest in even attempting to exploit a nation like this. (MUST take the Dystopia Flaw. Cannot take with Utopia.)",
+      "description": "The nation is deeply flawed and in a near hellish state, crime is rampant, violence is common, but while this is a major issue for the nation its people are strong, hardened, resistant to almost any adversity and more importantly, greed chaps generally have no interest in even attempting to exploit a nation like this. (MUST take the Dystopian Flaw. Cannot take with Utopia.)",
       "points": 1,
       "requires": [
+        "Dystopian"
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        "Utopia"
+      ],
+      "rejectMode": "AND",
+      "scales": [
         ""
       ],
-      "requireMode": "AND"
+      "scalesMode": "DENY"
     },
     {
       "title": "Utopia",
-      "description": "The nation is a shining jewel of possibility, crime is next to nothing, happiness is at an all time high, everything is running like clockwork, the nation is at peace and revels in its golden age. But such nations rarely understand the threat beyond the borders, they're prime targets for invasion and exploitation and their naiveté is often exploited politically as well. (MUST take the Utopia Flaw. Cannot take with Dystopia.)",
+      "description": "The nation is a shining jewel of possibility, crime is next to nothing, happiness is at an all time high, everything is running like clockwork, the nation is at peace and revels in its golden age. But such nations rarely understand the threat beyond the borders, they're prime targets for invasion and exploitation and their naiveté is often exploited politically as well. (MUST take the Utopian Flaw. Cannot take with Dystopia.)",
       "points": 1,
       "requires": [
+        "Utopian"
+      ],
+      "requireMode": "AND",
+      "rejects": [
+        "Dystopia"
+      ],
+      "rejectMode": "AND",
+      "scales": [
         ""
       ],
-      "requireMode": "AND"
+      "scalesMode": "DENY"
     },
     {
       "title": "Peaceful",
@@ -187,7 +347,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Vengeful",
@@ -196,7 +364,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     }
   ],
   "Population Traits": [
@@ -207,7 +383,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Heroic Age",
@@ -216,7 +400,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Flag-Wavers",
@@ -225,7 +417,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Stupidly Brave",
@@ -234,7 +434,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Not One Step Back",
@@ -243,7 +451,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Clannish",
@@ -252,7 +468,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Crimeless",
@@ -261,7 +485,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Ultra-Hygienic",
@@ -270,7 +502,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Population Controls",
@@ -279,7 +519,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Organised Chaos",
@@ -288,7 +536,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Manifest Destiny",
@@ -297,7 +553,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "We Act as One",
@@ -306,7 +570,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Limited Cybernetic Enhancement",
@@ -315,7 +587,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Heroic Sacrifice",
@@ -324,7 +604,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Artistic",
@@ -333,7 +621,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Martial Pride",
@@ -342,7 +638,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Accepting",
@@ -351,25 +655,49 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Genetic Augments.",
-      "description": "(Costs 2 Points) Your nation practices genetic engineering on a civilisation-wide scale, from simply making crops, and people, resistant to certain diseases and viruses to enhancing eyesight or hearing, while the genetic engineering is rudimentary and early in its development, one for one, your people remain slightly above average than normal. This also slightly reduces the effect of flaws. Slightly. (Cannot take with Cybermen)",
+      "description": "(Costs 2 Points) Your nation practices genetic engineering on a civilisation-wide scale, from simply making crops, and people, resistant to certain diseases and viruses to enhancing eyesight or hearing, while the genetic engineering is rudimentary and early in its development, one for one, your people remain slightly above average than normal. This also slightly reduces the effect of flaws. Slightly.",
       "points": 2,
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        "Cybermen"
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Cybermen",
-      "description": "(Costs 2 Points) Your nation practices extensive cybernetic enhancement, from simple neural laces to serve as internal computers to limb replacement and augmentation. Faster thought processes and greater strength are the rewards, on the downside a vulnerability to electromagnetic pulses or other electrical system targeting attacks is the downside, to say nothing of rust. (Cannot take with Genetic Augments)",
+      "description": "Your nation practices extensive cybernetic enhancement, from simple neural laces to serve as internal computers to limb replacement and augmentation. Faster thought processes and greater strength are the rewards, on the downside a vulnerability to electromagnetic pulses or other electrical system targeting attacks is the downside, to say nothing of rust.",
       "points": 2,
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        "Genetic Augments"
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Highly Religious.",
@@ -378,7 +706,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Freethought Obsession.",
@@ -387,7 +723,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Jackrabbits!",
@@ -396,7 +740,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Medicine",
@@ -405,7 +757,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Good Schools",
@@ -414,7 +774,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "University of War",
@@ -423,7 +791,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Agricultural Institute",
@@ -432,7 +808,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Tradesmen Academy",
@@ -441,7 +825,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Theological University",
@@ -450,7 +842,15 @@
       "requires": [
         "Highly Religious"
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Missionaries",
@@ -459,7 +859,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Hidden Staging",
@@ -468,7 +876,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     }
   ],
   "Star Navy Traits": [
@@ -479,52 +895,100 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Relativity is a Bitch",
-      "description": "Your nation prefers fast ships over heavily armed, and yet lumbering, warships. As such some of their weapons capacity is sacrificed for a significant increase in engine power. Hit and Fade strikes are your favourite. (Cannot take with Ironclad)",
+      "description": "Your nation prefers fast ships over heavily armed, and yet lumbering, warships. As such some of their weapons capacity is sacrificed for a significant increase in engine power. Hit and Fade strikes are your favourite.",
       "points": 1,
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        "Ironclad"
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Isaac Newton Hates You",
-      "description": "You think energy weapons are fine, missiles are all well and good, graviton weapons are ok. But none of them compare to the deadliest son of a bitch in space. Isaac motherfucking Newton. After all, your antimatter bomb may go up big. But so does two tons of tungsten going at .5 lightspeed. (Cannot take with Who Needs to Reload, Use the Force or Macross Missile Massacre)",
+      "description": "You think energy weapons are fine, missiles are all well and good, graviton weapons are ok. But none of them compare to the deadliest son of a bitch in space. Isaac motherfucking Newton. After all, your antimatter bomb may go up big. But so does two tons of tungsten going at .5 lightspeed.",
       "points": 1,
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        "Who Needs to Reload", "Use the Force", "Macross Missile Massacre"
+      ],
+      "rejectMode": "OR",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Who needs to reload?",
-      "description": "Projectile weapons, missiles they are nice enough I suppose. But what do they all have in common? That's right. Ammo requirements. Energy weapons, while often not as powerful pound for pound, just don't need bulky amounts of ammunition to enter combat with. All you need is your reactors and a decent sensor suite. (Cannot take with Isaac Newton Hates You, Use the Force or Macross Missile Massacre)",
+      "description": "Projectile weapons, missiles they are nice enough I suppose. But what do they all have in common? That's right. Ammo requirements. Energy weapons, while often not as powerful pound for pound, just don't need bulky amounts of ammunition to enter combat with. All you need is your reactors and a decent sensor suite.",
       "points": 1,
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        "Isaac Newton Hates You", "Use the Force", "Macross Missile Massacre"
+      ],
+      "rejectMode": "OR",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Macross Missile Massacre",
-      "description": "\"On the count of three fuck them up Mr Nyder.\" Guns are ok, energy weapons are fine. But who gives a shit how many guns they have if they can't survive to get close enough to use them. Of course, the frequent need to reload is a good opportunity to get in some shore leave! (Cannot take with Who Needs to Reload, Isaac Newton Hates You or Use the Force!)",
+      "description": "\"On the count of three fuck them up Mr Nyder.\" Guns are ok, energy weapons are fine. But who gives a shit how many guns they have if they can't survive to get close enough to use them. Of course, the frequent need to reload is a good opportunity to get in some shore leave!",
       "points": 1,
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        "Who Needs to Reload", "Isaac Newton Hates You", "Use the Force!"
+      ],
+      "rejectMode": "OR",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Use the Force",
-      "description": "\"What? Expose our ships to enemy fire? Fuck that shit, launch all fighters, maybe they have an exhaust port we can fuck up or something.\" Your nation has a hardon for strike craft and would rather never leave home without them.(Cannot take with Macross Missile Massacre, Who Needs to Reload or Isaac Newton Hates You.)",
+      "description": "\"What? Expose our ships to enemy fire? Fuck that shit, launch all fighters, maybe they have an exhaust port we can fuck up or something.\" Your nation has a hardon for strike craft and would rather never leave home without them.",
       "points": 1,
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        "Macross Missile Massacre", "Who Needs to Reload", "Isaac Newton Hates You"
+      ],
+      "rejectMode": "OR",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Hangar Queens",
@@ -533,16 +997,32 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Ironclad",
-      "description": "You favour armour over speed. You sacrifice a portion of your weapon space in favour of considerably thicker armour than is the norm. This is cumulative with any nation traits regarding armour. (Cannot take with Relativity is a Bitch)",
+      "description": "You favour armour over speed. You sacrifice a portion of your weapon space in favour of considerably thicker armour than is the norm. This is cumulative with any nation traits regarding armour.",
       "points": 1,
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        "Relativity is a Bitch"
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "A gift from the Stars",
@@ -551,7 +1031,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "When in doubt FIRE EVERYTHING!",
@@ -560,7 +1048,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Fleet Unity Protocols",
@@ -569,7 +1065,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "RAMMING SPEED",
@@ -578,7 +1082,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Shield Baron",
@@ -587,7 +1099,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "We See All",
@@ -596,14 +1116,18 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     }
   ],
   "Ground-War Traits": [
-    {
-      "title": "Note",
-      "description": "You may only select a single \"Elite\" trait."
-    },
     {
       "title": "Elite Infantry Formations",
       "description": "Your Infantry has little if any equals. At least from other infantry. They are extremely well trained, and while no special forces they can definitely hold their own.",
@@ -611,7 +1135,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Elite Armoured Divisions",
@@ -620,7 +1152,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Elite Artillery Regiments",
@@ -629,7 +1169,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Elite Mobile Infantry",
@@ -638,7 +1186,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Elite Special Forces",
@@ -647,7 +1203,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Elite Air Forces",
@@ -656,16 +1220,32 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
-      "title": "Combined Arms is key",
-      "description": "Your forces are at their best when working with one another on every level. Provided you have some troops of all categories present at a battle your chances of success get a significant bonus. If the opponent has this as well they negate each other. (Cannot take with Guerilla Tactics or any Elite trait)",
+      "title": "Combined Arms is Key",
+      "description": "Your forces are at their best when working with one another on every level. Provided you have some troops of all categories present at a battle your chances of success get a significant bonus. If the opponent has this as well they negate each other. (Cannot take with any Elite trait)",
       "points": 1,
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        "Guerilla Tactics", "Elite"
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Strategic Response",
@@ -674,16 +1254,32 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Guerilla Tactics",
-      "description": "Your people don't fight as a combined arms force. It makes you too easy to locate, whether in a Jungle, an Urban Jungle or a tunnel network diverse far-spread lines of skill troops is your key to victory. When the enemy commits against what they thought was a stronghold,that is when you strike. (Cannot take with Combined Arms)",
+      "description": "Your people don't fight as a combined arms force. It makes you too easy to locate, whether in a Jungle, an Urban Jungle or a tunnel network diverse far-spread lines of skill troops is your key to victory. When the enemy commits against what they thought was a stronghold,that is when you strike.",
       "points": 1,
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        "Combined Arms"
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Occupationists",
@@ -692,7 +1288,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Sweep-Scorch",
@@ -701,7 +1305,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Orbital Support",
@@ -710,7 +1322,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Thunderstruck",
@@ -719,7 +1339,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "You Shook Me All Night Long",
@@ -728,7 +1356,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Hammer to Fall",
@@ -737,7 +1373,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Shoot to thrill",
@@ -746,7 +1390,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "More Dakka",
@@ -755,7 +1407,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Space Marines!",
@@ -765,7 +1425,15 @@
         "Cybermen",
         "Genetic Augments"
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Grav Vehicles",
@@ -774,7 +1442,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Behind the Lines",
@@ -783,7 +1459,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     }
   ],
   "Technical Traits": [
@@ -794,7 +1478,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Flash",
@@ -803,7 +1495,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Ghost in the Machine",
@@ -812,7 +1512,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Nazi Superscience",
@@ -821,7 +1529,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Better Than Your {Keyword}",
@@ -830,7 +1546,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Hangerize!",
@@ -839,7 +1563,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Accelerated Repairs",
@@ -848,7 +1580,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Redundancy",
@@ -857,7 +1597,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Synchronicity",
@@ -866,7 +1614,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Mechs Ahoy!",
@@ -875,7 +1631,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Slaved Ships",
@@ -884,7 +1648,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Stellar Fuel",
@@ -893,25 +1665,49 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Industrial Autoprinting",
-      "description": "Your nation employs massive additive printers to manufacture ships, parts, and equipment wholesale by simply printing them out by template, it also enables ships in transit to print spare parts on demand instead of hoping that they're carrying the replacement parts they will require. Production costs are less than normal, however undetected imperfections reduces the quality of such craft. Though most ships can conduct limited self-repairs. (Cannot take with Master Shipwrights)",
+      "description": "Your nation employs massive additive printers to manufacture ships, parts, and equipment wholesale by simply printing them out by template, it also enables ships in transit to print spare parts on demand instead of hoping that they're carrying the replacement parts they will require. Production costs are less than normal, however undetected imperfections reduces the quality of such craft. Though most ships can conduct limited self-repairs.",
       "points": 1,
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        "Master Shipwrights"
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Master Shipwrights",
-      "description": "Your nation considers shipbuilding an art, a well build starship is expected to last centuries or more. Each piece is manufactured to the strictest standards. Testing to prevent any flaw in manufacture or design. As such ships built by the Master Shipwrights are more expensive and take longer to build than normal, however they have higher quality hulls and any due to the high standards shrug off damage that might otherwise cripple a system.(Cannot take with Industrial Autoprinting) NOTE: Ships built by Master Shipwrights also have a tendency towards rather bombastic names with 'significant gravitas'.",
+      "description": "Your nation considers shipbuilding an art, a well build starship is expected to last centuries or more. Each piece is manufactured to the strictest standards. Testing to prevent any flaw in manufacture or design. As such ships built by the Master Shipwrights are more expensive and take longer to build than normal, however they have higher quality hulls and any due to the high standards shrug off damage that might otherwise cripple a system. NOTE: Ships built by Master Shipwrights also have a tendency towards rather bombastic names with 'significant gravitas'.",
       "points": 1,
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        "Industrial Autoprinting"
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Accidental Awesome",
@@ -920,16 +1716,32 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Fort Shields",
-      "description": "(Cannot take with Ironclad) You have developed an advanced shield generator, one that consumes an ungodly amount of power, and requires an even less holy number of heat sinks, the vessel is basically a chassis, reactors, engines and the shield generator. These vessels only come in the Capital or Supercapital types. This ship's role is to project a shield around an entire fleet group. But it is entirely defenceless other than that shield, so make sure to protect it.",
+      "description": "You have developed an advanced shield generator, one that consumes an ungodly amount of power, and requires an even less holy number of heat sinks, the vessel is basically a chassis, reactors, engines and the shield generator. These vessels only come in the Capital or Supercapital types. This ship's role is to project a shield around an entire fleet group. But it is entirely defenceless other than that shield, so make sure to protect it.",
       "points": 1,
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        "Ironclad"
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Total Missile Eruption",
@@ -939,7 +1751,15 @@
         "Macross Missile Massacre",
         "Blow Your Load"
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Wet Willy",
@@ -948,7 +1768,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Holographic Disguises",
@@ -957,7 +1785,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Skinmasks",
@@ -966,7 +1802,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "End of Life Devices",
@@ -975,7 +1819,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Erasers",
@@ -984,7 +1836,15 @@
       "requires": [
         "End of Life Devices"
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Enigma Machine",
@@ -993,7 +1853,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Counter-Terrorism",
@@ -1002,7 +1870,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Counter Intelligence Unit",
@@ -1011,7 +1887,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Advanced Infiltration Unit",
@@ -1020,7 +1904,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "A Weston Moment",
@@ -1029,7 +1921,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Secret Police",
@@ -1038,7 +1938,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Bond, james bond",
@@ -1047,7 +1955,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Mata Hari",
@@ -1056,7 +1972,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Obsidian Order",
@@ -1065,7 +1989,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Criminal Connections",
@@ -1074,7 +2006,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Government Co-Ordination",
@@ -1083,7 +2023,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Authority of one",
@@ -1092,7 +2040,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Terrorism",
@@ -1101,7 +2057,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Disguise",
@@ -1111,7 +2075,15 @@
         "Skinmasks",
         "Holographic Disguises"
       ],
-      "requireMode": "OR"
+      "requireMode": "OR",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Dirty Secrets",
@@ -1120,7 +2092,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Flying Casino Royale!",
@@ -1129,7 +2109,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     }
   ],
   "Psionic Traits": [
@@ -1140,7 +2128,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Tele-Empath",
@@ -1149,7 +2145,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Projective Mind",
@@ -1158,7 +2162,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Predictive Omniscience",
@@ -1167,7 +2179,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Mind Tracker",
@@ -1176,7 +2196,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Telecommunications",
@@ -1185,7 +2213,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Mental Shock",
@@ -1194,7 +2230,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Rapture",
@@ -1203,7 +2247,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Chains of the Mind",
@@ -1212,7 +2264,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Telekinesis",
@@ -1221,7 +2281,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Masking Minds",
@@ -1230,7 +2298,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Subtle Touch",
@@ -1239,7 +2315,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Stubborn as a Mule",
@@ -1248,7 +2332,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     }
   ],
   "Economic Traits": [
@@ -1259,7 +2351,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Abundant Trade Goods",
@@ -1268,7 +2368,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Abundant Trade Ships",
@@ -1277,7 +2385,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Currency Exchange",
@@ -1286,7 +2402,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Interstellar Stock Market",
@@ -1295,7 +2419,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Point Defender Gun",
@@ -1304,7 +2436,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "The \"Pirate\" Lanes",
@@ -1313,25 +2453,49 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Sprint Traders",
-      "description": "(Cannot be taken with Bulk Traders) These traders sacrifice some of their cargo capacity for greater engines to get them faster.",
+      "description": "These traders sacrifice some of their cargo capacity for greater engines to get them faster.",
       "points": 1,
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        "Bulk Traders"
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Bulk Traders",
-      "description": "(Cannot be taken with Sprint Traders) These traders sacrifice their engines for larger cargo bays. There is little they cannot carry. Of course they couldn't outrun an Insectoid with six broken legs, but that's hardly the point.",
+      "description": "These traders sacrifice their engines for larger cargo bays. There is little they cannot carry. Of course they couldn't outrun an Insectoid with six broken legs, but that's hardly the point.",
       "points": 1,
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        "Sprint Traders"
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Lax Restrictions",
@@ -1340,7 +2504,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Bargaining Chip",
@@ -1349,7 +2521,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "Borrowed Money",
@@ -1358,7 +2538,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     },
     {
       "title": "That's Some Fine Shit Son",
@@ -1367,7 +2555,15 @@
       "requires": [
         ""
       ],
-      "requireMode": "AND"
+      "requireMode": "AND",
+      "rejects": [
+        ""
+      ],
+      "rejectMode": "AND",
+      "scales": [
+        ""
+      ],
+      "scalesMode": "DENY"
     }
   ]
 }

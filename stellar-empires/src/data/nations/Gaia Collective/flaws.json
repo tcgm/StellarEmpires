@@ -2,31 +2,109 @@
   {
     "title": "Resource Poor",
     "description": "Truthfully speaking they are not resource poor, however they cannot, and will not, utilise those resources on a larger scale due to their mandate to protect the environment.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "resource-poor"
   },
   {
     "title": "Broken Environment",
     "description": "There comes a time for every Gaian nation where, sooner or later, they will have a world or environment trashed by outsiders, this event is highly traumatic for the Gaians who see a perfect work of nature destroyed, this can cause extreme depression for those inhabiting or defending such worlds.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "broken-environment"
   },
   {
     "title": "Pyrophobia",
     "description": "If you get your jollies hugging trees all the time it shouldn't surprise people you develop a phobia for fire and other defoliants.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "pyrophobia"
   },
   {
     "title": "Fucking PETA",
     "description": "For all the good points you think you're making, all the people you're preaching to hear is \"Hur de hurr, let's hug and fuck trees! I want a branch up my butt!\" At least that is what you are pretty sure they think based on their reaction. Nobody likes a proselytiser, but damned if you won't try anyway!",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "fucking-peta"
   },
   {
     "title": "Reverse Vegans",
     "description": "Your nation has gone past the hippy treehugger phase into an evolutionary refusal to harm plants. They've become obligate carnivores, and not for the native life if something foreign is on the cards.",
-    "points": 1
+    "points": 1,
+    "requires": [
+      ""
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "reverse-vegans"
   },
   {
     "title": "Celestiopathy",
-    "description": "(Requires Living World): Turns out that the planet is also capable of independently loving itself, which manifests in it having a rather low care for such pesky things as other lifeforms or its own biosphere. Sometimes it just wants to erupt in peace, you know? Who are they to tell it that there's a city there, it's their problem not its. And that's aside from the local sun being a little too cold so it decides to go have a spa day next to the nearest Neutron Star.",
-    "points": 1
+    "description": "Turns out that the planet is also capable of independently loving itself, which manifests in it having a rather low care for such pesky things as other lifeforms or its own biosphere. Sometimes it just wants to erupt in peace, you know? Who are they to tell it that there's a city there, it's their problem not its. And that's aside from the local sun being a little too cold so it decides to go have a spa day next to the nearest Neutron Star.",
+    "points": 1,
+    "requires": [
+      "living-world"
+    ],
+    "requireMode": "AND",
+    "rejects": [
+      ""
+    ],
+    "rejectMode": "AND",
+    "scales": [
+      ""
+    ],
+    "scalesMode": "DENY",
+    "slug": "celestiopathy"
   }
 ]

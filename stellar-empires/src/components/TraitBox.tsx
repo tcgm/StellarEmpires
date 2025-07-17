@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Badge, Text, Flex, Link } from "@chakra-ui/react";
 import { TraitOrFlaw } from "../types";
+import { RequiresDisplay } from "./RequiresDisplay";
 
 interface TraitBoxProps {
   index?: number;
@@ -98,17 +99,11 @@ const TraitBox: React.FC<TraitBoxProps> = ({
     </Text>
     <Box>
         {trait?.requires && showRequires && (
-            <>
-            {trait.requires.map((req, ri, arr) => (
-                <Link
-                key={"requireListing" + req + ri}
-                _hover={{ textDecoration: "underline", color: "blue.100" }}
-                mr={ri < arr.length - 1 ? 1 : 0}
-                >
-                    {req}
-                </Link>
-            ))}
-            </>
+            <RequiresDisplay
+                requires={trait?.requires}
+                requireMode={trait?.requireMode}
+                showRequires={showRequires}
+            />
         )}
     </Box>
   </Box>
