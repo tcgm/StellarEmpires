@@ -2,76 +2,91 @@
   {
     "title": "Rule 34",
     "description": "War is good for business. Your nation is not adverse to a little conflict, or a lot of conflict, for there is a great deal of money to be made in the business of conflict. This has not made you any better at it, but it has made you much better at profiting from it.",
-    "points": 1
+    "points": 1,
+    "requires": []
   },
   {
     "title": "Rule 35",
     "description": "Peace is good for business. Your nation is adverse to a little conflict, while the fast hustle and bustle of a good war economy is ok for getting out of a slump, you have to keep that going and that just isn't sustainable, you prefer to work at quieter, safer, investments.",
-    "points": 1
+    "points": 1,
+    "requires": []
   },
   {
     "title": "Q-Ships",
     "description": "Your nation understands the need to protect their investments and so convoys of ships will frequently employ a Q-ship for security, this modified transport sacrifices half of its cargo capacity in order to squeeze in some well hidden defensive armaments.",
-    "points": 1
+    "points": 1,
+    "requires": []
   },
   {
     "title": "Interstellar Trains",
     "description": "Massively powerful drive units at the rear, several kilometres of thin and fragile spine, and a protected prow where the bridge is seated allows one of these craft to transport a hundred lesser transport ships worth of cargo.",
-    "points": 1
+    "points": 1,
+    "requires": []
   },
   {
     "title": "Cargo Cultists",
     "description": "You have few monster transports, instead preferring thousands, even tens of thousands of smaller (often privately owned) transport ships.",
-    "points": 1
+    "points": 1,
+    "requires": []
   },
   {
     "title": "Closed Economy",
     "description": "You are very much an economic powerhouse, but you have taken precautions and actually established a closed secure interior economy to protect yourself against the dangers of falling out with interstellar trading partners.",
-    "points": 1
+    "points": 1,
+    "requires": []
   },
   {
     "title": "WHS Friendly",
     "description": "You are actually not adverse to some WHS, when the average worker ceases being effective due to having their arms lopped off it just isn't worth the cost. So some safety procedures have been developed and followed pretty well. For a Corporate Empire.",
-    "points": 1
+    "points": 1,
+    "requires": []
   },
   {
     "title": "Bring Your Child to Work Year",
     "description": "Every year. They're never going to get that valuable work experience not working. You have a fairly significantly expanded labour pool expanding the wealth of your nation. You also have trouble sleeping at night. You monster. Crying into your wads of money.",
-    "points": 1
+    "points": 1,
+    "requires": []
   },
   {
     "title": "Blockade!",
     "description": "When attempting to win a victory an Economist will rarely turn to direct force, they lack the skills required to win against most other nations without aid, instead they can opt to Blockade an enemy planet whose resources are required by their nation thus cutting them off (mostly) from trade with the rest.",
-    "points": 1
+    "points": 1,
+    "requires": []
   },
   {
     "title": "New Hollywood",
     "description": "A cultural centre of the galaxy. Everyone who's anyone has made their fame here.",
-    "points": 1
+    "points": 1,
+    "requires": []
   },
   {
     "title": "Rarities Market",
     "description": "This is a difficult one to RP, but the fact is that your nation has a talent with rarities. Just hope that the previous owners' relatives or descendants are the ones you find because while you call it a Rarities market they call it grave-robbing.",
-    "points": 1
+    "points": 1,
+    "requires": []
   },
   {
     "title": "Interstellar Claims Market",
     "description": "You are willing to act as third party brokers for managing mining and settlement claims, in exchange for a small (Hah, yeah right!) fee from the parties involved, little things like rights for your own corporations to exploit them..",
-    "points": 1
+    "points": 1,
+    "requires": []
   },
   {
     "title": "Insurance",
     "description": "You don't believe in taking overt risks and are unwilling to expend too much without having some form of insurance policy built in to mitigate the costs expended, or the loss of resources themselves. It therefore takes you less time to recover from unexpectedly forced errors.",
-    "points": 1
+    "points": 1,
+    "requires": []
   },
   {
     "title": "Defence is a Subscription Model",
     "description": "You have a military, and they're not always in use, and having that kind of money just circling the drain? No no, that can't happen. Fortunately for an entirely reasonable price (HAH) you too can benefit from being defended by the most cheaply manufactured military!",
-    "points": 1
+    "points": 1,
+    "requires": []
   },
   {
     "title": "Reduce. Reuse. Refire",
     "description": "You favour ballistic weapons, because if you do it right you can recover the rounds, refire them and melt them into new ones for a lot cheaper!",
-    "points": 1
+    "points": 1,
+    "requires": []
   }
 ]
