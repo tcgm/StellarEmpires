@@ -7,7 +7,7 @@ const COMMON_FILES = ['commonTraits.json', 'commonFlaws.json'];
 
 // What field(s) to ensure exist on each trait/flaw object?
 const FIELDS_TO_ENSURE = [
-  { name: 'requires', default: [], type: 'array', traitOnly: false },
+  { name: 'requires', default: [""], type: 'array', traitOnly: false },
   // Add more fields as needed, e.g. { name: 'points', default: 0, type: 'number' }
 ];
 
@@ -39,10 +39,26 @@ function* findTraitOrFlawObjects(obj) {
 function patchTraitOrFlaw(obj, isTrait) {
   for (const field of FIELDS_TO_ENSURE) {
     if (field.traitOnly && !isTrait) continue; // Only add to traits if specified
-    if (!(field.name in obj)) obj[field.name] = Array.isArray(field.default) ? [...field.default] : field.default;
-    // Optionally: type check/convert here if you want
+
+    // If field does not exist, set to default
+    if (!(field.name in obj)) {
+      obj[field.name] = Array.isArray(field.default) ? [...field.default] : field.default;
+      continue;
+    }
+
+    // If the field exists and is an empty array, set to default
+    if (
+      field.type === 'array' &&
+      Array.isArray(obj[field.name]) &&
+      obj[field.name].length === 0 &&
+      field.default.length > 0
+    ) {
+      obj[field.name] = [...field.default];
+    }
+    // If the field exists and is not empty, leave it as is
   }
 }
+
 
 // Read, patch, and write back a file
 async function processFile(filePath, isTrait) {
