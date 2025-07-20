@@ -741,7 +741,7 @@
       "slug": "commonTraits.cybermen"
     },
     {
-      "title": "Highly Religious.",
+      "title": "Highly Religious",
       "description": "Your people are so deep into their faith it marks every moment, and aspect, of their lives.",
       "points": 1,
       "requires": [
@@ -889,7 +889,7 @@
       "description": "Here your clerics and priests go to learn the more in depth secrets of their gods and any benefits that might entail.",
       "points": 1,
       "requires": [
-        "Highly Religious"
+        "commonTraits.highly-religious"
       ],
       "requireMode": "AND",
       "rejects": [

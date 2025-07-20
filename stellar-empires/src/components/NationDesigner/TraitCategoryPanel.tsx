@@ -9,6 +9,7 @@ interface TraitCategoryPanelProps {
   title: string;
   traits: TraitOrFlaw[];
   selected: string[];
+  pointsUsed: number;
   onToggle: (trait: TraitOrFlaw) => void;
   isTrait: boolean;
   color: string;
@@ -18,12 +19,14 @@ interface TraitCategoryPanelProps {
 const SCROLL_CONTAINER_HEIGHT = "60vh";
 
 const TraitCategoryPanel: React.FC<TraitCategoryPanelProps> = React.memo(({
-  title, traits, selected, onToggle, isTrait, color, max
+  title, traits, selected, pointsUsed, onToggle, isTrait, color, max
 }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const borderColor = useColorModeValue("#c6c6c6", "#3a4250");
   const descColor = useColorModeValue("gray.800", "gray.100");
+
+  console.log("TraitCategoryPanel", title, { pointsUsed });
 
   return (
     <Box
@@ -42,7 +45,7 @@ const TraitCategoryPanel: React.FC<TraitCategoryPanelProps> = React.memo(({
         label={
           <HStack className="trailCategoryHeader" justify="space-between">
             <Box flex="1">
-              {`${title} (${selected.length}${typeof max === "number" ? "/" + max : ""})`}
+              {`${title} (${pointsUsed}${typeof max === "number" ? "/" + max : ""})`}
             </Box>
             <IconButton
               size="sm"

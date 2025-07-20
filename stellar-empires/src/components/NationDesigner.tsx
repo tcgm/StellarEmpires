@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState, useCallback } from "react";
+import React, { useEffect, useRef, useState, useCallback, useMemo } from "react";
 import {
   Box, VStack, HStack, Text, Input, Divider, useBreakpointValue, useToast,
 } from "@chakra-ui/react";
@@ -82,6 +82,39 @@ const NationDesigner: React.FC<NationDesignerProps> = ({
   const points = SCALE_POINTS[design.scale];
   const isWide = useBreakpointValue({ base: false, md: true });
 
+    // 1. Helper to get point value for a trait/flaw title in a list
+    const getPointValue = (title: string, list: TraitOrFlaw[]) => {
+      const found = list.find(t => t.title === title);
+      return found?.points ?? 1; // Default 1 if not specified
+    };
+
+    // 2. Memoized used points calculation (recomputes only when deps change)
+    const usedPoints = useMemo(() => ({
+      CT: design.selectedCommonTraits.reduce(
+        (sum, title) => sum + getPointValue(title, commonTraits), 0
+      ),
+      NT: design.selectedNationTraits.reduce(
+        (sum, title) => sum + getPointValue(title, nationTraits), 0
+      ),
+      CF: design.selectedCommonFlaws.reduce(
+        (sum, title) => sum + getPointValue(title, commonFlaws), 0
+      ),
+      NF: design.selectedNationFlaws.reduce(
+        (sum, title) => sum + getPointValue(title, nationFlaws), 0
+      ),
+      FT: design.selectedForeignTraits.length,
+    }), [
+      design.selectedCommonTraits,
+      design.selectedNationTraits,
+      design.selectedCommonFlaws,
+      design.selectedNationFlaws,
+      design.selectedForeignTraits,
+      commonTraits,
+      nationTraits,
+      commonFlaws,
+      nationFlaws,
+    ]);
+
   // --- Utilities ---
   function updateField<K extends keyof NationDesign>(key: K, value: NationDesign[K]) {
     setDesign(d => ({ ...d, [key]: value }));
@@ -93,47 +126,57 @@ const NationDesigner: React.FC<NationDesignerProps> = ({
       : [...list, value];
   }
 
-  const selectTrait = useCallback((type: "common" | "nation" | "foreign", trait: TraitOrFlaw) => {
-    const used = {
-      CT: design.selectedCommonTraits.length,
-      NT: design.selectedNationTraits.length,
-      CF: design.selectedCommonFlaws.length,
-      NF: design.selectedNationFlaws.length,
-      FT: design.selectedForeignTraits.length,
-    };
-    if (type === "common") {
-      if (trait.isTrait) {
-        if (used.CT >= points.CT && !design.selectedCommonTraits.includes(trait.title)) {
-          toast({ title: "No points left for Common Traits", status: "warning" }); return;
+  const selectTrait = useCallback(
+    (type: "common" | "nation" | "foreign", trait: TraitOrFlaw) => {
+      // Calculate used points by summing the pointValue of each selected trait/flaw
+      const getPointValue = (title: string, list: TraitOrFlaw[]) => {
+        const found = list.find(t => t.title === title);
+        return found?.points ?? 1; // default to 1 if not specified
+      };
+
+      const localUsed = {
+        CT: usedPoints.CT,
+        NT: usedPoints.NT,
+        CF: usedPoints.CF,
+        NF: usedPoints.NF,
+        FT: usedPoints.FT,
+      };
+
+      if (type === "common") {
+        if (trait.isTrait) {
+          if (localUsed.CT >= points.CT && !design.selectedCommonTraits.includes(trait.title)) {
+            toast({ title: "No points left for Common Traits", status: "warning" }); return;
+          }
+          updateField("selectedCommonTraits", toggleInList(design.selectedCommonTraits, trait.title));
+        } else {
+          if (localUsed.CF >= points.CF && !design.selectedCommonFlaws.includes(trait.title)) {
+            toast({ title: "No points left for Common Flaws", status: "warning" }); return;
+          }
+          updateField("selectedCommonFlaws", toggleInList(design.selectedCommonFlaws, trait.title));
         }
-        updateField("selectedCommonTraits", toggleInList(design.selectedCommonTraits, trait.title));
-      } else {
-        if (used.CF >= points.CF && !design.selectedCommonFlaws.includes(trait.title)) {
-          toast({ title: "No points left for Common Flaws", status: "warning" }); return;
+      } else if (type === "nation") {
+        if (trait.isTrait) {
+          if (localUsed.NT >= points.NT && !design.selectedNationTraits.includes(trait.title)) {
+            toast({ title: "No points left for Nation Traits", status: "warning" }); return;
+          }
+          updateField("selectedNationTraits", toggleInList(design.selectedNationTraits, trait.title));
+        } else {
+          if (localUsed.NF >= points.NF && !design.selectedNationFlaws.includes(trait.title)) {
+            toast({ title: "No points left for Nation Flaws", status: "warning" }); return;
+          }
+          updateField("selectedNationFlaws", toggleInList(design.selectedNationFlaws, trait.title));
         }
-        updateField("selectedCommonFlaws", toggleInList(design.selectedCommonFlaws, trait.title));
+      } else if (type === "foreign") {
+        if (localUsed.FT >= 2 && !design.selectedForeignTraits.includes(trait.title)) {
+          toast({ title: "Maximum 2 foreign traits", status: "warning" }); return;
+        }
+        updateField("selectedForeignTraits", toggleInList(design.selectedForeignTraits, trait.title));
       }
-    } else if (type === "nation") {
-      if (trait.isTrait) {
-        if (used.NT >= points.NT && !design.selectedNationTraits.includes(trait.title)) {
-          toast({ title: "No points left for Nation Traits", status: "warning" }); return;
-        }
-        updateField("selectedNationTraits", toggleInList(design.selectedNationTraits, trait.title));
-      } else {
-        if (used.NF >= points.NF && !design.selectedNationFlaws.includes(trait.title)) {
-          toast({ title: "No points left for Nation Flaws", status: "warning" }); return;
-        }
-        updateField("selectedNationFlaws", toggleInList(design.selectedNationFlaws, trait.title));
-      }
-    } else if (type === "foreign") {
-      if (used.FT >= 2 && !design.selectedForeignTraits.includes(trait.title)) {
-        toast({ title: "Maximum 2 foreign traits", status: "warning" }); return;
-      }
-      updateField("selectedForeignTraits", toggleInList(design.selectedForeignTraits, trait.title));
-    }
-  // dependencies are intentionally minimal for memoization (design and points are stable, toast can be omitted)
-  // eslint-disable-next-line
-  }, [design, points]);
+    },
+    // dependencies are intentionally minimal for memoization (design and points are stable, toast can be omitted)
+    // eslint-disable-next-line
+    [design, points, usedPoints]
+  );
 
   function handleCustomTraitTitle(e: React.ChangeEvent<HTMLInputElement>) {
     updateField("customTrait", { ...design.customTrait, title: e.target.value } as TraitOrFlaw);
@@ -228,6 +271,7 @@ const NationDesigner: React.FC<NationDesignerProps> = ({
             title="Common Traits"
             traits={commonTraits.map(t => ({ ...t, isTrait: true }))}
             selected={design.selectedCommonTraits}
+            pointsUsed={usedPoints.CT}
             onToggle={trait => selectTrait("common", { ...trait, isTrait: true })}
             isTrait
             color={traitBoxColor}
@@ -237,6 +281,7 @@ const NationDesigner: React.FC<NationDesignerProps> = ({
             title="Common Flaws"
             traits={commonFlaws.map(f => ({ ...f, isTrait: false }))}
             selected={design.selectedCommonFlaws}
+            pointsUsed={usedPoints.CF}
             onToggle={trait => selectTrait("common", { ...trait, isTrait: false })}
             isTrait={false}
             color={flawBoxColor}
@@ -246,6 +291,7 @@ const NationDesigner: React.FC<NationDesignerProps> = ({
             title="Nation Traits"
             traits={nationTraits.map(t => ({ ...t, isTrait: true }))}
             selected={design.selectedNationTraits}
+            pointsUsed={usedPoints.NT}
             onToggle={trait => selectTrait("nation", { ...trait, isTrait: true })}
             isTrait
             color={traitBoxColor}
@@ -255,6 +301,7 @@ const NationDesigner: React.FC<NationDesignerProps> = ({
             title="Nation Flaws"
             traits={nationFlaws.map(f => ({ ...f, isTrait: false }))}
             selected={design.selectedNationFlaws}
+            pointsUsed={usedPoints.NF}
             onToggle={trait => selectTrait("nation", { ...trait, isTrait: false })}
             isTrait={false}
             color={flawBoxColor}
