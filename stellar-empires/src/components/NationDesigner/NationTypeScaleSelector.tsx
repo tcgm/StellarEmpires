@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Select, HStack, Text, Tag } from "@chakra-ui/react";
+import { Box, Select, HStack, Text, Tag, Tooltip } from "@chakra-ui/react";
 import { NationData, ScaleType } from "../../types";
 
 interface NationTypeScaleSelectorProps {
@@ -36,10 +36,18 @@ const NationTypeScaleSelector: React.FC<NationTypeScaleSelectorProps> = ({
       <Box>
         <Text fontWeight="bold">Points</Text>
         <HStack>
-          <Tag colorScheme="green">CT {points.CT}</Tag>
-          <Tag colorScheme="orange">CF {points.CF}</Tag>
-          <Tag colorScheme="lightblue">NT {points.NT}</Tag>
-          <Tag colorScheme="red">NF {points.NF}</Tag>
+          <Tooltip label="Common Trait Points">
+            <Tag colorScheme="green">CT {points.CT}</Tag>
+          </Tooltip>
+          <Tooltip label="Common Flaw Points">
+            <Tag colorScheme="orange">CF {points.CF}</Tag>
+          </Tooltip>
+          <Tooltip label="Nation Trait Points">
+            <Tag colorScheme="lightblue">NT {points.NT}</Tag>
+          </Tooltip>
+          <Tooltip label="Nation Flaw Points">
+            <Tag colorScheme="red">NF {points.NF}</Tag>
+          </Tooltip>
         </HStack>
       </Box>
     </HStack>
