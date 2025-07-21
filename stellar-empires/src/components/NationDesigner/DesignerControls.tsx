@@ -1,6 +1,6 @@
 import React from "react";
 import { HStack, Button, Tooltip, Box } from "@chakra-ui/react";
-import { FiSave } from "react-icons/fi";
+import { FiLoader, FiSave } from "react-icons/fi";
 import { LuImport } from "react-icons/lu";
 import { FaPaste, FaRegCopy, FaTrash } from "react-icons/fa";
 import { MdOutlineRecycling } from "react-icons/md";
@@ -25,7 +25,7 @@ const DesignerControls: React.FC<DesignerControlsProps> = ({
       </Tooltip>
       <Tooltip label="Load Saved">
         <Button onClick={onLoad} aria-label="Load Saved" variant="solid" px={3}>
-          <FiSave color="lightGray"/>
+          <FiLoader color="lightGray"/>
         </Button>
       </Tooltip>
       <Tooltip label="Clear Saved">
